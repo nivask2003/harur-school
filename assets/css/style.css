@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --heading-color : #1B3A6B;
+    --heading-line : #FFD400;
+    --para-text-color : #333333;
+    --link : #4DA9E0;
+    --link-hover : #1B3A6B;
+    --primary-btn : #1B3A6B;
+    --primary-btn-text : #ffff;
+    --primary-btn-hover : #E31E24;
+    --secondary-btn-border : #3EBFA1;
+    --secondary-btn-hover : #3EBFA1;
+    --cta-btn : #FFD400;
+    --cta-btn-text : #1B3A6B;
+    --nav-bg : #1B3A6B;
+    --nav-text : #ffff;
+    --nav-hover : #FFD400;
+    --footer-bg : #0F2440;
+    --footer-text : #E5E5E5;
+    --footer-link : #3EBFA1;
+    --light-bg : #F5F8FC;
+    --dark-bg : #1B3A6B
+}
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Merriweather", serif;
+}
