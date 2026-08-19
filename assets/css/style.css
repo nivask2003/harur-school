@@ -23,6 +23,7 @@
     --dark-bg: #1B3A6B;
 }
 
+
 body {
     font-family: "Source Sans 3", sans-serif;
 }
@@ -77,6 +78,9 @@ header .middle-header{
     background-color: var(--secondary-btn-border    );
 }
 
+header .middle-header .row{
+    width: 94%;
+}
 header .middle-header .logo {
     background-color: var(--light-bg);
 
@@ -95,6 +99,7 @@ header .middle-header .logo {
     height: 161px;
     margin-top: -1px;
 }
+
 
 header .middle-header .logo img.img-fluid {
     width: 176px;
@@ -259,4 +264,44 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link{
     .mobile-header {
         padding: 12px 24px;
     }
+}
+
+.hero-section .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: var(--primary-btn);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.hero-section .carousel-control-next {
+    width: 55px;
+    height: 55px;
+    background-color: var(--primary-btn);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.hero-section .carousel-control-prev {
+    left: 89%;
+    top: 94%;
+}
+
+.hero-section .carousel-control-next {
+    right: 20px;
+    top: 94%;
+}
+
+.hero-section .carousel-control-prev-icon {
+    background-image: url("../images/arrow_back_ios_24dp_FFFF_FILL0_wght400_GRAD0_opsz24.svg");
+    background-size: 22px;
+}
+
+.hero-section .carousel-control-next-icon {
+    background-image: url("../images/arrow_forward_ios_24dp_FFFF_FILL0_wght400_GRAD0_opsz24.svg");
+    background-size: 22px;
 }
