@@ -1,5 +1,7 @@
 <?php 
-function template_header($title){
+function template_header($title, $metadesc){
+    $metadesc = trim(htmlspecialchars($metadesc));
+    $title = htmlspecialchars($title);
     echo <<< EOT
     <!DOCTYPE html>
     <html lang="en">
@@ -7,6 +9,7 @@ function template_header($title){
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="$metadesc">
         <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
@@ -173,6 +176,10 @@ function template_header($title){
 
 function template_footer(){
     echo <<< EOT
+        </main>
+    </body>
+
+    </html>
     EOT;
 }
-?>
+?>  
