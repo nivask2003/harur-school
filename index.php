@@ -24,3 +24,24 @@
             </button>
         </div>
     </section>
+    <section class="home-2 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 about-img">
+                    <img src="assets/images/about-img-1.webp" alt="about-img-1" class="img-fluid">
+                    <div class="img-2">
+                        <img src="assets/images/about-img-2.webp" alt="about-img-2" class="img-fluid">
+                        <div class="play-btn">
+                            <a href="#">
+                                <img src="assets/images/play-btn.svg" alt="play-btn" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 about-content">
+                    <span class="badge">Discover Harur</span>
+                    <h2 class="section-title">Welcome to Harur International!</h2>
+                </div>
+            </div>
+        </div>
+    </section>

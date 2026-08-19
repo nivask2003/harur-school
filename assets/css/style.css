@@ -37,6 +37,19 @@ h6 {
     font-family: "Merriweather", serif;
 }
 
+span.badge {
+    color: var(--primary-btn-hover);
+    font-size: 20px;
+    padding-left: 0 !important;
+    margin-bottom: 10px;
+}
+
+h2.section-title{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
 header .top-header .admission-announcement {
     background: var(--light-bg);
     color: var(--heading-color);
@@ -183,7 +196,7 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link{
     /* Show mobile header row */
     .mobile-header {
         display: block;
-        background-color: var(--dark-bg);
+        background-color: var(--light-bg);
         padding: 10px 16px;
     }
 
@@ -275,7 +288,7 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link{
 .hero-section .carousel-control-prev {
     width: 55px;
     height: 55px;
-    background-color: var(--primary-btn);
+    background-color: var(--cta-btn);
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
@@ -285,7 +298,7 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link{
 .hero-section .carousel-control-next {
     width: 55px;
     height: 55px;
-    background-color: var(--primary-btn);
+    background-color: var(--cta-btn);
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
@@ -303,12 +316,67 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link{
 }
 
 .hero-section .carousel-control-prev-icon {
-    background-image: url("../images/arrow_back_ios_24dp_FFFF_FILL0_wght400_GRAD0_opsz24.svg");
+    background-image: url("../images/arrow_back_ios_24dp_1B3A6B_FILL0_wght400_GRAD0_opsz24.svg");
     background-size: 22px;
 }
 
 .hero-section .carousel-control-next-icon {
-    background-image: url("../images/arrow_forward_ios_24dp_FFFF_FILL0_wght400_GRAD0_opsz24.svg");
+    background-image: url("../images/arrow_forward_ios_24dp_1B3A6B_FILL0_wght400_GRAD0_opsz24.svg");
     background-size: 22px;
 }
 
+@media (max-width: 767.98px) {
+
+    header .top-header .admission-announcement{
+        background-color: var(--dark-bg);
+        color: var(--nav-text);
+    }
+
+    header .top-header .admission-announcement .announcement-track .announcement-content .icon{
+        color: var(--nav-text);
+    }
+    .hero-section .carousel-control-prev {
+        left: 10px;
+    }
+
+     .hero-section .carousel-control-prev, .hero-section .carousel-control-next {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .hero-section .carousel-control-next {
+        right: 10px;
+    }
+
+}
+
+.home-2 .container .row .about-img{
+    position: relative;
+}
+
+.home-2 .container .row .about-img img.img-fluid{
+    border-radius: 20px;
+}
+
+.home-2 .container .row .about-img .img-2 {
+    position: absolute;
+    top: 280px;
+    left: 252px;
+}
+
+.home-2 .container .row .about-img .img-2 img.img-fluid{
+    border-radius: 28%;
+}
+
+.home-2 .container .row .about-img .img-2 .play-btn {
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 191px;
+    left: 134px;
+    border-radius: 30px;
+} 
