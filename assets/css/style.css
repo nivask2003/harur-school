@@ -266,6 +266,12 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link{
     }
 }
 
+@media (max-width: 1920px){
+   header .middle-header .logo{
+    mask-size: 165% 99% !important;
+   }
+}
+
 .hero-section .carousel-control-prev {
     width: 55px;
     height: 55px;
@@ -305,3 +311,4 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link{
     background-image: url("../images/arrow_forward_ios_24dp_FFFF_FILL0_wght400_GRAD0_opsz24.svg");
     background-size: 22px;
 }
+
