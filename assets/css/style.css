@@ -369,7 +369,6 @@ html {
   background-color: #ddf0f0;
   border-color: var(--lp-teal);
 } */
-*/
 
 /* ---- Responsive ---- */
 @media (max-width: 991.98px) {
@@ -1757,4 +1756,80 @@ p.hh {
     top: 52%;
     left: 50%;
   }
+
+  header .top-header .admission-announcement{
+    background-color: var(--dark-bg);
+    color: var(--nav-text);
+  }
+
+  header
+  .top-header
+  .admission-announcement
+  .announcement-track
+  .announcement-content
+  .icon{
+    color: #fff;
+  }
 }
+
+.page-banner{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.page-banner h1{
+  color: var(--heading-color);
+  text-transform: uppercase;
+}
+
+#about{
+  background-image: url("../images/about-pagebanner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-1 .row {
+    align-items: center;
+}
+
+.about-1 img.img-fluid.logo {
+    width: 236px;
+}
+
+.about-1 img.img-fluid{
+  border-radius: 20px;
+}
+
+.about-1 .section-desc{
+  text-align: justify;
+}
+
+.about-1 .row .col-12.col-md-4.col-lg-4:nth-of-type(1){
+  display: flex;
+  justify-content: center;
+}
+
+.about-1{
+  padding: 50px 0 50px 0;
+  background-color: #ffd40078;
+}
+
+.about-3{
+  background-color: var(--light-bg);
+  padding: 50px 0 50px 0;
+}
+
+.about-3 img.img-fluid {
+    width: 527px;
+}
+
+@media (max-width: 482px){
+  .page-banner{
+    height: 123px;
+    padding-left: 30px;
+  }
+}
+

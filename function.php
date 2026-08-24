@@ -119,7 +119,7 @@ function template_header($title, $metadesc)
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="home.php">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -127,7 +127,7 @@ function template_header($title, $metadesc)
                                         About
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="about-us.php">About Us</a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
                                         <li>
                                             <hr class="dropdown-divider">
