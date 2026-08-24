@@ -40,29 +40,26 @@
                             <ul class="icon-box">
                                 <a href="home.php">
                                     <li class="box card-main">
-                                        <i class="bi bi-globe2 card-icon"></i>
-                                        <h4>Main Website</h4>
+                                        <img src="assets/images/main-web-img.webp">
+                                        
                                     </li>
                                 </a>
-                                <a href="madatory-disclosure.php">
+                                <a href="#">
                                     <li class="box card-disclosure">
-                                        <i class="bi bi-file-earmark-text card-icon"></i>
-                                        <h4>Mandatory Disclosure</h4>
+                                        <img src="assets/images/disclosure-img.webp">
                                     </li>
                                 </a>
 
                             </ul>
                             <ul class="icon-box">
-                                <a href="achievements.php">
+                                <a href="#">
                                     <li class="box card-achievements">
-                                        <i class="bi bi-trophy card-icon"></i>
-                                        <h4>Achievements</h4>
+                                         <img src="assets/images/achievement-img.webp">
                                     </li>
                                 </a>
-                                <a href="gallery.php">
+                                <a href="#">
                                     <li class="box card-gallery">
-                                        <i class="bi bi-images card-icon"></i>
-                                        <h4>Gallery</h4>
+                                         <img src="assets/images/gallery-img.webp">
                                     </li>
                                 </a>
                             </ul>

@@ -12,7 +12,7 @@ function template_header($title, $metadesc){
         <meta name="description" content="$metadesc">
         <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+                       <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <title>$title</title>
         <link rel="stylesheet" href="assets/css/style.css">
@@ -21,6 +21,8 @@ function template_header($title, $metadesc){
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
+            <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     </head>
 
@@ -91,7 +93,7 @@ function template_header($title, $metadesc){
                                 </div>
                                 <div class="box">
                                     <h4 class="text-white">Email Us</h4>
-                                    <p><a href="mailto:principal@domainname.com " class="link">principal@domainname.com </a>
+                                    <p><a href="mailto:principal@harurinternationalschool.com" class="link">principal@harurinternationalschool.com </a>
                                     </p>
                                 </div>
 
@@ -177,8 +179,45 @@ function template_header($title, $metadesc){
 function template_footer(){
     echo <<< EOT
         </main>
-    </body>
 
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const animatedElements = document.querySelectorAll(".animate-box");
+
+            const observer = new IntersectionObserver(function (entries) {
+
+                entries.forEach(function (entry) {
+
+                    if (entry.isIntersecting) {
+
+                        const element = entry.target;
+                        const animation = element.getAttribute("data-animate");
+
+                        if (animation) {
+                            element.classList.add(
+                                "animate__animated",
+                                animation
+                            );
+                        }
+
+                        observer.unobserve(element);
+                    }
+
+                });
+
+            }, {
+                threshold: 0.15
+            });
+
+            animatedElements.forEach(function (element) {
+                observer.observe(element);
+            });
+
+        });
+        </script>
+
+    </body>
     </html>
     EOT;
 }
