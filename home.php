@@ -27,7 +27,7 @@
 <section class="home-2 mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-lg-6 about-img animate-box" data-animate="animate__fadeInLeft">
+            <div class="col-md-6 col-lg-6 about-img" data-aos="fade-right">
                 <img src="assets/images/about-img-1.webp" alt="about-img-1" class="img-fluid">
                 <div class="img-2">
                     <img src="assets/images/about-img-2.webp" alt="about-img-2" class="img-fluid">
@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 about-content">
+            <div class="col-md-6 col-lg-6 about-content" data-aos="fade-left">
                 <span class="badge">Discover Harur</span>
                 <h1 class="section-title">Welcome to Harur International!</h1>
                 <p class="section-desc">Founded in 2018, Harur International School is a Senior Secondary CBSE institution committed to quality education and the all-round development of every learner. Our school brings together academic excellence, character building, innovative teaching, and meaningful learning experiences in a caring environment.</p>
@@ -74,7 +74,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-6">
-                <div class="box">
+                <div class="box" data-aos="fade-up">
                     <div class="row">
                         <div class="col-12 col-md-4 col-lg-4">
                             <img src="assets/images/mission-img.webp" alt="our-mission" class="img-fluid">
@@ -88,7 +88,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-6">
-                <div class="box">
+                <div class="box" data-aos="fade-down">
                     <div class="row">
                         <div class="col-12 col-md-4 col-lg-4">
                             <img src="assets/images/vision-img.webp" alt="our-mission" class="img-fluid">
@@ -107,13 +107,13 @@
 <section class="home-4">
     <div class="container">
         <div class="heading-center">
-            <span class="badge">Academics</span>
-            <h2 class="section-title">Growing Minds, Building Futures</h2>
+            <span class="badge" data-aos="fade-up">Academics</span>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Growing Minds, Building Futures</h2>
         </div>
         <div class="content">
             <div class="row">
                 <div class="col-md-4 col-lg-4">
-                    <div class="box">
+                    <div class="box" data-aos="fade-right" data-aos-delay="100">
                         <img src="assets/images/kg-class.webp" alt="" class="img-fluid">
                         <div class="details">
                             <h4>Kindergarten</h4>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
-                    <div class="box">
+                    <div class="box" data-aos="fade-down" data-aos-delay="150">
                         <img src="assets/images/primary-classes.webp" alt="" class="img-fluid">
                         <div class="details">
                             <h4>Primary School - Grades I-V</h4>
@@ -131,7 +131,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
-                    <div class="box">
+                    <div class="box" data-aos="fade-left" data-aos-delay="200">
                         <img src="assets/images/middle-class.webp" alt="" class="img-fluid">
                         <div class="details">
                             <h4>Middle School Grades VI-VIII </h4>
@@ -142,7 +142,7 @@
             </div>
             <div class="row mt-3">
                 <div class="col-md-4 col-lg-4">
-                    <div class="box">
+                    <div class="box" data-aos="fade-right" data-aos-delay="100">
                         <img src="assets/images/secondary-class.webp" alt="" class="img-fluid">
                         <div class="details">
                             <h4>Secondary School - Grades IX-X</h4>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
-                    <div class="box">
+                    <div class="box" data-aos="fade-up" data-aos-delay="150">
                         <img src="assets/images/senior-sec-class.webp" alt="" class="img-fluid">
                         <div class="details">
                             <h4>Senior Secondary - Grades XI-XII</h4>
@@ -160,7 +160,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
-                    <div class="box">
+                    <div class="box" data-aos="fade-left" data-aos-delay="200">
                         <div class="quotes">
                             <h4>Our Commitment</h4>
                             <p>We are committed to nurturing confident learners, responsible citizens, ethical leaders, and compassionate human beings. Every child at Harur International School is encouraged to dream, discover, and achieve their fullest potential.</p>
@@ -179,15 +179,15 @@
     <div class="container">
         <div class="row">
             <div class="heading-center">
-                <span class="badge">Facilities</span>
-                <h2 class="section-title">World-Class Facilities for Holistic Learning</h2>
-                <p>We provides a modern, secure, and student-friendly campus designed to support academic achievement,<br> creativity, physical well-being, and holistic development.
+                <span class="badge" data-aos="fade-up">Facilities</span>
+                <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">World-Class Facilities for Holistic Learning</h2>
+                <p data-aos="fade-up" data-aos-delay="150">We provides a modern, secure, and student-friendly campus designed to support academic achievement,<br> creativity, physical well-being, and holistic development.
             </div>
         </div>
 
         <div class="row sec">
             <div class="col-md-4">
-                <div class="feature-box-classic-pro">
+                <div class="feature-box-classic-pro" data-aos="fade-right" data-aos-delay="100">
                     <div class="feature-box-inner">
                         <figure class="cea-feature-box-img"><img decoding="async" src="assets/images/class-room-fac.webp" title="blog-opt-(2)" alt="blog-opt-(2)" class="img-fluid rounded-circle "></figure>
                         <div class="fbox-number">1</div>
@@ -197,7 +197,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="feature-box-classic-pro">
+                <div class="feature-box-classic-pro" data-aos="fade-down" data-aos-delay="150">
                     <div class="feature-box-inner">
                         <figure class="cea-feature-box-img"><img decoding="async" src="assets/images/sports-fac.webp" title="blog-opt-(2)" alt="blog-opt-(2)" class="img-fluid rounded-circle "></figure>
                         <div class="fbox-number">2</div>
@@ -207,7 +207,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="feature-box-classic-pro">
+                <div class="feature-box-classic-pro" data-aos="fade-left" data-aos-delay="200">
                     <div class="feature-box-inner">
                         <figure class="cea-feature-box-img"><img decoding="async" src="assets/images/bus-fac.webp" title="blog-opt-(2)" alt="blog-opt-(2)" class="img-fluid rounded-circle "></figure>
                         <div class="fbox-number">3</div>
@@ -222,14 +222,14 @@
 <section class="home-6">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right">
                 <span class="badge">Gallery</span>
                 <h2 class="section-title">Memorable Moments from Our School Life</h2>
                 <div class="footer-widget contact-widget"> <a href="" class="phone">7558146222 - 7558145222</a>
                     <div class="title">FEEL FREE TO CALL US</div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos="fade-left">
                 <div id="wrapper">
                     <div id="shape">
                         <div class="plane p1">

@@ -25,6 +25,7 @@ function template_header($title, $metadesc)
             <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 
     <body>
@@ -224,6 +225,15 @@ function template_footer()
 
             </div>
         </section>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+            <script>
+                AOS.init({
+                    duration: 800,
+                    once: true
+                });
+            </script>
 
                 <script>
                 document.addEventListener("DOMContentLoaded", function () {
