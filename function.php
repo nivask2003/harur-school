@@ -1,5 +1,6 @@
-<?php 
-function template_header($title, $metadesc){
+<?php
+function template_header($title, $metadesc)
+{
     $metadesc = trim(htmlspecialchars($metadesc));
     $title = htmlspecialchars($title);
     echo <<< EOT
@@ -176,49 +177,92 @@ function template_header($title, $metadesc){
     EOT;
 }
 
-function template_footer(){
+function template_footer()
+{
     echo <<< EOT
-        </main>
+                </main>
 
-        <script>
-        document.addEventListener("DOMContentLoaded", function () {
+                <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>About Us</h4>
+                        <p>Harur International School is a Senior Secondary CBSE institution committed to academic excellence, character development, innovation, and holistic education in a safe and inspiring learning environment.</p>
+                    </div>
 
-            const animatedElements = document.querySelectorAll(".animate-box");
+                    <div class="col-md-3">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Academics</a></li>
+                            <li><a href="#">Facilities</a></li>
+                            <li><a href="#">Student Life</a></li>
+                            <li><a href="#">Admissions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
 
-            const observer = new IntersectionObserver(function (entries) {
+                    <div class="col-md-3">
+                        <h4>Contact Us</h4>
+                        <p class="hh"><b>Address:</b></p>
+                        <p>Harur - Salem Main Road,<br>H. Doddampatti, Harur,<br>Dharmapuri District - 636 903</p>
+                        <p class="hh"><b>Office & WhatsApp :</b></p>
+                        <p><a href="tel:+917558149222">+91 7558149222</a></p>
+                        <p class="hh"><b>Contact Number :</b></p>
+                        <p><a href="tel:+91 7558146222">+91 7558146222</a> |<a href="+917558145222">+91 7558145222</a></p>
+                    </div>
 
-                entries.forEach(function (entry) {
+                    <div class="col-md-3">
+                        <h4>Contact Location</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.1910730894715!2d78.46892!3d12.030363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac6ff148f19081%3A0x58e748077c536f9c!2sHarur%20International%20School!5e0!3m2!1sen!2sin!4v1787305538968!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+                <div class="row copy">
+                    <p>© Harur International School. All Rights Reserved.</p>
+                </div>
 
-                    if (entry.isIntersecting) {
 
-                        const element = entry.target;
-                        const animation = element.getAttribute("data-animate");
+            </div>
+        </section>
 
-                        if (animation) {
-                            element.classList.add(
-                                "animate__animated",
-                                animation
-                            );
-                        }
+                <script>
+                document.addEventListener("DOMContentLoaded", function () {
 
-                        observer.unobserve(element);
-                    }
+                    const animatedElements = document.querySelectorAll(".animate-box");
+
+                    const observer = new IntersectionObserver(function (entries) {
+
+                        entries.forEach(function (entry) {
+
+                            if (entry.isIntersecting) {
+
+                                const element = entry.target;
+                                const animation = element.getAttribute("data-animate");
+
+                                if (animation) {
+                                    element.classList.add(
+                                        "animate__animated",
+                                        animation
+                                    );
+                                }
+
+                                observer.unobserve(element);
+                            }
+
+                        });
+
+                    }, {
+                        threshold: 0.15
+                    });
+
+                    animatedElements.forEach(function (element) {
+                        observer.observe(element);
+                    });
 
                 });
+                </script>
 
-            }, {
-                threshold: 0.15
-            });
-
-            animatedElements.forEach(function (element) {
-                observer.observe(element);
-            });
-
-        });
-        </script>
-
-    </body>
-    </html>
+            </body>
+            </html>
     EOT;
 }
-?>  
