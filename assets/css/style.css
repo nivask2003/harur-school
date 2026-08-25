@@ -66,13 +66,6 @@ html {
   overflow-x: hidden;
 }
 
-html:has(body.no-scroll),
-body.no-scroll {
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
-}
-
 /* ============================
    Landing / Portal Page
    ============================ */
@@ -87,9 +80,7 @@ body.no-scroll {
 
   /* background-image: url("../images/landing-bg.webp"); */
   width: 100%;
-  height: 100vh;
-  height: 100dvh;
-  overflow: hidden;
+  min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,17 +89,13 @@ body.no-scroll {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: clamp(10px, 2.5vh, 24px) clamp(10px, 2.5vw, 20px);
+  /* padding: 48px 20px; */
 }
 .landing-page .container {
   width: 100%;
   max-width: 100%;
-  height: 100%;
   padding-left: 0px;
   padding-right: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .landing-page::before {
   content: "";
@@ -127,12 +114,10 @@ body.no-scroll {
 .landing-page .container .box {
   background-color: #2a4a64;
   width: 100%;
-  max-height: 100%;
+  height: auto;
   position: relative;
   border-radius: 0px;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
   box-shadow:
     0 30px 70px -20px rgba(9, 30, 54, 0.45),
     0 10px 25px -10px rgba(9, 30, 54, 0.2);
@@ -150,14 +135,13 @@ body.no-scroll {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: clamp(14px, 3vh, 30px);
+  gap: 30px;
   background-image: url(../images/harur_school_animated_background.gif);
   background-size: cover;
   background-position: center;
   border-radius: 0 0;
   position: relative;
-  padding: clamp(14px, 3vh, 36px) clamp(16px, 4vw, 40px);
-  flex: 0 0 auto;
+  padding: 36px 40px;
 }
 
 .landing-page .box .logo::before {
@@ -188,16 +172,16 @@ body.no-scroll {
 }
 
 .landing-page .box .logo h4 {
-  font-size: clamp(18px, 2.6vh, 30px) !important;
+  font-size: 30px !important;
   font-weight: 700;
   letter-spacing: 0.2px;
   color: var(--lp-navy);
-  margin-bottom: clamp(4px, 1vh, 8px);
+  margin-bottom: 8px;
   line-height: 1.28;
 }
 
 .landing-page .box .logo img.img-fluid {
-  width: clamp(70px, 12vh, 152px);
+  width: 152px;
   position: relative;
   flex-shrink: 0;
   filter: drop-shadow(0 8px 16px rgba(18, 59, 99, 0.18));
@@ -207,21 +191,21 @@ body.no-scroll {
   position: relative;
   text-align: center;
   font-weight: 500;
-  font-size: clamp(12px, 1.7vh, 18px);
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 27px;
   color: #000;
   margin-top: 2px;
 }
 
 .landing-page .box .logo p {
   text-align: center;
-  margin-bottom: clamp(4px, 1vh, 8px);
+  margin-bottom: 8px;
 }
 
 .landing-page .box .logo p b {
   color: var(--lp-red);
   position: relative;
-  font-size: clamp(14px, 1.9vh, 20px);
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1.3px;
   text-transform: uppercase;
@@ -229,33 +213,22 @@ body.no-scroll {
 }
 
 /* ---- Content: student image + nav cards ---- */
-.landing-page .box .content-container {
-  flex: 1 1 auto;
-  min-height: 0;
-  overflow: hidden;
-}
-
 .landing-page .box .content-container .row {
   margin: 0;
-  height: 100%;
 }
 
 .landing-page .box .content-container .row .col-md-4.col-lg-4 {
   padding: 0;
   position: relative;
   overflow: hidden;
-  height: 100%;
 }
 
 .landing-page .box .content-container .row .col-md-8.col-lg-8 {
-  padding: clamp(14px, 3.5vh, 36px);
+  padding: 36px 36px 36px 36px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: clamp(10px, 2vh, 16px);
-  height: 100%;
-  min-height: 0;
-  overflow: hidden;
+  gap: 16px;
 }
 
 .landing-page .box .content-container p {
@@ -266,7 +239,7 @@ body.no-scroll {
   border-bottom-left-radius: 26px;
   width: 100%;
   height: 100%;
-  min-height: 0;
+  min-height: 320px;
   object-fit: cover;
   object-position: center 20%;
   filter: brightness(1.04) contrast(1.04) saturate(1.06);
@@ -277,17 +250,14 @@ body.no-scroll {
   padding: 0;
   list-style-type: none;
   display: flex;
-  gap: clamp(10px, 2vw, 18px);
+  gap: 18px;
   margin: 0;
-  flex: 1 1 0;
-  min-height: 0;
 }
 
 .landing-page .box .content-container ul.icon-box a {
   text-decoration: none;
   flex: 1;
-  display: flex;
-  min-height: 0;
+  display: block;
 }
 
 .landing-page .box .content-container ul.icon-box li.box {
@@ -296,10 +266,8 @@ body.no-scroll {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: clamp(6px, 1.4vh, 12px);
-  flex: 1 1 auto;
-  width: 100%;
-  min-height: clamp(64px, 12vh, 140px);
+  gap: 12px;
+  min-height: 200px;
   border-radius: 18px;
   border: 1.5px solid transparent;
   cursor: pointer;
@@ -353,14 +321,6 @@ body.no-scroll {
   display: block;
   width: 100%;
 }
-
-.landing-page .box .content-container ul.icon-box li.box img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: clamp(48px, 9vh, 110px);
-  object-fit: contain;
-}
 .landing-page .box .content-container ul.icon-box li.box:hover::after {
   opacity: 0.55;
   transform: translate(0, 0);
@@ -413,88 +373,96 @@ body.no-scroll {
 /* ---- Responsive ---- */
 @media (max-width: 991.98px) {
   .landing-page {
-    padding: clamp(8px, 2vh, 24px) 16px;
+    padding: 24px 16px;
   }
 
   .landing-page .box .logo {
-    flex-direction: row;
-    text-align: left;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 24px;
   }
 
-  .landing-page .box .content-container .row {
-    flex-direction: row;
+  .landing-page .box .logo img.img-fluid {
+    width: 108px;
   }
 
   .landing-page .box .content-container .row .col-md-4.col-lg-4 {
-    min-height: 0;
-    flex: 0 0 34%;
-    max-width: 34%;
+    min-height: 260px;
   }
 
   .landing-page .box .content-container img.img-fluid {
     border-bottom-left-radius: 0;
-    min-height: 0;
+    min-height: 260px;
   }
 
   .landing-page .box .content-container .row .col-md-8.col-lg-8 {
-    flex: 1 1 66%;
-    max-width: 66%;
+    padding: 24px;
   }
 
   .landing-page .box .content-container ul.icon-box {
     flex-direction: column;
   }
+
+  .landing-page .box .content-container ul.icon-box li.box {
+    min-height: 130px;
+  }
 }
 
 @media (max-width: 575.98px) {
+  .landing-page .box .logo h4 {
+    font-size: 23px !important;
+  }
+
+  .landing-page .box .logo img.img-fluid {
+    width: 88px;
+  }
+
   .landing-page .box .content-container p {
     width: 100%;
-  }
-
-  .landing-page .box .content-container .row .col-md-4.col-lg-4 {
-    flex: 0 0 30%;
-    max-width: 30%;
-  }
-
-  .landing-page .box .content-container .row .col-md-8.col-lg-8 {
-    flex: 1 1 70%;
-    max-width: 70%;
-  }
-
-  .landing-page .box .content-container ul.icon-box li.box h4 {
-    font-size: clamp(12px, 3vw, 16px);
   }
 }
 
 @media (max-width: 380px) {
   .landing-page {
-    padding: 8px 10px;
+    padding: 16px 10px;
   }
 
   .landing-page .box .logo {
-    gap: 10px;
+    padding: 24px 16px;
+    gap: 16px;
+  }
+
+  .landing-page .box .logo h4 {
+    font-size: 19px !important;
+  }
+
+  .landing-page .box .logo img.img-fluid {
+    width: 68px;
   }
 
   .landing-page .box .logo p b {
-    font-size: clamp(12px, 3.5vw, 16px);
+    font-size: 16px;
   }
 
   .landing-page .box .logo p.section-desc {
-    font-size: clamp(10px, 3vw, 14px);
-    line-height: 1.4;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .landing-page .box .content-container .row .col-md-8.col-lg-8 {
-    padding: 10px;
-    gap: 8px;
+    padding: 16px;
+  }
+
+  .landing-page .box .content-container ul.icon-box li.box {
+    min-height: 110px;
   }
 
   .landing-page .box .content-container ul.icon-box li.box .card-icon {
-    font-size: clamp(16px, 4vw, 21px);
+    font-size: 21px;
   }
 
   .landing-page .box .content-container ul.icon-box li.box h4 {
-    font-size: clamp(11px, 3vw, 16px);
+    font-size: 16px;
   }
 }
 
@@ -572,14 +540,14 @@ header .middle-header .logo {
   mask-size: 129% 99%;
 
   -webkit-mask-position: 120% 39%;
-  mask-position: 77% 39%;
+  mask-position: 69% 39%;
 
-  height: 136px;
+  height: 161px;
   margin-top: -1px;
 }
 
 header .middle-header .logo img.img-fluid {
-  width: 150px;
+  width: 176px;
   margin-left: 47px;
 }
 
@@ -644,32 +612,6 @@ header .bottom-header nav {
 header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link {
   color: var(--nav-text) !important;
   padding-right: 1.5rem !important;
-}
-
-header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link:hover{
-  color: var(--cta-btn) !important;
-
-}
-header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link.active{
-  color: var(--cta-btn) !important;
-
-}
-
-header ul.dropdown-menu.show {
-    padding: 0;
-}
-
-header a.dropdown-item{
-  padding: 16px 1rem;
-}
-
-header a.dropdown-item.active {
-    background: #ffd400 !important;
-    color: #1b3a6b !important;
-}
-header a.dropdown-item:hover {
-    background: #ffd400 !important;
-    color: #1b3a6b !important;
 }
 
 /* ============================
@@ -1494,7 +1436,7 @@ p.hh {
 }
 
 /* ============================================================
-   HOME PAGE — RESPONSIVE (small screen up to large screen)
+   HOME PAGE â€” RESPONSIVE (small screen up to large screen)
    Fluid units (clamp/%/min-height) are used throughout so the
    layout also holds up correctly at browser zoom levels above
    and below 100%, not just at fixed pixel breakpoints.
