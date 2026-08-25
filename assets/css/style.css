@@ -66,6 +66,13 @@ html {
   overflow-x: hidden;
 }
 
+html:has(body.no-scroll),
+body.no-scroll {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
 /* ============================
    Landing / Portal Page
    ============================ */
@@ -80,7 +87,9 @@ html {
 
   /* background-image: url("../images/landing-bg.webp"); */
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,13 +98,17 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 48px 20px; */
+  padding: clamp(10px, 2.5vh, 24px) clamp(10px, 2.5vw, 20px);
 }
 .landing-page .container {
   width: 100%;
   max-width: 100%;
+  height: 100%;
   padding-left: 0px;
   padding-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .landing-page::before {
   content: "";
@@ -114,10 +127,12 @@ html {
 .landing-page .container .box {
   background-color: #2a4a64;
   width: 100%;
-  height: auto;
+  max-height: 100%;
   position: relative;
   border-radius: 0px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   box-shadow:
     0 30px 70px -20px rgba(9, 30, 54, 0.45),
     0 10px 25px -10px rgba(9, 30, 54, 0.2);
@@ -135,13 +150,14 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: clamp(14px, 3vh, 30px);
   background-image: url(../images/harur_school_animated_background.gif);
   background-size: cover;
   background-position: center;
   border-radius: 0 0;
   position: relative;
-  padding: 36px 40px;
+  padding: clamp(14px, 3vh, 36px) clamp(16px, 4vw, 40px);
+  flex: 0 0 auto;
 }
 
 .landing-page .box .logo::before {
@@ -172,16 +188,16 @@ html {
 }
 
 .landing-page .box .logo h4 {
-  font-size: 30px !important;
+  font-size: clamp(18px, 2.6vh, 30px) !important;
   font-weight: 700;
   letter-spacing: 0.2px;
   color: var(--lp-navy);
-  margin-bottom: 8px;
+  margin-bottom: clamp(4px, 1vh, 8px);
   line-height: 1.28;
 }
 
 .landing-page .box .logo img.img-fluid {
-  width: 152px;
+  width: clamp(70px, 12vh, 152px);
   position: relative;
   flex-shrink: 0;
   filter: drop-shadow(0 8px 16px rgba(18, 59, 99, 0.18));
@@ -191,21 +207,21 @@ html {
   position: relative;
   text-align: center;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: clamp(12px, 1.7vh, 18px);
+  line-height: 1.5;
   color: #000;
   margin-top: 2px;
 }
 
 .landing-page .box .logo p {
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: clamp(4px, 1vh, 8px);
 }
 
 .landing-page .box .logo p b {
   color: var(--lp-red);
   position: relative;
-  font-size: 20px;
+  font-size: clamp(14px, 1.9vh, 20px);
   font-weight: 700;
   letter-spacing: 1.3px;
   text-transform: uppercase;
@@ -213,22 +229,33 @@ html {
 }
 
 /* ---- Content: student image + nav cards ---- */
+.landing-page .box .content-container {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
 .landing-page .box .content-container .row {
   margin: 0;
+  height: 100%;
 }
 
 .landing-page .box .content-container .row .col-md-4.col-lg-4 {
   padding: 0;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .landing-page .box .content-container .row .col-md-8.col-lg-8 {
-  padding: 36px 36px 36px 36px;
+  padding: clamp(14px, 3.5vh, 36px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 16px;
+  gap: clamp(10px, 2vh, 16px);
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .landing-page .box .content-container p {
@@ -239,7 +266,7 @@ html {
   border-bottom-left-radius: 26px;
   width: 100%;
   height: 100%;
-  min-height: 320px;
+  min-height: 0;
   object-fit: cover;
   object-position: center 20%;
   filter: brightness(1.04) contrast(1.04) saturate(1.06);
@@ -250,14 +277,17 @@ html {
   padding: 0;
   list-style-type: none;
   display: flex;
-  gap: 18px;
+  gap: clamp(10px, 2vw, 18px);
   margin: 0;
+  flex: 1 1 0;
+  min-height: 0;
 }
 
 .landing-page .box .content-container ul.icon-box a {
   text-decoration: none;
   flex: 1;
-  display: block;
+  display: flex;
+  min-height: 0;
 }
 
 .landing-page .box .content-container ul.icon-box li.box {
@@ -266,8 +296,10 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 12px;
-  min-height: 200px;
+  gap: clamp(6px, 1.4vh, 12px);
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: clamp(64px, 12vh, 140px);
   border-radius: 18px;
   border: 1.5px solid transparent;
   cursor: pointer;
@@ -321,6 +353,14 @@ html {
   display: block;
   width: 100%;
 }
+
+.landing-page .box .content-container ul.icon-box li.box img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: clamp(48px, 9vh, 110px);
+  object-fit: contain;
+}
 .landing-page .box .content-container ul.icon-box li.box:hover::after {
   opacity: 0.55;
   transform: translate(0, 0);
@@ -373,96 +413,88 @@ html {
 /* ---- Responsive ---- */
 @media (max-width: 991.98px) {
   .landing-page {
-    padding: 24px 16px;
+    padding: clamp(8px, 2vh, 24px) 16px;
   }
 
   .landing-page .box .logo {
-    flex-direction: column;
-    text-align: center;
-    padding: 32px 24px;
+    flex-direction: row;
+    text-align: left;
   }
 
-  .landing-page .box .logo img.img-fluid {
-    width: 108px;
+  .landing-page .box .content-container .row {
+    flex-direction: row;
   }
 
   .landing-page .box .content-container .row .col-md-4.col-lg-4 {
-    min-height: 260px;
+    min-height: 0;
+    flex: 0 0 34%;
+    max-width: 34%;
   }
 
   .landing-page .box .content-container img.img-fluid {
     border-bottom-left-radius: 0;
-    min-height: 260px;
+    min-height: 0;
   }
 
   .landing-page .box .content-container .row .col-md-8.col-lg-8 {
-    padding: 24px;
+    flex: 1 1 66%;
+    max-width: 66%;
   }
 
   .landing-page .box .content-container ul.icon-box {
     flex-direction: column;
   }
-
-  .landing-page .box .content-container ul.icon-box li.box {
-    min-height: 130px;
-  }
 }
 
 @media (max-width: 575.98px) {
-  .landing-page .box .logo h4 {
-    font-size: 23px !important;
-  }
-
-  .landing-page .box .logo img.img-fluid {
-    width: 88px;
-  }
-
   .landing-page .box .content-container p {
     width: 100%;
+  }
+
+  .landing-page .box .content-container .row .col-md-4.col-lg-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .landing-page .box .content-container .row .col-md-8.col-lg-8 {
+    flex: 1 1 70%;
+    max-width: 70%;
+  }
+
+  .landing-page .box .content-container ul.icon-box li.box h4 {
+    font-size: clamp(12px, 3vw, 16px);
   }
 }
 
 @media (max-width: 380px) {
   .landing-page {
-    padding: 16px 10px;
+    padding: 8px 10px;
   }
 
   .landing-page .box .logo {
-    padding: 24px 16px;
-    gap: 16px;
-  }
-
-  .landing-page .box .logo h4 {
-    font-size: 19px !important;
-  }
-
-  .landing-page .box .logo img.img-fluid {
-    width: 68px;
+    gap: 10px;
   }
 
   .landing-page .box .logo p b {
-    font-size: 16px;
+    font-size: clamp(12px, 3.5vw, 16px);
   }
 
   .landing-page .box .logo p.section-desc {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: clamp(10px, 3vw, 14px);
+    line-height: 1.4;
   }
 
   .landing-page .box .content-container .row .col-md-8.col-lg-8 {
-    padding: 16px;
-  }
-
-  .landing-page .box .content-container ul.icon-box li.box {
-    min-height: 110px;
+    padding: 10px;
+    gap: 8px;
   }
 
   .landing-page .box .content-container ul.icon-box li.box .card-icon {
-    font-size: 21px;
+    font-size: clamp(16px, 4vw, 21px);
   }
 
   .landing-page .box .content-container ul.icon-box li.box h4 {
-    font-size: 16px;
+    font-size: clamp(11px, 3vw, 16px);
   }
 }
 
@@ -1995,7 +2027,3 @@ p.hh {
   text-decoration: none;
   color: #000;
 }
-
-
-
-
