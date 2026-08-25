@@ -646,6 +646,27 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link {
   padding-right: 1.5rem !important;
 }
 
+header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link.active{
+    color: var(--cta-btn) !important;
+}
+
+header .dropdown-item.active, .dropdown-item:active{
+    background-color: var(--cta-btn);
+    color: var(--heading-color);
+}
+header .dropdown-item.active, .dropdown-item:hover{
+    background-color: var(--cta-btn) !important ;
+    color: var(--heading-color) !important;
+}
+
+header ul.dropdown-menu.show {
+    padding: 0;
+}
+
+header a.dropdown-item {
+    padding: 10px;
+}
+
 /* ============================
    Mobile / Tablet Header
    (logo + menu icon only, sits right below top-header)
