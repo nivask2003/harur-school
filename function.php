@@ -3,6 +3,22 @@ function template_header($title, $metadesc)
 {
     $metadesc = trim(htmlspecialchars($metadesc));
     $title = htmlspecialchars($title);
+
+    $current = basename($_SERVER['PHP_SELF']);
+
+    $about_page = ['about-us.php', 'management_leadership.php'];
+
+
+
+    $home_active = ($current === 'home.php') ? ' active' : ''; 
+    $about_active = in_array($current, $about_page) ? ' active' : '';
+    $faciities_active = ($current === 'facilities.php') ? ' active' : '';
+
+
+
+    $about_us_item = ($current === 'about-us.php') ? ' active' : '';
+    $management_leadership_item = ($current === 'management_leadership.php') ? ' active' : '';
+
     echo <<< EOT
     <!DOCTYPE html>
     <html lang="en">
@@ -119,27 +135,23 @@ function template_header($title, $metadesc)
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="home.php">Home</a>
+                                    <a class="nav-link{$home_active}" aria-current="page" href="home.php">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    <a class="nav-link dropdown-toggle{$about_active}" href="#" id="navbarDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         About
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="about-us.php">About Us</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item{$about_us_item}" href="about-us.php">About Us</a></li>
+                                        <li><a class="dropdown-item{$management_leadership_item}" href="management_leadership.php">Management & Leadership</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="#">Academics</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Facilities</a>
+                                    <a class="nav-link{$faciities_active}" aria-current="page" href="facilities.php">Facilities</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

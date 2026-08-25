@@ -614,6 +614,28 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link {
   padding-right: 1.5rem !important;
 }
 
+header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link:hover{
+  color: var(--cta-btn) !important;
+
+}
+header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link.active{
+  color: var(--cta-btn) !important;
+
+}
+
+header ul.dropdown-menu.show {
+    padding: 0;
+}
+
+header a.dropdown-item.active {
+    background: #ffd400 !important;
+    color: #1b3a6b !important;
+}
+header a.dropdown-item:hover {
+    background: #ffd400 !important;
+    color: #1b3a6b !important;
+}
+
 /* ============================
    Mobile / Tablet Header
    (logo + menu icon only, sits right below top-header)
@@ -1784,6 +1806,23 @@ p.hh {
   text-transform: uppercase;
 }
 
+@media(max-width: 482px){
+  .page-banner h1{
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+  .page-banner h1{
+    font-size: 27px;
+  }
+
+  .page-banner{
+    padding-left: 27px;
+  }
+}
+
+
 #about{
   background-image: url("../images/about-pagebanner.webp");
   background-position: center;
@@ -1831,5 +1870,23 @@ p.hh {
     height: 123px;
     padding-left: 30px;
   }
+}
+
+.management-1{
+  background-color: #ffd40078;
+  padding: 50px 0 50px 0;
+}
+
+.management-1 thead {
+    background: #1b3a6b;
+    color: #fff;
+}
+
+.management-1 tbody{
+  background-color: #fff;
+}
+
+.management-1 table tbody tr:nth-child(even){
+  background-color: var(--light-bg);
 }
 
