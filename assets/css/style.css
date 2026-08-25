@@ -540,14 +540,14 @@ header .middle-header .logo {
   mask-size: 129% 99%;
 
   -webkit-mask-position: 120% 39%;
-  mask-position: 69% 39%;
+  mask-position: 77% 39%;
 
-  height: 161px;
+  height: 136px;
   margin-top: -1px;
 }
 
 header .middle-header .logo img.img-fluid {
-  width: 176px;
+  width: 150px;
   margin-left: 47px;
 }
 
@@ -1942,3 +1942,60 @@ p.hh {
     gap: 28px;
 }
 }
+
+#contact{
+  background: url(../images/contact-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-1{
+  padding: 50px 0 50px 0;
+  background-color: #ffd40078;
+}
+
+.contact-1 .icon-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    height: 146px;
+}
+
+.contact-1 .icon-box:hover{
+      box-shadow: 1px 1px 7px -1px;
+}
+
+.contact-1 .icon-box .icon {
+    background: #1b3a6b;
+    color: #fff;
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-1 .icon-box:hover .icon{
+  background-color: var(--cta-btn);
+  color: var(--heading-color);
+  transform: rotate(-8deg);
+}
+
+.contact-1 .icon-box .content h5{
+  color: var(--heading-color);
+  font-weight: 700;
+}
+
+.contact-1 .icon-box .content p a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
