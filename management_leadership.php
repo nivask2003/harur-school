@@ -1,6 +1,6 @@
 <?php include "function.php"?>
-<?php template_header("Management & Leadership", "");?>
-<section class="page-banner" id="about">
+<?php template_header("Management & Leadership", "Explore the Management & Leadership team of Harur International School, dedicated to educational quality, student welfare, institutional development, strong governance, and continuous improvement.");?>
+<section class="page-banner" id="message">
     <h1>Management & Leadership</h1>
 </section>
 <section class="management-1">

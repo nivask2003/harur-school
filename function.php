@@ -6,18 +6,21 @@ function template_header($title, $metadesc)
 
     $current = basename($_SERVER['PHP_SELF']);
 
-    $about_page = ['about-us.php', 'management_leadership.php'];
+    $about_page = ['about-us.php', 'management_leadership.php',  'chairman_message.php', 'principal_message.php'];
 
 
 
     $home_active = ($current === 'home.php') ? ' active' : ''; 
     $about_active = in_array($current, $about_page) ? ' active' : '';
     $faciities_active = ($current === 'facilities.php') ? ' active' : '';
+    $contact_active = ($current === 'contact.php') ? ' active' : '';
 
 
 
     $about_us_item = ($current === 'about-us.php') ? ' active' : '';
     $management_leadership_item = ($current === 'management_leadership.php') ? ' active' : '';
+    $chairman_message_item = ($current === 'chairman_message.php') ? ' active' : '';
+    $principal_message_item = ($current === 'principal_message.php') ? ' active' : '';
 
     echo <<< EOT
     <!DOCTYPE html>
@@ -145,6 +148,8 @@ function template_header($title, $metadesc)
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item{$about_us_item}" href="about-us.php">About Us</a></li>
                                         <li><a class="dropdown-item{$management_leadership_item}" href="management_leadership.php">Management & Leadership</a></li>
+                                        <li><a class="dropdown-item{$chairman_message_item}" href="chairman_message.php">Chairman Message</a></li>
+                                        <li><a class="dropdown-item{$principal_message_item}" href="principal_message.php">Principal Message</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -177,7 +182,7 @@ function template_header($title, $metadesc)
                                     <a class="nav-link" aria-current="page" href="#">Mandatory Disclosure</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Contact</a>
+                                    <a class="nav-link{$contact_active}" aria-current="page" href="contact.php">Contact</a>
                                 </li>
 
                             </ul>

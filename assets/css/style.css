@@ -627,6 +627,10 @@ header ul.dropdown-menu.show {
     padding: 0;
 }
 
+header a.dropdown-item{
+  padding: 16px 1rem;
+}
+
 header a.dropdown-item.active {
     background: #ffd400 !important;
     color: #1b3a6b !important;
@@ -1890,3 +1894,51 @@ p.hh {
   background-color: var(--light-bg);
 }
 
+#message{
+  background: url(../images/message-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.message-1{
+  padding: 50px 0 50px 0;
+  background-color: #ffd40078;
+}
+
+
+.message-1 img.img-fluid {
+    border-radius: 20px;
+    border: 8px solid #fff;
+    outline: 2px solid var(--dark-bg);
+    outline-offset: 6px;
+    transition: transform .6s ease;
+}
+
+.message-1 img.img-fluid:hover{
+  transform: scale(1.06);
+  outline: 2px solid var(--primary-btn-hover);
+}
+
+.message-1 blockquote {
+    background: var(--light-bg);
+    padding: 20px;
+    border-radius: 20px;
+    border-left: 6px solid var(--dark-bg);
+    color: var(--heading-color);
+    font-weight: 400;
+    margin-top: 28px;
+}
+
+.message-1 .person-name{
+  color: var(--heading-color);
+}
+.message-1 .desti{
+  color: var(--dark-bg);
+}
+
+@media(max-width:482px){
+  .message-1 .row {
+    gap: 28px;
+}
+}
