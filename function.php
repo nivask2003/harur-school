@@ -215,6 +215,7 @@ function template_footer()
                     once: true
                 });
             </script>
+            <script src="assets/js/gallery.js"></script>
 
                 <script>
                     document.addEventListener('DOMContentLoaded', function () {

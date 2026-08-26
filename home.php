@@ -228,45 +228,56 @@
 <section class="home-6">
     <div class="container">
         <div class="row">
-            <div class="col-md-4" data-aos="fade-right">
+            <div class="col-12 col-md-6 col-md-6" data-aos="fade-right">
                 <span class="badge">Gallery</span>
                 <h2 class="section-title">Memorable Moments from Our School Life</h2>
                 <div class="footer-widget contact-widget"> <a href="" class="phone">7558146222 - 7558145222</a>
                     <div class="title">FEEL FREE TO CALL US</div>
                 </div>
             </div>
-            <div class="col-md-8" data-aos="fade-left">
-                <div id="wrapper">
-                    <div id="shape">
-                        <div class="plane p1">
-                            <img src="assets/images/gallery-1.webp">
-                        </div>
-                        <div class="plane p2">
-                            <img src="assets/images/gallery-2.webp">
-
-                        </div>
-                        <div class="plane p3">
-                            <img src="assets/images/gallery-3.webp">
-                        </div>
-                        <div class="plane p4">
-                            <img src="assets/images/gallery-4.webp">
-                        </div>
-                        <div class="plane p5">
-                            <img src="assets/images/gallery-5.webp">
-                        </div>
-                        <div class="plane p6">
-                            <img src="assets/images/gallery-6.webp">
-                        </div>
-                        <div class="plane p7">
-                            <img src="assets/images/gallery-7.webp">
-                        </div>
-                        <div class="plane p8">
-                            <img src="assets/images/gallery-8.webp">
-                        </div>
-
-
-                    </div>
-                </div>
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
+                <div class="gallery-wrap">
+  <div class="gallery-fade fade-left" id="fadeLeft"></div>
+  <div class="gallery-fade fade-right" id="fadeRight"></div>
+ 
+  <button class="gallery-arrow arrow-left" id="arrowLeft" aria-label="Scroll left">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="gallery-arrow arrow-right" id="arrowRight" aria-label="Scroll right">
+    <i class="bi bi-chevron-right"></i> 
+  </button>
+ 
+  <div class="gallery-scroller" id="galleryScroller">
+    <figure class="gallery-card">
+      <img src="https://picsum.photos/id/1015/900/700" alt="River bend, high valley" draggable="false">
+      <figcaption class="gallery-caption">River bend, high valley</figcaption>
+    </figure>
+    <figure class="gallery-card">
+      <img src="https://picsum.photos/id/1018/900/700" alt="Pine ridge at dusk" draggable="false">
+      <figcaption class="gallery-caption">Pine ridge at dusk</figcaption>
+    </figure>
+    <figure class="gallery-card">
+      <img src="https://picsum.photos/id/1025/900/700" alt="Portrait, soft light" draggable="false">
+      <figcaption class="gallery-caption">Portrait, soft light</figcaption>
+    </figure>
+    <figure class="gallery-card">
+      <img src="https://picsum.photos/id/1035/900/700" alt="Coastal fog, early morning" draggable="false">
+      <figcaption class="gallery-caption">Coastal fog, early morning</figcaption>
+    </figure>
+    <figure class="gallery-card">
+      <img src="https://picsum.photos/id/1043/900/700" alt="Terraced fields" draggable="false">
+      <figcaption class="gallery-caption">Terraced fields</figcaption>
+    </figure>
+    <figure class="gallery-card">
+      <img src="https://picsum.photos/id/1050/900/700" alt="Old stone stair" draggable="false">
+      <figcaption class="gallery-caption">Old stone stair</figcaption>
+    </figure>
+    <figure class="gallery-card">
+      <img src="https://picsum.photos/id/1074/900/700" alt="Low tide, wide sky" draggable="false">
+      <figcaption class="gallery-caption">Low tide, wide sky</figcaption>
+    </figure>
+  </div>
+</div>
             </div>
         </div>
     </div>
