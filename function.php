@@ -4,6 +4,38 @@ function template_header($title, $metadesc)
     $metadesc = trim(htmlspecialchars($metadesc));
     $title = htmlspecialchars($title);
 
+      // Detect the current page so the matching nav item can be highlighted
+    $current = basename($_SERVER['PHP_SELF']);
+
+    // Pages that belong to each dropdown group
+    $about_pages     = ['about-us.php', 'management_leadership.php', 'chairman-message.php', 'principal-message.php'];
+    $academics_pages = ['curriculam.php', 'academics-excellence.php', 'extra-curricular.php', 'activity.php'];
+    $admission_pages = ['admission.php', 'admission-form.php'];
+
+    // Top-level active states
+    $home_active       = ($current === 'home.php') ? ' active' : '';
+    $about_active      = in_array($current, $about_pages) ? ' active' : '';
+    $academics_active  = in_array($current, $academics_pages) ? ' active' : '';
+    $facilities_active = ($current === 'facilities.php') ? ' active' : '';
+    $admission_active  = in_array($current, $admission_pages) ? ' active' : '';
+    $gallery_active    = ($current === 'gallery.php') ? ' active' : '';
+    $career_active     = ($current === 'career-form.php') ? ' active' : '';
+    $contact_active    = ($current === 'contact.php') ? ' active' : '';
+
+    // Dropdown item-level active states
+    $about_us_item        = ($current === 'about-us.php') ? ' active' : '';
+    $management_item         = ($current === 'management_leadership.php') ? ' active' : '';
+    $chairman_message_item        = ($current === 'chairman_message.php') ? ' active' : '';
+    $principal_message_item     = ($current === 'principal_message.php') ? ' active' : '';
+
+    $curriculam_item      = ($current === 'curriculam.php') ? ' active' : '';
+    $academics_exc_item   = ($current === 'academics-excellence.php') ? ' active' : '';
+    $extra_curricular_item = ($current === 'extra-curricular.php') ? ' active' : '';
+    $activity_item        = ($current === 'activity.php') ? ' active' : '';
+
+    $admission_proc_item  = ($current === 'admission.php') ? ' active' : '';
+    $admission_form_item  = ($current === 'admission-form.php') ? ' active' : '';
+
     echo <<< EOT
     <!DOCTYPE html>
     <html lang="en">
@@ -71,19 +103,18 @@ function template_header($title, $metadesc)
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link{$home_active}" aria-current="page" href="home.php">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle{$about_active}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     About
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item{$about_us_item}" href="about-us.php">About Us</a></li>
+                                    <li><a class="dropdown-item{$management_item}" href="management_leadership.php">Management Leadership</a></li>
+                                    <li><a class="dropdown-item{$chairman_message_item}" href="chairman_message.php">Chairman's Message</a></li>
+                                    <li><a class="dropdown-item{$principal_message_item}" href="principal_message.php">Principal's Message</a></li>
+                                    
                                 </ul>
                             </li>
                             <li class="nav-item">

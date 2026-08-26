@@ -1845,10 +1845,10 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link.active{
   }
 
   header .bottom-header nav .dropdown-menu {
-    background-color: var(--dark-bg);
     border: none;
     border-radius: 8px;
     margin-bottom: 8px;
+    background-color: #ffffff14 ;
   }
 
   header .bottom-header nav .dropdown-menu .dropdown-item {
@@ -1890,5 +1890,27 @@ header .bottom-header.header-sticky {
     left: 0;
     width: 100%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    z-index: 99;
+}
+
+header .bottom-header{
+  position: relative;
+  z-index: 1020;
+  transition: transform 0.35s ease;
+}
+
+header .bottom-header ul.dropdown-menu.show {
+    padding: 0;
+}
+
+header .bottom-header a.dropdown-item{
+  padding: 10px;
+}
+
+header .bottom-header a.dropdown-item.active {
+  background-color: var(--cta-btn);
+  color: var(--heading-color);
+}
+header .bottom-header a.dropdown-item:hover {
+  background-color: var(--cta-btn);
+  color: var(--heading-color);
 }
