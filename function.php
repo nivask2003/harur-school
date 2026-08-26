@@ -4,24 +4,6 @@ function template_header($title, $metadesc)
     $metadesc = trim(htmlspecialchars($metadesc));
     $title = htmlspecialchars($title);
 
-    $current = basename($_SERVER['PHP_SELF']);
-
-    $about_page = ['about-us.php', 'management_leadership.php',  'chairman_message.php', 'principal_message.php'];
-
-
-
-    $home_active = ($current === 'home.php') ? ' active' : ''; 
-    $about_active = in_array($current, $about_page) ? ' active' : '';
-    $faciities_active = ($current === 'facilities.php') ? ' active' : '';
-    $contact_active = ($current === 'contact.php') ? ' active' : '';
-
-
-
-    $about_us_item = ($current === 'about-us.php') ? ' active' : '';
-    $management_leadership_item = ($current === 'management_leadership.php') ? ' active' : '';
-    $chairman_message_item = ($current === 'chairman_message.php') ? ' active' : '';
-    $principal_message_item = ($current === 'principal_message.php') ? ' active' : '';
-
     echo <<< EOT
     <!DOCTYPE html>
     <html lang="en">
@@ -49,148 +31,99 @@ function template_header($title, $metadesc)
 
     <body>
         <header>
-            <div class="top-header">
-                <section class="admission-announcement">
-                    <div class="announcement-track">
-                        <div class="announcement-content">
-                            <span class="icon">
-                                <i class="bi bi-megaphone-fill"></i>
-                            </span>
+        <div class="top-header">
+            <section class="admission-announcement">
+                <div class="announcement-track">
+                    <div class="announcement-content">
+                        <span class="icon">
+                            <i class="bi bi-megaphone-fill"></i>
+                        </span>
 
-                            <span>
-                                🎓 Admissions Open for the Academic Year 2026–2027 | Pre-KG to Grade XII
-                            </span>
-
-
-
-                            <!-- Duplicate for seamless loop -->
-                            <span class="icon">
-                                <i class="bi bi-megaphone-fill"></i>
-                            </span>
-
-                            <span>
-                                🎓 Admissions Open for the Academic Year 2026–2027 | Pre-KG to Grade XII
-                            </span>
+                        <span>
+                            🎓 Admissions Open for the Academic Year 2026–2027 | Pre-KG to Grade XII
+                        </span>
 
 
-                        </div>
+
+                        <!-- Duplicate for seamless loop -->
+                        <span class="icon">
+                            <i class="bi bi-megaphone-fill"></i>
+                        </span>
+
+                        <span>
+                            🎓 Admissions Open for the Academic Year 2026–2027 | Pre-KG to Grade XII
+                        </span>
+
+
                     </div>
-                </section>
-            </div>
-            <!-- Mobile/Tablet header: logo + menu icon only, shown below top-header -->
-            <div class="mobile-header d-lg-none">
-                <div class="mobile-header-inner">
-                    <div class="logo">
-                        <img src="assets/images/logo.webp" alt="" class="img-fluid">
-                    </div>
-                    <button class="navbar-toggler mobile-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="bi bi-list"></i>
-                    </button>
                 </div>
-            </div>
-            <div class="middle-header d-none d-lg-block">
-                <div class="row">
-                    <div class="col-md-4 col-lg-4 logo">
-                        <img src="assets/images/logo.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-md-8 col-lg-8 header-content">
-                        <ul class="list">
-                            <li class="icon-box">
-                                <div class="icon">
-                                    <i class="bi bi-telephone"></i>
-                                </div>
-                                <div class="box">
-                                    <h4 class="text-white">Call Us</h4>
-                                    <p><a href="tel:+917558149222" class="link">+91 7558149222</a></p>
-                                </div>
-
-
+            </section>
+        </div>
+        <div class="middle-header">
+            <img src="assets/images/logo-home.webp" alt="" class="img-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="bottom-header header-sticky">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="icon-box">
-                                <div class="icon">
-                                    <i class="bi bi-envelope"></i>
-                                </div>
-                                <div class="box">
-                                    <h4 class="text-white">Email Us</h4>
-                                    <p><a href="mailto:principal@harurinternationalschool.com" class="link">principal@harurinternationalschool.com </a>
-                                    </p>
-                                </div>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Academics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Facilities</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAdmission" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Admission
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownAdmission">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Mandatory Disclosure</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Contact</a>
+                            </li>
 
-                            </li>
-                            <li class="cta-button">
-                                <a href="" class="btn"><i class="bi bi-mortarboard-fill me-2"></i>Admission Enquiry</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
-
-            </div>
-            <div class="bottom-header">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link{$home_active}" aria-current="page" href="home.php">Home</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle{$about_active}" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        About
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item{$about_us_item}" href="about-us.php">About Us</a></li>
-                                        <li><a class="dropdown-item{$management_leadership_item}" href="management_leadership.php">Management & Leadership</a></li>
-                                        <li><a class="dropdown-item{$chairman_message_item}" href="chairman_message.php">Chairman Message</a></li>
-                                        <li><a class="dropdown-item{$principal_message_item}" href="principal_message.php">Principal Message</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Academics</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link{$faciities_active}" aria-current="page" href="facilities.php">Facilities</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Admission
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Career</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Mandatory Disclosure</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link{$contact_active}" aria-current="page" href="contact.php">Contact</a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header>
+            </nav>
+        </div>
+    </header>
         <main>
     EOT;
 }
@@ -253,40 +186,57 @@ function template_footer()
             </script>
 
                 <script>
-                document.addEventListener("DOMContentLoaded", function () {
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var header = document.querySelector('.bottom-header');
+                        if (!header) return;
 
-                    const animatedElements = document.querySelectorAll(".animate-box");
+                        var stickyPoint = header.offsetTop;
+                        var headerHeight = header.offsetHeight;
+                        var lastScrollY = window.scrollY;
+                        var ticking = false;
 
-                    const observer = new IntersectionObserver(function (entries) {
+                        function updateHeaderState() {
+                            var currentScrollY = window.scrollY;
 
-                        entries.forEach(function (entry) {
-
-                            if (entry.isIntersecting) {
-
-                                const element = entry.target;
-                                const animation = element.getAttribute("data-animate");
-
-                                if (animation) {
-                                    element.classList.add(
-                                        "animate__animated",
-                                        animation
-                                    );
+                            // Toggle the sticky (fixed) state once we've scrolled past the header
+                            if (currentScrollY > stickyPoint) {
+                                if (!header.classList.contains('header-sticky')) {
+                                    header.classList.add('header-sticky');
+                                    document.body.style.paddingTop = headerHeight + 'px';
                                 }
-
-                                observer.unobserve(element);
+                            } else {
+                                if (header.classList.contains('header-sticky')) {
+                                    header.classList.remove('header-sticky');
+                                    document.body.style.paddingTop = '';
+                                }
                             }
 
-                        });
+                            // Hide the header when scrolling down, reveal it when scrolling up.
+                            // Only kicks in once we've scrolled past the header itself, so it
+                            // doesn't flicker while still at the top of the page.
+                            if (currentScrollY > headerHeight) {
+                                if (currentScrollY > lastScrollY) {
+                                    header.classList.remove('header-hidden');
+                                } else {
+                                    header.classList.remove('header-hidden');
+                                }
+                            } else {
+                                header.classList.remove('header-hidden');
+                            }
 
-                    }, {
-                        threshold: 0.15
+                            lastScrollY = currentScrollY;
+                            ticking = false;
+                        }
+
+                        window.addEventListener('scroll', function () {
+                            if (!ticking) {
+                                window.requestAnimationFrame(updateHeaderState);
+                                ticking = true;
+                            }
+                        }, { passive: true });
+
+                        updateHeaderState();
                     });
-
-                    animatedElements.forEach(function (element) {
-                        observer.observe(element);
-                    });
-
-                });
                 </script>
 
             </body>
