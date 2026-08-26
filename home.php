@@ -72,33 +72,39 @@
 </section>
 <section class="home-3">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
-                <div class="box" data-aos="fade-up">
-                    <div class="row">
-                        <div class="col-12 col-md-4 col-lg-4">
-                            <img src="assets/images/mission-img.webp" alt="our-mission" class="img-fluid">
-                            <div class="icon"><i class="bi bi-bullseye"></i></div>
-                        </div>
-                        <div class="col-12 col-md-8 col-lg-8">
-                            <h4>Our Mission</h4>
-                            <p>Quality CBSE education builds critical thinking, creativity, values, leadership, lifelong learning, inclusion, resilience and confidence as students face global challenges.</p>
-                        </div>
-                    </div>
+        <div class="box">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="assets/images/why-choose-1.webp" alt="why-choose-us" class="img-fluid">
                 </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-6">
-                <div class="box" data-aos="fade-down">
-                    <div class="row">
-                        <div class="col-12 col-md-4 col-lg-4">
-                            <img src="assets/images/vision-img.webp" alt="our-mission" class="img-fluid">
-                            <div class="icon"><i class="bi bi-binoculars"></i></div>
-                        </div>
-                        <div class="col-12 col-md-8 col-lg-8">
-                            <h4>Our Vision</h4>
-                            <p>To be a centre of excellence in education, nurturing lifelong learners who are academically accomplished, morally upright, socially responsible, and globally competent.</p>
-                        </div>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <span class="badge">Why Choose Us</span>
+                    <h2 class="section-title">Discover What Makes Us Special!</h2>
+                    <p class="section-desc">At Harur International School, we provide quality CBSE education that nurtures academic excellence, strong values, confidence, creativity, and the skills needed for a successful future.</p>
+                    <ul class="icon-box">
+                        <li class="box">
+                            <i class="bi bi-book"></i>
+                            <h4>CBSE Excellence</h4>
+                            <p>Comprehensive CBSE education from Kindergarten to Grade XII, with a strong focus on academic achievement and conceptual understanding.</p>
+                        </li>
+                        <li class="box">
+                            <i class="bi bi-book"></i>
+                            <h4>Caring & Personalised Learning</h4>
+                            <p>Experienced faculty provide student-centred teaching, individual attention, and a supportive environment for every learner.</p>
+                        </li>
+                    </ul>
+                    <ul class="icon-box">
+                        <li class="box">
+                            <i class="bi bi-book"></i>
+                            <h4>Holistic Development</h4>
+                            <p>Technology, STEM, sports, arts, cultural activities, leadership, values, and character development support well-rounded growth.</p>
+                        </li>
+                        <li class="box">
+                            <i class="bi bi-book"></i>
+                            <h4>Future-Ready Learning</h4>
+                            <p>Foundation and NEET/JEE preparation, career guidance, counselling, parent partnership, and 21st-century skills prepare students for tomorrow.</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -107,72 +113,72 @@
 <section class="home-4">
     <div class="container">
         <div class="heading-center">
-            <span class="badge" data-aos="fade-up">Academics</span>
-            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Growing Minds, Building Futures</h2>
-        </div>
-        <div class="content">
+        <span class="badge">Academics</span>
+        <h2 class="section-title">Nurturing Excellence Through Learning</h2>
+    </div>
+    <div class="content">
+        <div class="box">
             <div class="row">
-                <div class="col-md-4 col-lg-4">
-                    <div class="box" data-aos="fade-right" data-aos-delay="100">
-                        <img src="assets/images/kg-class.webp" alt="" class="img-fluid">
-                        <div class="details">
-                            <h4>Kindergarten</h4>
-                            <p>A joyful beginning that encourages curiosity, communication, confidence, and early...</p>
-                        </div>
-                    </div>
+                <div class="col-12 col-md-3 col-lg-3">
+                    <img src="assets/images/kg-class.webp" alt="Kindergarten" class="img-fluid">
                 </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="box" data-aos="fade-down" data-aos-delay="150">
-                        <img src="assets/images/primary-classes.webp" alt="" class="img-fluid">
-                        <div class="details">
-                            <h4>Primary School - Grades I-V</h4>
-                            <p>Strong foundations in literacy, numeracy, environmental awareness, values...</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="box" data-aos="fade-left" data-aos-delay="200">
-                        <img src="assets/images/middle-class.webp" alt="" class="img-fluid">
-                        <div class="details">
-                            <h4>Middle School Grades VI-VIII </h4>
-                            <p>Conceptual learning, skill development, exploration, and preparation for higher academic challenges...</p>
-                        </div>
-                    </div>
+                <div class="col-12 col-md-9 col-lg-9">
+                    <h4>Kindergarten</h4>
+                    <p>We provide a safe, joyful, and nurturing environment where young learners develop early literacy, numeracy, communication, creativity, and motor skills through age-appropriate activities that build confidence, curiosity, cooperation, and positive social habits.</p>
+                    <a href="#" class="btn">Read More</a>
                 </div>
             </div>
-            <div class="row mt-3">
-                <div class="col-md-4 col-lg-4">
-                    <div class="box" data-aos="fade-right" data-aos-delay="100">
-                        <img src="assets/images/secondary-class.webp" alt="" class="img-fluid">
-                        <div class="details">
-                            <h4>Secondary School - Grades IX-X</h4>
-                            <p>Focused CBSE learning, competency development, revision, assessment readiness...</p>
-                        </div>
-                    </div>
+        </div>
+        <div class="box">
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-3">
+                    <img src="assets/images/primary-classes.webp" alt="Primary School - Grades I-V" class="img-fluid">
                 </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="box" data-aos="fade-up" data-aos-delay="150">
-                        <img src="assets/images/senior-sec-class.webp" alt="" class="img-fluid">
-                        <div class="details">
-                            <h4>Senior Secondary - Grades XI-XII</h4>
-                            <p>Specialised subject groups supported by competitive-examination preparation...</p>
-                        </div>
-                    </div>
+                <div class="col-12 col-md-9 col-lg-9">
+                    <h4>Primary School - Grades I-V</h4>
+                    <p>A strong foundation in language, mathematics, environmental learning, values, creativity, and communication, while nurturing healthy learning habits, curiosity, confidence, and overall development.</p>
+                    <a href="#" class="btn">Read More</a>
                 </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="box" data-aos="fade-left" data-aos-delay="200">
-                        <div class="quotes">
-                            <h4>Our Commitment</h4>
-                            <p>We are committed to nurturing confident learners, responsible citizens, ethical leaders, and compassionate human beings. Every child at Harur International School is encouraged to dream, discover, and achieve their fullest potential.</p>
-                            <p><b>Learning Today... Leading Tomorrow.</b></p>
-                        </div>
-
-                    </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-3">
+                    <img src="assets/images/middle-class.webp" alt="Middle School - Grades VI-VIII" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-9 col-lg-9">
+                    <h4>Middle School - Grades VI-VIII</h4>
+                    <p>A stage of deeper subject learning that encourages exploration, experimentation, project-based learning, problem-solving, critical thinking, and strong foundation-level academic support.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-3">
+                    <img src="assets/images/secondary-class.webp" alt="Secondary School - Grades IX-X" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-9 col-lg-9">
+                    <h4>Secondary School - Grades IX-X</h4>
+                    <p>A focused CBSE learning stage that strengthens conceptual clarity, application skills, assessment readiness, discipline, and career awareness while preparing students for future academic challenges.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-3">
+                    <img src="assets/images/senior-sec-class.webp" alt="Senior Secondary - Grades XI-XII" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-9 col-lg-9">
+                    <h4>Senior Secondary - Grades XI-XII</h4>
+                    <p>A specialised learning stage offering subject combinations, personalised guidance, competitive-examination preparation, and strong academic support to prepare students for higher education and future opportunities.</p>
+                    <a href="#" class="btn">Read More</a>
                 </div>
             </div>
         </div>
     </div>
-
+    </div>
 </section>
 
 <section class="home-5">
