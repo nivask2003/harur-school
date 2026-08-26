@@ -572,14 +572,14 @@ header .middle-header .logo {
   mask-size: 129% 99%;
 
   -webkit-mask-position: 120% 39%;
-  mask-position: 69% 39%;
+  mask-position: 78% 39%;
 
-  height: 161px;
+  height: 137px;
   margin-top: -1px;
 }
 
 header .middle-header .logo img.img-fluid {
-  width: 176px;
+  width: 148px;
   margin-left: 47px;
 }
 
