@@ -1,5 +1,5 @@
 <?php include "function.php" ?>
-<?php template_header("Contact | Harur International School", "") ?>
+<?php template_header("Contact | Harur International School", "Contact Harur International School for admissions, enquiries, and assistance. Find our address, contact details, and connect with our school team for further information.") ?>
 <section class="page-banner" id="contact">
     <h1>Contact</h1>
 </section>

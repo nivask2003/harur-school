@@ -1,5 +1,5 @@
 <?php include "function.php" ?>
-<?php template_header("Chairman Message | Harur International School", ""); ?>
+<?php template_header("Chairman Message | Harur International School", "Read the Chairman's Message from Harur International School about academic excellence, strong values, independent thinking, and nurturing future leaders."); ?>
 <section class="page-banner" id="message">
     <h1>Chairman Message</h1>
 </section>

@@ -1,2 +1,2 @@
 <?php include "function.php"?>
-<?php template_header("Facilities | Harur International School", "");
+<?php template_header("Facilities | Harur International School", "Explore the facilities at Harur International School, designed to support academic excellence, student wellbeing, holistic development, sports, technology, creativity, and learning.");
