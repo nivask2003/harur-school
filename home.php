@@ -332,6 +332,8 @@
             <video id="videoPopupPlayer" controls playsinline></video>
         </div>
     </div>
+</div>
+
 <!-- Gallery Lightbox -->
 <div class="gallery-lightbox-overlay" id="galleryLightbox">
     <button class="gallery-lightbox-close" id="galleryLightboxClose" aria-label="Close">&times;</button>

@@ -173,12 +173,15 @@ document.addEventListener('DOMContentLoaded', function () {
     var nextBtn = document.getElementById('galleryLightboxNext');
     var currentIndex = 0;
 
+    if (!overlay || !lbImg || images.length === 0) return;
+
     function showImage(index) {
         currentIndex = (index + images.length) % images.length;
         var img = images[currentIndex];
+        if (!img) return;
         lbImg.setAttribute('src', img.getAttribute('src'));
-        lbImg.setAttribute('alt', img.getAttribute('alt'));
-        lbCaption.textContent = img.getAttribute('alt');
+        lbImg.setAttribute('alt', img.getAttribute('alt') || '');
+        if (lbCaption) lbCaption.textContent = img.getAttribute('alt') || '';
     }
 
     function openLightbox(index) {
@@ -198,9 +201,9 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    closeBtn.addEventListener('click', closeLightbox);
-    prevBtn.addEventListener('click', function () { showImage(currentIndex - 1); });
-    nextBtn.addEventListener('click', function () { showImage(currentIndex + 1); });
+    if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
+    if (prevBtn) prevBtn.addEventListener('click', function () { showImage(currentIndex - 1); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { showImage(currentIndex + 1); });
 
     overlay.addEventListener('click', function (e) {
         if (e.target === overlay) closeLightbox();

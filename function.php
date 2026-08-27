@@ -160,52 +160,102 @@ function template_header($title, $metadesc)
 }
 
 function template_footer()
+
 {
+    $year = date('Y');
     echo <<< EOT
                 </main>
 
-                <section class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h4>About Us</h4>
-                        <p>Harur International School is a Senior Secondary CBSE institution committed to academic excellence, character development, innovation, and holistic education in a safe and inspiring learning environment.</p>
-                    </div>
+        <footer class="footer-section">
 
-                    <div class="col-md-3">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Academics</a></li>
-                            <li><a href="#">Facilities</a></li>
-                            <li><a href="#">Student Life</a></li>
-                            <li><a href="#">Admissions</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-3">
-                        <h4>Contact Us</h4>
-                        <p class="hh"><b>Address:</b></p>
-                        <p>Harur - Salem Main Road,<br>H. Doddampatti, Harur,<br>Dharmapuri District - 636 903</p>
-                        <p class="hh"><b>Office & WhatsApp :</b></p>
-                        <p><a href="tel:+917558149222">+91 7558149222</a></p>
-                        <p class="hh"><b>Contact Number :</b></p>
-                        <p><a href="tel:+91 7558146222">+91 7558146222</a> |<a href="+917558145222">+91 7558145222</a></p>
-                    </div>
-
-                    <div class="col-md-3">
-                        <h4>Contact Location</h4>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.1910730894715!2d78.46892!3d12.030363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac6ff148f19081%3A0x58e748077c536f9c!2sHarur%20International%20School!5e0!3m2!1sen!2sin!4v1787305538968!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    </div>
-                </div>
-                <div class="row copy">
-                    <p>© Harur International School. All Rights Reserved.</p>
-                </div>
-
-
+            <div class="footer-widget contact-widget">
+                <a href="tel:+917558146222" class="phone">7558146222 - 7558145222</a>
+                <div class="title">FEEL FREE TO CALL US</div>
             </div>
-        </section>
+
+            <div class="footer-main">
+                <div class="container">
+                    <div class="row g-4">
+                        <!-- Column 1: School Identity -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="footer-brand-box">
+                                <h4 class="footer-heading footer-brand-title">Harur International School</h4>
+                                <span class="footer-badge">CBSE Affiliated / 1931095</span>
+                                <p class="footer-desc">A premier Senior Secondary CBSE institution committed to academic excellence, character development, innovation, and holistic education in a safe and inspiring learning environment.</p>
+                                <div class="footer-social-links">
+                                    <a href="https://wa.me/917558149222" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-icon instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-icon facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="social-icon youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column 2: Quick Links -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h4 class="footer-heading">Quick Links</h4>
+                            <ul class="footer-nav-list">
+                                <li><a href="home.php"><i class="bi bi-chevron-right"></i> Home</a></li>
+                                <li><a href="about-us.php"><i class="bi bi-chevron-right"></i> About Us</a></li>
+                                <li><a href="management_leadership.php"><i class="bi bi-chevron-right"></i> Management & Leadership</a></li>
+                                <li><a href="chairman_message.php"><i class="bi bi-chevron-right"></i> Chairman's Message</a></li>
+                                <li><a href="principal_message.php"><i class="bi bi-chevron-right"></i> Principal's Message</a></li>
+                                <li><a href="contact.php"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Column 3: Contact Details -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h4 class="footer-heading">Contact Us</h4>
+                            <div class="footer-contact-list">
+                                <div class="contact-entry">
+                                    <i class="bi bi-geo-alt-fill icon"></i>
+                                    <div>
+                                        <span class="label">Campus Address:</span>
+                                        <p>Harur - Salem Main Road,<br>H. Doddampatti, Harur,<br>Dharmapuri Dist – 636 903</p>
+                                    </div>
+                                </div>
+                                <div class="contact-entry">
+                                    <i class="bi bi-telephone-fill icon"></i>
+                                    <div>
+                                        <span class="label">Office & WhatsApp:</span>
+                                        <p><a href="tel:+917558149222">+91 7558149222</a></p>
+                                        <p><a href="tel:+917558146222">+91 7558146222</a> | <a href="tel:+917558145222">+91 7558145222</a></p>
+                                    </div>
+                                </div>
+                                <div class="contact-entry">
+                                    <i class="bi bi-envelope-fill icon"></i>
+                                    <div>
+                                        <span class="label">Email:</span>
+                                        <p><a href="mailto:admission@harurinternationalschool.com">admission@harurinternationalschool.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column 4: Location Map -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h4 class="footer-heading">Location Map</h4>
+                            <div class="footer-map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.1910730894715!2d78.46892!3d12.030363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac6ff148f19081%3A0x58e748077c536f9c!2sHarur%20International%20School!5e0!3m2!1sen!2sin!4v1787305538968!5m2!1sen!2sin" width="100%" height="190" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="School Location Map"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer Bottom -->
+                    <div class="footer-bottom-bar">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6 text-center text-md-start">
+                                <p class="copyright-text mb-0">© {$year} <strong>Harur International School</strong>. All Rights Reserved.</p>
+                            </div>
+                            <div class="col-12 col-md-6 text-center text-md-end mt-2 mt-md-0">
+                                <p class="affiliation-text mb-0">Affiliated to CBSE, New Delhi | Code: 1931095</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <!-- Scroll to Top Button -->
         <button type="button" id="scrollToTopBtn" class="scroll-to-top-btn" aria-label="Scroll to top">
