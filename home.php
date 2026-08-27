@@ -83,24 +83,33 @@
                     <p class="section-desc">At Harur International School, we provide quality CBSE education that nurtures academic excellence, strong values, confidence, creativity, and the skills needed for a successful future.</p>
                     <ul class="icon-box">
                         <li class="box">
-                            <i class="bi bi-book"></i>
+                            <div class="icon">
+                                <i class="bi bi-book"></i>
+                            </div>
+                            
                             <h4>CBSE Excellence</h4>
                             <p>Comprehensive CBSE education from Kindergarten to Grade XII, with a strong focus on academic achievement and conceptual understanding.</p>
                         </li>
                         <li class="box">
-                            <i class="bi bi-book"></i>
+                            <div class="icon">
+                                <i class="bi bi-book"></i>
+                            </div>
                             <h4>Caring & Personalised Learning</h4>
                             <p>Experienced faculty provide student-centred teaching, individual attention, and a supportive environment for every learner.</p>
                         </li>
                     </ul>
                     <ul class="icon-box">
                         <li class="box">
-                            <i class="bi bi-book"></i>
+                            <div class="icon">
+                                <i class="bi bi-book"></i>
+                            </div>
                             <h4>Holistic Development</h4>
                             <p>Technology, STEM, sports, arts, cultural activities, leadership, values, and character development support well-rounded growth.</p>
                         </li>
                         <li class="box">
-                            <i class="bi bi-book"></i>
+                            <div class="icon">
+                                <i class="bi bi-book"></i>
+                            </div>
                             <h4>Future-Ready Learning</h4>
                             <p>Foundation and NEET/JEE preparation, career guidance, counselling, parent partnership, and 21st-century skills prepare students for tomorrow.</p>
                         </li>
