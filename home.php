@@ -32,7 +32,7 @@
                 <div class="img-2">
                     <img src="assets/images/about-img-2.webp" alt="about-img-2" class="img-fluid">
                     <div class="play-btn">
-                        <a href="#">
+                        <a href="#" class="video-popup-trigger" data-video="assets/images/school-activity.mp4">
                             <img src="assets/images/play-btn.svg" alt="play-btn" class="img-fluid">
                         </a>
                     </div>
@@ -258,38 +258,89 @@
  
   <div class="gallery-scroller" id="galleryScroller">
     <figure class="gallery-card">
-      <img src="https://picsum.photos/id/1015/900/700" alt="River bend, high valley" draggable="false">
-      <figcaption class="gallery-caption">River bend, high valley</figcaption>
+      <img src="assets/images/gallery-1.webp" alt="Sports Day" draggable="false">
+      <figcaption class="gallery-caption">Sports Day</figcaption>
     </figure>
     <figure class="gallery-card">
-      <img src="https://picsum.photos/id/1018/900/700" alt="Pine ridge at dusk" draggable="false">
-      <figcaption class="gallery-caption">Pine ridge at dusk</figcaption>
+      <img src="assets/images/gallery-2.webp" alt="Childrens Play Area" draggable="false">
+      <figcaption class="gallery-caption">Childrens Play Area</figcaption>
     </figure>
     <figure class="gallery-card">
-      <img src="https://picsum.photos/id/1025/900/700" alt="Portrait, soft light" draggable="false">
-      <figcaption class="gallery-caption">Portrait, soft light</figcaption>
+      <img src="assets/images/gallery-3.webp" alt="Pongal Celebration" draggable="false">
+      <figcaption class="gallery-caption">Pongal Celebration</figcaption>
     </figure>
     <figure class="gallery-card">
-      <img src="https://picsum.photos/id/1035/900/700" alt="Coastal fog, early morning" draggable="false">
-      <figcaption class="gallery-caption">Coastal fog, early morning</figcaption>
+      <img src="assets/images/gallery-4.webp" alt="Library" draggable="false">
+      <figcaption class="gallery-caption">Library</figcaption>
     </figure>
     <figure class="gallery-card">
-      <img src="https://picsum.photos/id/1043/900/700" alt="Terraced fields" draggable="false">
-      <figcaption class="gallery-caption">Terraced fields</figcaption>
+      <img src="assets/images/gallery-5.webp" alt="Annual Day Celebration" draggable="false">
+      <figcaption class="gallery-caption">Annual Day Celebration</figcaption>
     </figure>
     <figure class="gallery-card">
-      <img src="https://picsum.photos/id/1050/900/700" alt="Old stone stair" draggable="false">
-      <figcaption class="gallery-caption">Old stone stair</figcaption>
+      <img src="assets/images/gallery-6.webp" alt="Annual Day Celebration" draggable="false">
+      <figcaption class="gallery-caption">Annual Day Celebration</figcaption>
     </figure>
     <figure class="gallery-card">
-      <img src="https://picsum.photos/id/1074/900/700" alt="Low tide, wide sky" draggable="false">
-      <figcaption class="gallery-caption">Low tide, wide sky</figcaption>
+      <img src="assets/images/gallery-7.webp" alt="Activity" draggable="false">
+      <figcaption class="gallery-caption">Activity</figcaption>
     </figure>
   </div>
 </div>
             </div>
         </div>
+        
     </div>
 </section>
+<section class="instagram-feed-main-wrap">
+	<div class="container-fluid">
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
+			<!-- Post 1 -->
+			<div class="col">
+				<div class="instagram-feed-box">
+					<iframe src="https://www.instagram.com/reel/DXjgUJNDovD/embed" allowtransparency="true" scrolling="no" frameborder="0" height="646" class="w-100"></iframe>
+				</div>
+			</div>
+			<!-- Post 2 -->
+			<div class="col">
+				<div class="instagram-feed-box">
+					<iframe src="https://www.instagram.com/reel/DJY-xPwyXuc/embed" allowtransparency="true" scrolling="no" frameborder="0" height="602" class="w-100"></iframe>
+				</div>
+			</div>
+			<!-- Post 3 -->
+			<div class="col">
+				<div class="instagram-feed-box">
+					<iframe src="https://www.instagram.com/reel/DXo_oCijScY/embed" allowtransparency="true" scrolling="no" frameborder="0" height="642" class="w-100"></iframe>
+				</div>
+			</div>
+			<!-- Post 4 -->
+			<div class="col">
+				<div class="instagram-feed-box">
+					<iframe src="https://www.instagram.com/reel/DXmE62RjgD4/embed" allowtransparency="true" scrolling="no" frameborder="0" height="646" class="w-100"></iframe>
+				</div>
+			</div>
+			<!-- Post 5 -->
+			<div class="col">
+				<div class="instagram-feed-box">
+					<iframe src="https://www.instagram.com/reel/DXRzPoRjVHd/embed" allowtransparency="true" scrolling="no" frameborder="0" height="698" class="w-100"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Video Popup Modal -->
+<div class="video-popup-overlay" id="videoPopupOverlay">
+    <div class="video-popup-box">
+        <button class="video-popup-close" id="videoPopupClose" aria-label="Close video">&times;</button>
+        <div class="video-popup-ratio">
+            <video id="videoPopupPlayer" controls playsinline></video>
+        </div>
+    </div>
+</div>
+
+<script>
+
+</script>
 
 <?php template_footer()?>

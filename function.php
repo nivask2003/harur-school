@@ -4,7 +4,7 @@ function template_header($title, $metadesc)
     $metadesc = trim(htmlspecialchars($metadesc));
     $title = htmlspecialchars($title);
 
-      // Detect the current page so the matching nav item can be highlighted
+    // Detect the current page so the matching nav item can be highlighted
     $current = basename($_SERVER['PHP_SELF']);
 
     // Pages that belong to each dropdown group
@@ -209,67 +209,7 @@ function template_footer()
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-            <script>
-                AOS.init({
-                    duration: 800,
-                    once: true
-                });
-            </script>
-            <script src="assets/js/gallery.js"></script>
-
-                <script>
-                    document.addEventListener('DOMContentLoaded', function () {
-                        var header = document.querySelector('.bottom-header');
-                        if (!header) return;
-
-                        var stickyPoint = header.offsetTop;
-                        var headerHeight = header.offsetHeight;
-                        var lastScrollY = window.scrollY;
-                        var ticking = false;
-
-                        function updateHeaderState() {
-                            var currentScrollY = window.scrollY;
-
-                            // Toggle the sticky (fixed) state once we've scrolled past the header
-                            if (currentScrollY > stickyPoint) {
-                                if (!header.classList.contains('header-sticky')) {
-                                    header.classList.add('header-sticky');
-                                    document.body.style.paddingTop = headerHeight + 'px';
-                                }
-                            } else {
-                                if (header.classList.contains('header-sticky')) {
-                                    header.classList.remove('header-sticky');
-                                    document.body.style.paddingTop = '';
-                                }
-                            }
-
-                            // Hide the header when scrolling down, reveal it when scrolling up.
-                            // Only kicks in once we've scrolled past the header itself, so it
-                            // doesn't flicker while still at the top of the page.
-                            if (currentScrollY > headerHeight) {
-                                if (currentScrollY > lastScrollY) {
-                                    header.classList.remove('header-hidden');
-                                } else {
-                                    header.classList.remove('header-hidden');
-                                }
-                            } else {
-                                header.classList.remove('header-hidden');
-                            }
-
-                            lastScrollY = currentScrollY;
-                            ticking = false;
-                        }
-
-                        window.addEventListener('scroll', function () {
-                            if (!ticking) {
-                                window.requestAnimationFrame(updateHeaderState);
-                                ticking = true;
-                            }
-                        }, { passive: true });
-
-                        updateHeaderState();
-                    });
-                </script>
+            <script src="assets/js/script.js"></script>
 
             </body>
             </html>

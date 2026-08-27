@@ -600,8 +600,8 @@ section.home-2.mt-5 {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 60%;
-  left: 42%;
+  top: 49%;
+  left: 52%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
@@ -765,7 +765,10 @@ figure.cea-feature-box-img {
   border-style: solid;
   border-width: 3px 3px 3px 3px;
   border-color: #e31e24;
+  transition: all 0.3s ease-in-out;
 }
+
+
 .row.sec {
   margin-top: 0px;
 }
@@ -1782,6 +1785,10 @@ header .bottom-header a.dropdown-item:hover {
 .home-4{
   padding: 50px 0 50px 0;
   background: linear-gradient(90deg,#3ebfa1, #3ebfa1c7 ), url(../images/academic-bg.webp  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .home-4 .box{
   background-color: #fff;
@@ -1789,6 +1796,7 @@ header .bottom-header a.dropdown-item:hover {
   border-radius: 20px;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease-in-out;
 }
 
 .home-4 .box::before{
@@ -1809,6 +1817,10 @@ header .bottom-header a.dropdown-item:hover {
 .home-4 .box .row{
   display: flex;
   align-items: center;
+}
+
+.home-4 .box:hover{
+  transform: scale(1.02);
 }
 
 .home-4 .box img.img-fluid {
@@ -1957,4 +1969,144 @@ header .bottom-header a.dropdown-item:hover {
     font-size: 23px;
     border-radius: 20px;
     margin-bottom: 10px;
+}
+
+.home-6{
+  padding: 50px 16px;
+
+}
+
+.video-popup-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    padding: 20px;
+}
+
+.video-popup-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.video-popup-box {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+.video-popup-overlay.active .video-popup-box {
+    transform: scale(1);
+}
+
+.video-popup-ratio {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.video-popup-ratio video {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.video-popup-close {
+    position: absolute;
+    top: -44px;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    color: #111;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-popup-close:hover {
+    background: var(--light-bg);
+}
+
+@media (max-width: 575px) {
+    .video-popup-close {
+        top: -40px;
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+    }
+}
+
+.instagram-feed-main-wrap {
+    position: relative;
+    width: 100%;
+    padding: 40px 15px;
+    background-color: var(--light-bg);
+    overflow: hidden;   
+}
+
+.instagram-feed-main-wrap  .row {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.instagram-feed-main-wrap .instagram-feed-box {
+    position: relative;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.instagram-feed-main-wrap .instagram-feed-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.14);
+}
+
+.instagram-feed-main-wrap .instagram-feed-box iframe {
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+/* Instagram embeds ship with wildly different inline heights (602-698px).
+   Normalize on smaller screens so the grid doesn't break the layout. */
+@media (max-width: 991px) {
+    .instagram-feed-main-wrap .instagram-feed-box iframe {
+        height: 560px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .instagram-feed-main-wrap .instagram-feed-box iframe {
+        height: 520px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .instagram-feed-main-wrap {
+        padding: 30px 15px;
+    }
+    .instagram-feed-main-wrap .instagram-feed-box iframe {
+        height: 480px !important;
+    }
 }
