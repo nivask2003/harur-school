@@ -92,25 +92,25 @@
                         </li>
                         <li class="box">
                             <div class="icon">
-                                <i class="bi bi-book"></i>
+                                <i class="bi bi-person-heart"></i>
                             </div>
-                            <h4>Caring & Personalised Learning</h4>
+                            <h4>Personalised Support</h4>
                             <p>Experienced faculty provide student-centred teaching, individual attention, and a supportive environment for every learner.</p>
                         </li>
                     </ul>
                     <ul class="icon-box">
                         <li class="box">
                             <div class="icon">
-                                <i class="bi bi-book"></i>
+                                <i class="bi bi-stars"></i>
                             </div>
                             <h4>Holistic Development</h4>
                             <p>Technology, STEM, sports, arts, cultural activities, leadership, values, and character development support well-rounded growth.</p>
                         </li>
                         <li class="box">
                             <div class="icon">
-                                <i class="bi bi-book"></i>
+                                <i class="bi bi-lightbulb"></i>
                             </div>
-                            <h4>Future-Ready Learning</h4>
+                            <h4>Future-Ready Success</h4>
                             <p>Foundation and NEET/JEE preparation, career guidance, counselling, parent partnership, and 21st-century skills prepare students for tomorrow.</p>
                         </li>
                     </ul>
