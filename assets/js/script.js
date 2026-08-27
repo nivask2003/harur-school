@@ -7,41 +7,33 @@ document.addEventListener("DOMContentLoaded", function () {
   var header = document.querySelector(".bottom-header");
   if (!header) return;
 
-  var stickyPoint = header.offsetTop;
-  var headerHeight = header.offsetHeight;
-  var lastScrollY = window.scrollY;
+  var headerParent = header.parentElement;
+  var stickyThreshold = header.offsetTop > 0 ? header.offsetTop : 140;
+  var isSticky = false;
   var ticking = false;
 
   function updateHeaderState() {
     var currentScrollY = window.scrollY;
 
-    // Toggle the sticky (fixed) state once we've scrolled past the header
-    if (currentScrollY > stickyPoint) {
-      if (!header.classList.contains("header-sticky")) {
+    if (currentScrollY > stickyThreshold + 20) {
+      if (!isSticky) {
+        isSticky = true;
+        var headerHeight = header.offsetHeight;
+        if (headerParent) {
+          headerParent.style.paddingBottom = headerHeight + "px";
+        }
         header.classList.add("header-sticky");
-        document.body.style.paddingTop = headerHeight + "px";
       }
-    } else {
-      if (header.classList.contains("header-sticky")) {
+    } else if (currentScrollY <= stickyThreshold) {
+      if (isSticky) {
+        isSticky = false;
         header.classList.remove("header-sticky");
-        document.body.style.paddingTop = "";
+        if (headerParent) {
+          headerParent.style.paddingBottom = "";
+        }
       }
     }
 
-    // Hide the header when scrolling down, reveal it when scrolling up.
-    // Only kicks in once we've scrolled past the header itself, so it
-    // doesn't flicker while still at the top of the page.
-    if (currentScrollY > headerHeight) {
-      if (currentScrollY > lastScrollY) {
-        header.classList.remove("header-hidden");
-      } else {
-        header.classList.remove("header-hidden");
-      }
-    } else {
-      header.classList.remove("header-hidden");
-    }
-
-    lastScrollY = currentScrollY;
     ticking = false;
   }
 
@@ -55,6 +47,12 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     { passive: true },
   );
+
+  window.addEventListener("resize", function () {
+    if (!isSticky) {
+      stickyThreshold = header.offsetTop > 0 ? header.offsetTop : 140;
+    }
+  });
 
   updateHeaderState();
 });
@@ -94,38 +92,124 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-const scroller = document.getElementById("galleryScroller");
-const arrowLeft = document.getElementById("arrowLeft");
-const arrowRight = document.getElementById("arrowRight");
-const fadeLeft = document.getElementById("fadeLeft");
-const fadeRight = document.getElementById("fadeRight");
+document.addEventListener("DOMContentLoaded", function () {
+  const scroller = document.getElementById("galleryScroller");
+  const arrowLeft = document.getElementById("arrowLeft");
+  const arrowRight = document.getElementById("arrowRight");
+  const fadeLeft = document.getElementById("fadeLeft");
+  const fadeRight = document.getElementById("fadeRight");
 
-function scrollByCard(direction) {
-  const card = scroller.querySelector(".gallery-card");
-  const cardWidth = card
-    ? card.getBoundingClientRect().width
-    : scroller.clientWidth * 0.6;
-  const gap = 14;
-  scroller.scrollBy({
-    left: direction * (cardWidth + gap),
-    behavior: "smooth",
+  if (!scroller || !arrowLeft || !arrowRight) return;
+
+  function scrollByCard(direction) {
+    const card = scroller.querySelector(".gallery-card");
+    const cardWidth = card
+      ? card.getBoundingClientRect().width
+      : scroller.clientWidth * 0.6;
+    const gap = 14;
+    scroller.scrollBy({
+      left: direction * (cardWidth + gap),
+      behavior: "smooth",
+    });
+  }
+
+  function updateEdges() {
+    const atStart = scroller.scrollLeft <= 4;
+    const atEnd =
+      scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 4;
+
+    arrowLeft.classList.toggle("is-hidden", atStart);
+    arrowRight.classList.toggle("is-hidden", atEnd);
+    if (fadeLeft) fadeLeft.style.opacity = atStart ? 0 : 1;
+    if (fadeRight) fadeRight.style.opacity = atEnd ? 0 : 1;
+  }
+
+  arrowLeft.addEventListener("click", () => scrollByCard(-1));
+  arrowRight.addEventListener("click", () => scrollByCard(1));
+  scroller.addEventListener("scroll", updateEdges, { passive: true });
+  window.addEventListener("resize", updateEdges);
+
+  updateEdges();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var scrollTopBtn = document.getElementById("scrollToTopBtn");
+  if (!scrollTopBtn) return;
+
+  function toggleScrollTopBtn() {
+    if (window.scrollY > 300) {
+      scrollTopBtn.classList.add("show");
+    } else {
+      scrollTopBtn.classList.remove("show");
+    }
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      toggleScrollTopBtn();
+    },
+    { passive: true }
+  );
+
+  scrollTopBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   });
-}
 
-function updateEdges() {
-  const atStart = scroller.scrollLeft <= 4;
-  const atEnd =
-    scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 4;
+  toggleScrollTopBtn();
+});
 
-  arrowLeft.classList.toggle("is-hidden", atStart);
-  arrowRight.classList.toggle("is-hidden", atEnd);
-  fadeLeft.style.opacity = atStart ? 0 : 1;
-  fadeRight.style.opacity = atEnd ? 0 : 1;
-}
+document.addEventListener('DOMContentLoaded', function () {
+    var images = Array.prototype.slice.call(document.querySelectorAll('.gallery-lightbox-trigger'));
+    var overlay = document.getElementById('galleryLightbox');
+    var lbImg = document.getElementById('galleryLightboxImg');
+    var lbCaption = document.getElementById('galleryLightboxCaption');
+    var closeBtn = document.getElementById('galleryLightboxClose');
+    var prevBtn = document.getElementById('galleryLightboxPrev');
+    var nextBtn = document.getElementById('galleryLightboxNext');
+    var currentIndex = 0;
 
-arrowLeft.addEventListener("click", () => scrollByCard(-1));
-arrowRight.addEventListener("click", () => scrollByCard(1));
-scroller.addEventListener("scroll", updateEdges, { passive: true });
-window.addEventListener("resize", updateEdges);
+    function showImage(index) {
+        currentIndex = (index + images.length) % images.length;
+        var img = images[currentIndex];
+        lbImg.setAttribute('src', img.getAttribute('src'));
+        lbImg.setAttribute('alt', img.getAttribute('alt'));
+        lbCaption.textContent = img.getAttribute('alt');
+    }
 
-updateEdges();
+    function openLightbox(index) {
+        showImage(index);
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    images.forEach(function (img, index) {
+        img.addEventListener('click', function () {
+            openLightbox(index);
+        });
+    });
+
+    closeBtn.addEventListener('click', closeLightbox);
+    prevBtn.addEventListener('click', function () { showImage(currentIndex - 1); });
+    nextBtn.addEventListener('click', function () { showImage(currentIndex + 1); });
+
+    overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) closeLightbox();
+    });
+
+    document.addEventListener('keydown', function (e) {
+        if (!overlay.classList.contains('active')) return;
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') showImage(currentIndex - 1);
+        if (e.key === 'ArrowRight') showImage(currentIndex + 1);
+    });
+});

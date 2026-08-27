@@ -97,7 +97,7 @@ function template_header($title, $metadesc)
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <div class="bottom-header header-sticky">
+        <div class="bottom-header">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -206,6 +206,11 @@ function template_footer()
 
             </div>
         </section>
+
+        <!-- Scroll to Top Button -->
+        <button type="button" id="scrollToTopBtn" class="scroll-to-top-btn" aria-label="Scroll to top">
+            <i class="bi bi-chevron-up"></i>
+        </button>
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
