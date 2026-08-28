@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Get latest code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Fix HOME permission
         run: |
