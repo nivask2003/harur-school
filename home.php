@@ -110,7 +110,7 @@
                             <div class="icon">
                                 <i class="bi bi-lightbulb"></i>
                             </div>
-                            <h4>Future-Ready Success</h4>
+                            <h4>Built for Tomorrow</h4>
                             <p>Foundation and NEET/JEE preparation, career guidance, counselling, parent partnership, and 21st-century skills prepare students for tomorrow.</p>
                         </li>
                     </ul>

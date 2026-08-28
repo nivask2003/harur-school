@@ -14,7 +14,7 @@
                             <i class="bi bi-geo-alt"></i>
                         </div>
                     </div>
-                    <div class="col-12 col-md-7 col-lg-7">
+                    <div class="col-12 col-md-9 col-lg-9">
                         <div class="content">
                             <h5>Address</h5>
                             <p>Harur - Salem Main Road,
@@ -35,7 +35,7 @@
                             <i class="bi bi-telephone"></i>
                         </div>
                     </div>
-                    <div class="col-12 col-md-7 col-lg-7">
+                    <div class="col-12 col-md-9 col-lg-9">
                         <div class="content">
                             <h5>Phone Number</h5>
                             <p><a href="tel:+917558146222">+91 7558146222</a></p>
@@ -55,7 +55,7 @@
                             <i class="bi bi-envelope"></i>
                         </div>
                     </div>
-                    <div class="col-12 col-md-7 col-lg-7">
+                    <div class="col-12 col-md-9 col-lg-9">
                         <div class="content">
                             <h5>Email </h5>
                             <p><a href="admission@harurinternationalschool.com">admission@harurinternationalschool.com</a></p>
