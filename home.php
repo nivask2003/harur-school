@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 about-content" data-aos="fade-left">
-                <span class="badge">Discover Harur</span>
+                <span class="badge">Discover Harur demo</span>
                 <h1 class="section-title">Welcome to Harur International!</h1>
                 <p class="section-desc">Founded in 2018, Harur International School is a Senior Secondary CBSE institution committed to quality education and the all-round development of every learner. Our school brings together academic excellence, character building, innovative teaching, and meaningful learning experiences in a caring environment.</p>
                 <p class="section-desc">With experienced educators, modern infrastructure, individual attention, and a child-centred approach, we help students build strong foundations, discover their abilities, and prepare confidently for higher education and life.</p>
