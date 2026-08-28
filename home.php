@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                     <span class="badge">Why Choose Us</span>
-                    <h2 class="section-title">Discover What Makes Us Special!wfwofiwobff</h2>
+                    <h2 class="section-title">Discover What Makes Us Special!</h2>
                     <p class="section-desc">At Harur International School, we provide quality CBSE education that nurtures academic excellence, strong values, confidence, creativity, and the skills needed for a successful future.</p>
                     <ul class="icon-box">
                         <li class="box">
