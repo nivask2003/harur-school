@@ -13,11 +13,22 @@ jobs:
       - name: Get latest code
         uses: actions/checkout@v4
 
+      - name: Fix HOME permission
+        run: |
+          mkdir -p /tmp/ftp-home
+          chmod 700 /tmp/ftp-home
+
       - name: Deploy to InfinityFree
         uses: airvzxf/ftp-deployment-action@v2
+        env:
+          HOME: /tmp/ftp-home
         with:
           server: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local_dir: "./"
           remote_dir: "/htdocs/harur-school/"
+          ftp_ssl_allow: "true"
+          ssl_verify_certificate: "true"
+          ssl_check_hostname: "true"
+          ftp_passive_mode: "true"
