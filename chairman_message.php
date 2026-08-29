@@ -8,7 +8,7 @@
          <div class="row">
         <div class="col-12 col-md-5 col-lg-5">
             <img src="assets/images/chairman.webp" alt="" class="img-fluid">
-        </div>
+        </div>  
         <div class="col-12 col-md-7 col-lg-7">
             <span class="badge">CHAIRMAN'S MESSAGE</span>
             <h2 class="section-title">Leading With Vision and Values</h2>
