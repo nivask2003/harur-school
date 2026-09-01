@@ -2703,7 +2703,21 @@ table{
   margin-bottom: 0 !important;
 }
 
+.contact-2{
+  padding: 50px 0 50px 0;
+  background-color: var(--light-bg);
+}
+
 
 .contact-1 .col-12.col-md-4.col-lg-4:nth-of-type(3) .icon-box{
   padding-right: 68px;
+}
+
+@media(max-width:482px){
+  .contact-1 .row{
+    gap: 10px;
+  }
+  .contact-1 .icon-box{
+    height: 184px;
+  }
 }
