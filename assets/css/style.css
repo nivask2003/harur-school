@@ -2721,3 +2721,21 @@ table{
     height: 184px;
   }
 }
+
+.mandatory-1{
+  padding: 50px 0 50px 0; 
+  background-color: #ffd40078;
+}
+
+.mandatory-1 thead {
+    background: #1b3a6b;
+    color: #fff;
+}
+
+.mandatory-1 tbody {
+    background-color: #fff;
+}
+
+.mandatory-1 table tbody tr:nth-child(even) {
+    background-color: var(--light-bg);
+}
