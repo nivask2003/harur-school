@@ -126,7 +126,6 @@ function template_header($title, $metadesc)
                                     <li><a class="dropdown-item{$program_offered_item }" href="program-offered.php">Program Offered</a></li>
                                     <li><a class="dropdown-item{$special_academic_programmes_item}" href="special_academic_programmes.php">Special Academic Programmes</a></li>
                                     <li><a class="dropdown-item{$steam_jr_association_item}" href="steam-jr-association.php">STEM Jr Association</a></li>
-                                    <li><a class="dropdown-item{$principal_message_item}" href="principal_message.php">Principal's Message</a></li>
                                     
                                 </ul>
                             </li>
