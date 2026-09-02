@@ -9,7 +9,7 @@ function template_header($title, $metadesc)
 
     // Pages that belong to each dropdown group
     $about_pages     = ['about-us.php', 'management_leadership.php', 'chairman-message.php', 'principal-message.php'];
-    $academics_pages = ['program-offered.php', 'special_academic_programmes.php', 'extra-curricular.php', 'activity.php'];
+    $academics_pages = ['program-offered.php', 'special_academic_programmes.php', 'steam-jr-association.php', 'activity.php'];
     $admission_pages = ['admission.php', 'admission-form.php'];
 
     // Top-level active states
@@ -31,7 +31,7 @@ function template_header($title, $metadesc)
 
     $program_offered_item      = ($current === 'program-offered.php') ? ' active' : '';
     $special_academic_programmes_item = ($current === 'special_academic_programmes.php') ? ' active' : '';
-    $extra_curricular_item = ($current === 'extra-curricular.php') ? ' active' : '';
+    $steam_jr_association_item = ($current === 'steam-jr-association.php') ? ' active' : '';
     $activity_item        = ($current === 'activity.php') ? ' active' : '';
 
     $admission_proc_item  = ($current === 'admission.php') ? ' active' : '';
@@ -125,7 +125,7 @@ function template_header($title, $metadesc)
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item{$program_offered_item }" href="program-offered.php">Program Offered</a></li>
                                     <li><a class="dropdown-item{$special_academic_programmes_item}" href="special_academic_programmes.php">Special Academic Programmes</a></li>
-                                    <li><a class="dropdown-item{$chairman_message_item}" href="chairman_message.php">Chairman's Message</a></li>
+                                    <li><a class="dropdown-item{$steam_jr_association_item}" href="steam-jr-association.php">STEM Jr Association</a></li>
                                     <li><a class="dropdown-item{$principal_message_item}" href="principal_message.php">Principal's Message</a></li>
                                     
                                 </ul>
