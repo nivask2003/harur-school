@@ -29,7 +29,7 @@
 
                 <tr>
                     <td>3</td>
-                    <td>Trust (1)</td>
+                    <td>Trust</td>
                     <td><a href="assets/documents/trust-1.pdf" target="_blank">Click Here</a></td>
                 </tr>
 
@@ -41,7 +41,7 @@
 
                 <tr>
                     <td>5</td>
-                    <td>Affiliation (1)</td>
+                    <td>Affiliation</td>
                     <td><a href="assets/documents/affiliation-1.pdf" target="_blank">Click Here</a></td>
                 </tr>
 

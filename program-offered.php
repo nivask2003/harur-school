@@ -78,7 +78,7 @@
                     </div>
                     <div class="content">
                         <div class="icon">
-                            <i class="bi bi-lightbulb"></i>
+                            <i class="bi bi-mortarboard"></i>
                         </div>
                         <h4>Secondary School </h4>
                         <p>Focused CBSE preparation that strengthens conceptual clarity, application skills, assessment readiness, discipline, and career awareness.</p>
@@ -92,7 +92,7 @@
                     </div>
                     <div class="content">
                         <div class="icon">
-                            <i class="bi bi-lightbulb"></i>
+                            <i class="bi bi-award"></i>
                         </div>
                         <h4>Senior Secondary School </h4>
                         <p>Specialised subject combinations with guidance, competitive-examination preparation, and higher education readiness include PCBM, PCBCS, and PCMCS for career pathways ahead.</p>
