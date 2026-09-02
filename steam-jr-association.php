@@ -1,5 +1,5 @@
 <?php include "function.php" ?>
-<?php template_header("STEM Jr Association","Discover STEM Jr Association at Harur International School, offering foundation courses and NEET/IIT/JEE classes to strengthen concepts and prepare students for competitive exams."); ?>
+<?php template_header("STEM Jr Association | Harur International School","Discover STEM Jr Association at Harur International School, offering foundation courses and NEET/IIT/JEE classes to strengthen concepts and prepare students for competitive exams."); ?>
 <section class="page-banner" id="program-offered">
     <h1>Steam Jr Association</h1>
 </section>
