@@ -2759,3 +2759,136 @@ table{
     display:block;
   }
 }
+
+#program-offered{
+  background-image: url("../images/program-offered-banner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.program-1{
+  padding: 50px 0 50px 0;
+  background-color: #ffd40078;
+}
+
+.program-1 a.btn{
+  background-color: var(--cta-btn);
+  color: var(--cta-btn-text);
+  font-weight: 600;
+}
+
+.program-2{
+  padding: 50px 0 50px 0;
+  background-color: var(--light-bg);
+}
+
+.program-2 .box{
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  height: 404px;
+}
+
+.program-2 .box:hover{
+  transform: scale(1.02);
+}
+
+.program-2 .box .content{
+  padding: 20px;
+}
+
+.program-2 .box .content h4 {
+  color: var(--heading-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.program-2 .box .content .icon {
+    color: #fff;
+    font-size: 30px;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 22px;
+    top: 188px;
+}
+
+.program-2 .box img.img-fluid {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+}
+
+.program-2 .box:hover .icon {
+    background-color: var(--cta-btn);
+    border-color: var(--cta-btn-text);
+    color: var(--cta-btn-text);
+    transform: rotate(-8deg);
+}
+
+.program-2 .box::before{
+  position: absolute; 
+  content: "";
+  background-color: var(--cta-btn);
+  width: 100%;
+  height: 6px;
+  bottom: 0;
+}
+
+.program-2 .box:hover::before{
+  background-color: var(--heading-color);
+}
+
+.program-2 .row .col-12.col-md-4.col-lg-4:nth-of-type(4), .program-2 .row .col-12.col-md-8.col-lg-8 {
+  margin-top: 20px;
+}
+
+@media(max-width:482px){
+  .program-2 .row .col-12.col-md-4.col-lg-4{
+    margin-top: 20px;
+  }
+  .program-2 .box .content .icon{
+    right: 3px;
+  }
+
+  .program-2 .box{
+    height : 416px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+   .program-2 .row{
+    display: flex;
+    justify-content: center;
+   }
+  .program-2 .row .col-12.col-md-4.col-lg-4{
+    width:50%;
+    margin-top: 20px;
+  }
+
+  .program-2 .box{
+    height: 420px;
+  }
+
+  .program-1 .row .col-12.col-md-6.col-lg-6 p.section-desc:nth-of-type(2){
+    display:none;
+  }
+}
+
+
+.academic-1{
+  padding: 50px 0 50px 0;
+  background-color: #ffd40078;
+}
