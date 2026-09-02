@@ -1,7 +1,7 @@
 <?php include "function.php"; ?>
 <?php template_header("Mandatory Disclosure | Harur International School", "View the Mandatory Disclosure of Harur International School, including essential school information, academic details, facilities, affiliation, certificates, and required documents."); ?>
 <section class="page-banner" id="about">
-    <h1>Mandatory Disclosure</h1>
+    <h1>Mandatory <br>Disclosure</h1>
 </section>
 <section class="mandatory-1">
     <div class="container">
@@ -108,3 +108,4 @@
         </table>
     </div>
 </section>
+<?php template_footer(); ?>

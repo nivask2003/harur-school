@@ -2739,3 +2739,23 @@ table{
 .mandatory-1 table tbody tr:nth-child(even) {
     background-color: var(--light-bg);
 }
+
+.mandatory-1 table a{
+  text-decoration:none;
+  color: var(--heading-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.mandatory-1 table a:hover{
+  color: var(--cta-btn);
+}
+
+.page-banner br{
+  display:none;
+}
+
+@media(max-width:482px){
+  .page-banner br{
+    display:block;
+  }
+}
