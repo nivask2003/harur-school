@@ -1,7 +1,7 @@
 <?php include "function.php"?>
-<?php template_header("Academic & Learning Facilities | Harur International School", "Explore the facilities at Harur International School, designed to support academic excellence, student wellbeing, holistic development, sports, technology, creativity, and learning."); ?>
+<?php template_header("Safety, Health & Student Support | Harur International School", "Explore Safety, Health & Student Support at Harur International School, ensuring a secure, healthy, caring, and supportive environment for every student."); ?>
 <section class="page-banner" id="facilities">
-    <h1>Academic & Learning Facilities</h1>
+    <h1>Safety, Health & Student Support</h1>
 </section>
 <section class="fac-1">
     <div class="container">
