@@ -12,12 +12,14 @@ function template_header($title, $metadesc)
     $academics_pages = ['program-offered.php', 'special_academic_programmes.php', 'steam-jr-association.php', 'activity.php'];
     $admission_pages = ['admission.php', 'admission-form.php'];
     $facilities_pages = ['academic-learning-facilities.php', 'sports-arts-activity-facilities.php', 'safety-health-student-support.php'];
+    $student_life_pages = ['co-curricular.php', 'student-club.php', 'house-system.php'];
 
     // Top-level active states
     $home_active       = ($current === 'home.php') ? ' active' : '';
     $about_active      = in_array($current, $about_pages) ? ' active' : '';
     $academics_active  = in_array($current, $academics_pages) ? ' active' : '';
     $facilities_active = in_array($current, $facilities_pages) ? ' active' : '';
+    $student_life_active = in_array($current, $student_life_pages) ? ' active' : '';
     $admission_active  = in_array($current, $admission_pages) ? ' active' : '';
     $gallery_active    = ($current === 'gallery.php') ? ' active' : '';
     $career_active     = ($current === 'career-form.php') ? ' active' : '';
@@ -37,6 +39,11 @@ function template_header($title, $metadesc)
     $academic_learning_facilities_item = ($current === 'academic-learning-facilities.php') ? 'active' : '';
     $sports_arts_activity_facilities_item = ($current === 'sports-arts-activity-facilities.php') ? 'active' : '';
     $safety_health_student_support_item = ($current === 'safety-health-student-support.php') ? 'active' : '';
+
+
+    $co_curricular_item = ($current === 'co-curricular.php') ? ' active' : '';
+    $student_club_item = ($current === 'co-curricular.php') ? ' active' : '';
+    $house_system_item = ($current === 'co-curricular.php') ? ' active' : '';
 
     $admission_proc_item  = ($current === 'admission.php') ? ' active' : '';
     $admission_form_item  = ($current === 'admission-form.php') ? ' active' : '';
@@ -141,6 +148,17 @@ function template_header($title, $metadesc)
                                     <li><a class="dropdown-item {$academic_learning_facilities_item}" href="academic-learning-facilities.php">Academic & Learning Facilities</a></li>
                                     <li><a class="dropdown-item {$sports_arts_activity_facilities_item}" href="sports-arts-activity-facilities.php">Sports, Arts & Activity Facilities</a></li>
                                     <li><a class="dropdown-item {$safety_health_student_support_item}" href="safety-health-student-support.php">Safety, Health & Student Support</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle{$student_life_active}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Student Life
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item {$co_curricular_item}" href="co-curricular.php">Co - Curricular Activities</a></li>
+                                    <li><a class="dropdown-item {$student_club_item}" href="student-club.php">Student Clubs</a></li>
+                                    <li><a class="dropdown-item {$house_system_item}" href="house-system.php">House System</a></li>
                                     
                                 </ul>
                             </li>
