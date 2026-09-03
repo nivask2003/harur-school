@@ -2978,4 +2978,64 @@ table{
   margin-top: 20px;
 }
 
+.steam-1 .box ul.icon-list{
+  padding: 0;
+  margin: 0 ;
+}
+
+.steam-1 .box ul.icon-list li.list .icon {
+    color: #fff;
+    background-color: var(--dark-bg);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.steam-1 .box ul.icon-list li.list:hover .icon{
+  background-color: var(--cta-btn);
+  color: var(--heading-color);
+}
+
+.steam-1 .box ul.icon-list li.list {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.steam-1 .box ul.icon-list li.list p {
+    margin-bottom: 0 !important;
+    font-weight: 700;
+}
+
+.steam-1 .box .row{
+  align-items: center;
+}
+
+.steam-1 .container .boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media(max-width:482px){
+  .steam-1 .box{
+    height: 100%;
+  }
+
+  .steam-1 .box ul.icon-list li.list .icon{
+    height: 28px;
+    width: 28px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+  .steam-1 .box{
+    height: 100%;
+  }
+}
+
+
+
 
