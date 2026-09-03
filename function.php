@@ -42,8 +42,8 @@ function template_header($title, $metadesc)
 
 
     $co_curricular_item = ($current === 'co-curricular.php') ? ' active' : '';
-    $student_club_item = ($current === 'co-curricular.php') ? ' active' : '';
-    $house_system_item = ($current === 'co-curricular.php') ? ' active' : '';
+    $student_club_item = ($current === 'student-club.php') ? ' active' : '';
+    $house_system_item = ($current === 'house-system.php') ? ' active' : '';
 
     $admission_proc_item  = ($current === 'admission.php') ? ' active' : '';
     $admission_form_item  = ($current === 'admission-form.php') ? ' active' : '';

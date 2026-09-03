@@ -50,3 +50,4 @@
         </div>
     </div>
 </section>
+<?php template_footer()?>
