@@ -6,7 +6,7 @@
 <section class="academic-1">
     <div class="container">
         <div class="row">
-        <div class="col-12 col-md-4 col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
             <div class="box">
                 <div class="box-header">
                     <div class="row">
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
             <div class="box">
                 <div class="box-header">
                     <div class="row">
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
             <div class="box">
                 <div class="box-header">
                     <div class="row">
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
             <div class="box">
                 <div class="box-header">
                     <div class="row">
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
             <div class="box">
                 <div class="box-header">
                     <div class="row">
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
             <div class="box">
                 <div class="box-header">
                     <div class="row">

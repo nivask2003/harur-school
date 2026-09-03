@@ -5,7 +5,7 @@
 </section>
 <section class="mandatory-1">
     <div class="container">
-        <table class="table">
+        <table class="table" data-aos="fade-up" data-aos-duration="800">
             <thead>
                 <tr>
                     <th>No.</th>

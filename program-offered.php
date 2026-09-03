@@ -6,27 +6,27 @@
 <section class="program-1">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right" data-aos-duration="800">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/QcPV0UVD-Ac?si=bBEbGx1uJzg82WKU&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
-                <span class="badge">Academic Overview</span>
-                <h2 class="section-title">Building Strong Academic Growth</h2>
-                <p class="section-desc">Harur International School follows the CBSE curriculum with an emphasis on conceptual understanding, skill development, experiential learning, and competency-based education. Classroom teaching is designed to help students understand ideas deeply, apply knowledge, communicate clearly, collaborate effectively, and develop confidence as independent learners.</p>
-                <p class="section-desc">Academic learning is strengthened through technology, practical activities, projects, laboratory experiences, competitions, career awareness, communication development, and structured support for competitive examinations.</p>
-                <a href="admission-form.php" class="btn">Admission Now</a>
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left" data-aos-duration="800">
+                <span class="badge" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Academic Overview</span>
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">Building Strong Academic Growth</h2>
+                <p class="section-desc" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Harur International School follows the CBSE curriculum with an emphasis on conceptual understanding, skill development, experiential learning, and competency-based education. Classroom teaching is designed to help students understand ideas deeply, apply knowledge, communicate clearly, collaborate effectively, and develop confidence as independent learners.</p>
+                <p class="section-desc" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">Academic learning is strengthened through technology, practical activities, projects, laboratory experiences, competitions, career awareness, communication development, and structured support for competitive examinations.</p>
+                <a href="admission-form.php" class="btn" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">Admission Now</a>
             </div>
         </div>
     </div>
 </section>
 <section class="program-2">
     <div class="container">
-        <span class="badge">Program Offered</span>
-        <h2 class="section-title">Pathways for Future Success</h2>
-        <p class="section-desc">Programmes span Kindergarten to Senior Secondary. Kindergarten builds literacy, numeracy, creativity, and social skill. Primary strengthens key learning, while Middle School develops exploration and problem-solving. Secondary focuses on CBSE preparation, and Senior Secondary offers specialised subjects, competitive guidance, and higher education readiness.</p>
+        <span class="badge" data-aos="fade-down" data-aos-duration="800">Program Offered</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Pathways for Future Success</h2>
+        <p class="section-desc" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Programmes span Kindergarten to Senior Secondary. Kindergarten builds literacy, numeracy, creativity, and social skill. Primary strengthens key learning, while Middle School develops exploration and problem-solving. Secondary focuses on CBSE preparation, and Senior Secondary offers specialised subjects, competitive guidance, and higher education readiness.</p>
         <div class="row">
             <!-- Kindergarten -->
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="image">
                         <img src="assets/images/kindergarten.webp" alt="" class="img-fluid">
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <!-- Primary School -->
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                 <div class="box">
                     <div class="image">
                         <img src="assets/images/primary-classes.webp" alt="" class="img-fluid">
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <!-- Middle School -->
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <div class="box">
                     <div class="image">
                         <img src="assets/images/middle-class.webp" alt="Middle School " class="img-fluid">
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <!-- Secondary School -->
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                 <div class="box">
                     <div class="image">
                         <img src="assets/images/secondary-class.webp" alt="Secondary School " class="img-fluid">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-8 col-lg-8">
+            <div class="col-12 col-md-8 col-lg-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                 <div class="box">
                     <div class="image">
                         <img src="assets/images/senior-sec-class.webp" alt="Senior Secondary School " class="img-fluid">

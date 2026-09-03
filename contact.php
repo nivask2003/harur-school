@@ -6,7 +6,7 @@
 <section class="contact-1">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="icon-box">
                     <div class="row">
                         <div class="col-12 col-md-3 col-lg-3">
@@ -27,7 +27,7 @@
 
 
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                 <div class="icon-box">
                     <div class="row">
                         <div class="col-12 col-md-3 col-lg-3">
@@ -47,7 +47,7 @@
 
 
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <div class="icon-box">
                     <div class="row">
                         <div class="col-12 col-md-3 col-lg-3">
@@ -74,7 +74,7 @@
 <section class="contact-2">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="800">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18515.083685335987!2d78.46892!3d12.030363!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac6ff148f19081%3A0x58e748077c536f9c!2sHarur%20International%20School!5e1!3m2!1sen!2sin!4v1788241663578!5m2!1sen!2sin" width="100%" height="450" style="border:0; border-radius:20px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
         </div>

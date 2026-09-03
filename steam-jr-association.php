@@ -5,13 +5,13 @@
 </section>
 <section class="steam-1">
     <div class="container">
-        <span class="badge">STEM Jr Association</span>
-        <h2 class="section-title">STEM Jr Association for Success</h2>
-        <p class="section-desc">Harur International School offers structured academic support in association with STEM Jr. The programme is designed to strengthen concepts and improve competitive-examination readiness at appropriate grade levels.</p>
+        <span class="badge" data-aos="fade-right" data-aos-duration="800">STEM Jr Association</span>
+        <h2 class="section-title" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">STEM Jr Association for Success</h2>
+        <p class="section-desc" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Harur International School offers structured academic support in association with STEM Jr. The programme is designed to strengthen concepts and improve competitive-examination readiness at appropriate grade levels.</p>
         <div class="boxes">
             <div class="box">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right" data-aos-duration="800">
                     <div class="box-header">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-6">
@@ -27,7 +27,7 @@
                     <p class="section-desc">Foundation learning builds concepts and prepares students to excel at every stage. Develops analytical thinking, problem-solving, study habits, confidence and essential skills for academic growth and competitive exams.</p>
                 </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left" data-aos-duration="800">
                     <ul class="icon-list">
                         <li class="list">
                             <div class="icon">
@@ -59,7 +59,7 @@
         </div>
         <div class="box">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left" data-aos-duration="800">
                     <div class="box-header">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-6">
@@ -75,7 +75,7 @@
                     <p class="section-desc">Expert guidance supports focused preparation for competitive examinations while strengthening subject knowledge, problem-solving, confidence, and study skills, helping students achieve higher-education readiness ahead.</p>
                 </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right" data-aos-duration="800">
                     <ul class="icon-list">
                         <li class="list">
                             <div class="icon">
