@@ -3036,6 +3036,16 @@ table{
   }
 }
 
+#facilities{
+  background-image: url(../images/facilities-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.fac-1{
+  background-color: #ffd40078;
+  padding: 50px 0 50px 0;
+}
 
 

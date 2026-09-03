@@ -11,12 +11,13 @@ function template_header($title, $metadesc)
     $about_pages     = ['about-us.php', 'management_leadership.php', 'chairman-message.php', 'principal-message.php'];
     $academics_pages = ['program-offered.php', 'special_academic_programmes.php', 'steam-jr-association.php', 'activity.php'];
     $admission_pages = ['admission.php', 'admission-form.php'];
+    $facilities_pages = ['academic-learning-facilities.php', 'sports-arts-activity-facilities.php', 'safety-health-student-support.php'];
 
     // Top-level active states
     $home_active       = ($current === 'home.php') ? ' active' : '';
     $about_active      = in_array($current, $about_pages) ? ' active' : '';
     $academics_active  = in_array($current, $academics_pages) ? ' active' : '';
-    $facilities_active = ($current === 'facilities.php') ? ' active' : '';
+    $facilities_active = in_array($current, $facilities_pages) ? ' active' : '';
     $admission_active  = in_array($current, $admission_pages) ? ' active' : '';
     $gallery_active    = ($current === 'gallery.php') ? ' active' : '';
     $career_active     = ($current === 'career-form.php') ? ' active' : '';
@@ -32,7 +33,10 @@ function template_header($title, $metadesc)
     $program_offered_item      = ($current === 'program-offered.php') ? ' active' : '';
     $special_academic_programmes_item = ($current === 'special_academic_programmes.php') ? ' active' : '';
     $steam_jr_association_item = ($current === 'steam-jr-association.php') ? ' active' : '';
-    $activity_item        = ($current === 'activity.php') ? ' active' : '';
+    
+    $academic_learning_facilities_item = ($current === 'academic-learning-facilities.php') ? 'active' : '';
+    $sports_arts_activity_facilities_item = ($current === 'sports-arts-activity-facilities.php') ? 'active' : '';
+    $safety_health_student_support_item = ($current === 'safety-health-student-support.php') ? 'active' : '';
 
     $admission_proc_item  = ($current === 'admission.php') ? ' active' : '';
     $admission_form_item  = ($current === 'admission-form.php') ? ' active' : '';
@@ -129,9 +133,18 @@ function template_header($title, $metadesc)
                                     
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Facilities</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle{$facilities_active}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Facilities
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item {$academic_learning_facilities_item}" href="academic-learning-facilities.php">Academic & Learning Facilities</a></li>
+                                    <li><a class="dropdown-item {$sports_arts_activity_facilities_item}" href="sports-arts-activity-facilities.php">Sports, Arts & Activity Facilities</a></li>
+                                    <li><a class="dropdown-item {$safety_health_student_support_item}" href="safety-health-student-support.php">Safety, Health & Student Support</a></li>
+                                    
+                                </ul>
                             </li>
+                            
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAdmission" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Admission
