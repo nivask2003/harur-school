@@ -3175,3 +3175,61 @@ table{
   margin-top: 20px;
 }
 
+#student-life{
+  background-image: url(../images/student-club-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.student-1{
+  background-color: #ffd40078;
+  padding: 50px 0 50px 0;
+}
+
+.student-1 ul.icon-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.student-1 ul.icon-list li.list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.student-1 ul.icon-list li.list .icon {
+    background-color: var(--dark-bg);
+    color: #fff;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 24%;
+}
+
+.student-1 ul.icon-list li.list .content p{
+  margin: 0;
+}
+
+.student-1 img.img-fluid{
+  border-radius: 20px;
+}
+
+@media(max-width:482px){
+  .student-1 .row{
+    gap: 20px;
+  }
+  .student-1 ul.icon-list li.list .icon{
+    width: 118px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+  .student-1 ul.icon-list li.list .icon{
+    width: 118px;
+  }
+}
