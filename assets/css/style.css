@@ -3150,3 +3150,15 @@ table{
   background-size: cover;
 }
 
+.program-2.co-1{
+  background-color: #ffd40078;
+  padding: 50px 0 50px 0;
+}
+
+.program-2.co-1 .row .col-12.col-md-4.col-lg-4:nth-of-type(5),
+.program-2.co-1 .row .col-12.col-md-4.col-lg-4:nth-of-type(6),
+.program-2.co-1 .row .col-12.col-md-4.col-lg-4:nth-of-type(7),
+.program-2.co-1 .row .col-12.col-md-4.col-lg-4:nth-of-type(8){
+  margin-top: 20px;
+}
+
