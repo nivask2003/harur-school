@@ -3233,3 +3233,29 @@ table{
     width: 118px;
   }
 }
+
+#house-system{
+  background-image: url(../images/house-system-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.house-1{
+  background-color: #ffd40078;
+  padding: 50px 0 50px 0;
+}
+
+.house-1 .table thead{
+  background-color: var(--dark-bg);
+  color: #fff;
+  font-weight: 700;
+}
+
+.house-1 .table tbody{
+  background-color: #fff;
+}
+
+.house-1 .table tbody tr:nth-child(even){
+  background-color: var(--light-bg);
+}
