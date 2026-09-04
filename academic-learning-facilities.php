@@ -39,17 +39,17 @@
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="Comfortable classroom environments that support focused learning." class="img-fluid">
+                        <img src="assets/images/fac-placeholder-2.webp" alt="Comfortable classroom environments that support focused learning." class="img-fluid">
                     </div>
                     <div class="box-header">
-                        <h4>Air-Conditioned Classrooms</h4>
+                        <h4>Air-Conditioned <br>Classrooms</h4>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="Activity-based resources that make mathematical concepts easier to explore and understand." class="img-fluid">
+                        <img src="assets/images/fac-placeholder-2.webp" alt="Activity-based resources that make mathematical concepts easier to explore and understand." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Mathematics <br>Laboratory</h4>
@@ -59,17 +59,17 @@
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="Support for pronunciation, listening, vocabulary, fluency, and communication." class="img-fluid">
+                        <img src="assets/images/fac-placeholder-2.webp" alt="Support for pronunciation, listening, vocabulary, fluency, and communication." class="img-fluid">
                     </div>
                     <div class="box-header">
-                        <h4>Language Learning Facilities</h4>
+                        <h4>Language Learning <br>Facilities</h4>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="Opportunities to develop creativity, design thinking, logical reasoning, and problem-solving." class="img-fluid">
+                        <img src="assets/images/fac-placeholder-2.webp" alt="Opportunities to develop creativity, design thinking, logical reasoning, and problem-solving." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Robotics <br>Innovation Skills</h4>

@@ -19,7 +19,7 @@
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="A balanced range of activities that supports fitness, coordination, teamwork, strategy, and sportsmanship." class="img-fluid">
+                        <img src="assets/images/fac-placeholder.webp" alt="A balanced range of activities that supports fitness, coordination, teamwork, strategy, and sportsmanship." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Indoor & Outdoor Games</h4>
@@ -29,7 +29,7 @@
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="A dedicated environment for performance, rhythm, expression, and cultural learning." class="img-fluid">
+                        <img src="assets/images/fac-placeholder.webp" alt="A dedicated environment for performance, rhythm, expression, and cultural learning." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Music & Dance Studio</h4>
@@ -39,7 +39,7 @@
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="A creative space for imagination, hands-on work, design, and artistic expression." class="img-fluid">
+                        <img src="assets/images/fac-placeholder.webp" alt="A creative space for imagination, hands-on work, design, and artistic expression." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Art & Craft Room</h4>
