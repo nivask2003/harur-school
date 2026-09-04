@@ -12,7 +12,7 @@
                         <img src="assets/images/smart-classroom.webp" alt="Technology-supported spaces that make lessons engaging, visual, and interactive." class="img-fluid">
                     </div>
                     <div class="box-header">
-                        <h4>Smart Classrooms</h4>
+                        <h4>Smart <br>Classrooms</h4>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                         <img src="assets/images/science-lab.webp" alt="Well-equipped spaces for practical learning, observation, experimentation, and scientific thinking." class="img-fluid">
                     </div>
                     <div class="box-header">
-                        <h4>Science Laboratories</h4>
+                        <h4>Science <br>Laboratories</h4>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                         <img src="assets/images/smart-classroom.webp" alt="Activity-based resources that make mathematical concepts easier to explore and understand." class="img-fluid">
                     </div>
                     <div class="box-header">
-                        <h4>Mathematics Laboratory</h4>
+                        <h4>Mathematics <br>Laboratory</h4>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                         <img src="assets/images/smart-classroom.webp" alt="Opportunities to develop creativity, design thinking, logical reasoning, and problem-solving." class="img-fluid">
                     </div>
                     <div class="box-header">
-                        <h4>Robotics Innovation Skills</h4>
+                        <h4>Robotics <br>Innovation Skills</h4>
                     </div>
                 </div>
             </div>

@@ -3110,3 +3110,43 @@ table{
 .fac-1 .container .row .col-12.col-md-6.col-lg-6:nth-of-type(4){
   margin-top: 20px;
 }
+
+
+@media(max-width: 482px){
+
+  .page-banner h1 br:nth-of-type(2){
+    display: none;
+  }
+
+  .fac-1 .container .row .col-12.col-md-4.col-lg-4,
+  .fac-1 .container .row .col-12.col-md-6.col-lg-6,
+  .fac-1 .container .row .col-12.col-md-4.col-lg-4:nth-of-type(3){
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+  .fac-1 .container .row .col-12.col-md-4.col-lg-4{
+    width: 50%;
+  }
+
+  .fac-1 .container .row .col-12.col-md-4.col-lg-4 .box .box-header h4{
+    text-align: center;
+  }
+
+  .fac-1 .container .row .col-12.col-md-4.col-lg-4 .box .box-header h4 br{
+    display: block;
+  }
+
+  .fac-1 .container .row .col-12.col-md-4.col-lg-4:nth-of-type(3){
+  margin-top: 20px;
+}
+}
+
+
+#co-curricular{
+  background-image: url(../images/co-curricular-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
