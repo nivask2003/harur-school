@@ -3259,3 +3259,8 @@ table{
 .house-1 .table tbody tr:nth-child(even){
   background-color: var(--light-bg);
 }
+
+.house-2{
+  background-color: var(--light-bg);
+  padding: 50px 0 50px 0;
+}
