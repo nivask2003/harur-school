@@ -19,7 +19,7 @@
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="Facilities that help students build digital literacy, practical computer skills, and confidence with technology." class="img-fluid">
+                        <img src="assets/images/computer-lab.webp" alt="Facilities that help students build digital literacy, practical computer skills, and confidence with technology." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Modern Computer Laboratory</h4>
@@ -29,7 +29,7 @@
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="Well-equipped spaces for practical learning, observation, experimentation, and scientific thinking." class="img-fluid">
+                        <img src="assets/images/science-lab.webp" alt="Well-equipped spaces for practical learning, observation, experimentation, and scientific thinking." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Science Laboratories</h4>
@@ -72,7 +72,7 @@
                         <img src="assets/images/smart-classroom.webp" alt="Opportunities to develop creativity, design thinking, logical reasoning, and problem-solving." class="img-fluid">
                     </div>
                     <div class="box-header">
-                        <h4>Robotics & Innovation Activities</h4>
+                        <h4>Robotics Innovation Skills</h4>
                     </div>
                 </div>
             </div>

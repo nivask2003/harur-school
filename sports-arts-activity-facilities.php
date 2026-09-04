@@ -9,7 +9,7 @@
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="Space for sports, athletics, physical education, team activities, and school events." class="img-fluid">
+                        <img src="assets/images/sports-ground.webp" alt="Space for sports, athletics, physical education, team activities, and school events." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Sports Ground</h4>

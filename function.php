@@ -162,25 +162,22 @@ function template_header($title, $metadesc)
                                     
                                 </ul>
                             </li>
-                            
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAdmission" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle{$admission_active}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Admission
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownAdmission">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item {$admission_proc_item}" href="admission.php">Admission Procedure</a></li>
+                                    <li><a class="dropdown-item {$admission_form_item}" href="admission-form.php">Admission Form</a></li>
+                                    
                                 </ul>
                             </li>
+                            
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Gallery</a>
+                                <a class="nav-link {$gallery_active}" aria-current="page" href="gallery.php">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Career</a>
+                                <a class="nav-link {$career_active}" aria-current="page" href="career-form.php">Career</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link{$mandatory_disclosure_active}" aria-current="page" href="mandatory-disclosure.php">Mandatory Disclosure</a>

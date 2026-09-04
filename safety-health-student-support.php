@@ -9,7 +9,7 @@
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="Campus monitoring that supports student safety and security." class="img-fluid">
+                        <img src="assets/images/cctv.webp" alt="Campus monitoring that supports student safety and security." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>CCTV Surveillance</h4>
@@ -19,7 +19,7 @@
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="Organised transport with clear expectations for safety and discipline." class="img-fluid">
+                        <img src="assets/images/transport.webp" alt="Organised transport with clear expectations for safety and discipline." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Safe Transport Facility</h4>
@@ -59,7 +59,7 @@
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/smart-classroom.webp" alt="A pleasant campus environment that promotes cleanliness, responsibility, and respect for nature." class="img-fluid">
+                        <img src="assets/images/green-campus.webp" alt="A pleasant campus environment that promotes cleanliness, responsibility, and respect for nature." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Green & Eco-Friendly Campus</h4>
