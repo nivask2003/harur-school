@@ -1,7 +1,7 @@
 <?php include 'function.php' ?>
 
 <?php template_header("Harur International School", "Harur International School is a Senior Secondary CBSE school offering quality education, holistic development, modern learning, and a caring environment."); ?>
-<h1>Git Hub Connect</h1>
+
 <section class="hero-section">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
         <div class="carousel-inner">
