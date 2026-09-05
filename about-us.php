@@ -1,8 +1,8 @@
 <?php include "function.php" ?>
 <?php template_header("About | Harur International School", "Discover Harur International School, a Senior Secondary CBSE school focused on academic excellence, character development, values, leadership, and holistic student growth.") ?>
-<secion class="page-banner" id="about">
+<section class="page-banner" id="about">
     <h1>About Us</h1>
-</secion>
+</section>
 <section class="about-1">
     <div class="container">
         <div class="row">

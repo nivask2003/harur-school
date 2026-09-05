@@ -5,10 +5,10 @@
 </section>
 <section class="management-1">
     <div class="container">
-        <span class="badge">MANAGEMENT & LEADERSHIP</span>
-        <h2 class="section-title">Leading With Purpose, Inspiring</h2>
-        <p class="section-desc">The Management Team of Harur International School provides responsible and forward-looking leadership focused on educational quality, student welfare, institutional development, and strong governance. Working in partnership with the Principal, teachers, parents, and the wider community, the team supports continuous improvement and ensures that the school's vision and values are reflected in its academic and co-curricular programmes.</p>
-        <table class="table">
+        <span class="badge" data-aos="fade-right" data-aos-duration="800">MANAGEMENT & LEADERSHIP</span>
+        <h2 class="section-title" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">Leading With Purpose, Inspiring</h2>
+        <p class="section-desc" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">The Management Team of Harur International School provides responsible and forward-looking leadership focused on educational quality, student welfare, institutional development, and strong governance. Working in partnership with the Principal, teachers, parents, and the wider community, the team supports continuous improvement and ensures that the school's vision and values are reflected in its academic and co-curricular programmes.</p>
+        <table class="table" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
             <thead>
                 <tr>
                     <th>No.</th>

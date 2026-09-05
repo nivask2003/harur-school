@@ -9,17 +9,21 @@ function template_header($title, $metadesc)
 
     // Pages that belong to each dropdown group
     $about_pages     = ['about-us.php', 'management_leadership.php', 'chairman-message.php', 'principal-message.php'];
-    $academics_pages = ['curriculam.php', 'academics-excellence.php', 'extra-curricular.php', 'activity.php'];
+    $academics_pages = ['program-offered.php', 'special_academic_programmes.php', 'steam-jr-association.php', 'activity.php'];
     $admission_pages = ['admission.php', 'admission-form.php'];
+    $facilities_pages = ['academic-learning-facilities.php', 'sports-arts-activity-facilities.php', 'safety-health-student-support.php'];
+    $student_life_pages = ['co-curricular.php', 'student-club.php', 'house-system.php'];
 
     // Top-level active states
     $home_active       = ($current === 'home.php') ? ' active' : '';
     $about_active      = in_array($current, $about_pages) ? ' active' : '';
     $academics_active  = in_array($current, $academics_pages) ? ' active' : '';
-    $facilities_active = ($current === 'facilities.php') ? ' active' : '';
+    $facilities_active = in_array($current, $facilities_pages) ? ' active' : '';
+    $student_life_active = in_array($current, $student_life_pages) ? ' active' : '';
     $admission_active  = in_array($current, $admission_pages) ? ' active' : '';
     $gallery_active    = ($current === 'gallery.php') ? ' active' : '';
     $career_active     = ($current === 'career-form.php') ? ' active' : '';
+    $mandatory_disclosure_active = ($current === 'mandatory-disclosure.php') ? ' active' : '';
     $contact_active    = ($current === 'contact.php') ? ' active' : '';
 
     // Dropdown item-level active states
@@ -28,10 +32,18 @@ function template_header($title, $metadesc)
     $chairman_message_item        = ($current === 'chairman_message.php') ? ' active' : '';
     $principal_message_item     = ($current === 'principal_message.php') ? ' active' : '';
 
-    $curriculam_item      = ($current === 'curriculam.php') ? ' active' : '';
-    $academics_exc_item   = ($current === 'academics-excellence.php') ? ' active' : '';
-    $extra_curricular_item = ($current === 'extra-curricular.php') ? ' active' : '';
-    $activity_item        = ($current === 'activity.php') ? ' active' : '';
+    $program_offered_item      = ($current === 'program-offered.php') ? ' active' : '';
+    $special_academic_programmes_item = ($current === 'special_academic_programmes.php') ? ' active' : '';
+    $steam_jr_association_item = ($current === 'steam-jr-association.php') ? ' active' : '';
+    
+    $academic_learning_facilities_item = ($current === 'academic-learning-facilities.php') ? 'active' : '';
+    $sports_arts_activity_facilities_item = ($current === 'sports-arts-activity-facilities.php') ? 'active' : '';
+    $safety_health_student_support_item = ($current === 'safety-health-student-support.php') ? 'active' : '';
+
+
+    $co_curricular_item = ($current === 'co-curricular.php') ? ' active' : '';
+    $student_club_item = ($current === 'student-club.php') ? ' active' : '';
+    $house_system_item = ($current === 'house-system.php') ? ' active' : '';
 
     $admission_proc_item  = ($current === 'admission.php') ? ' active' : '';
     $admission_form_item  = ($current === 'admission-form.php') ? ' active' : '';
@@ -117,36 +129,61 @@ function template_header($title, $metadesc)
                                     
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Academics</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Facilities</a>
-                            </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAdmission" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Admission
+                                <a class="nav-link dropdown-toggle{$academics_active}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Academics
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownAdmission">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item{$program_offered_item }" href="program-offered.php">Program Offered</a></li>
+                                    <li><a class="dropdown-item{$special_academic_programmes_item}" href="special_academic_programmes.php">Special Academic Programmes</a></li>
+                                    <li><a class="dropdown-item{$steam_jr_association_item}" href="steam-jr-association.php">STEM Jr Association</a></li>
+                                    
                                 </ul>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle{$facilities_active}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Facilities
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item {$academic_learning_facilities_item}" href="academic-learning-facilities.php">Academic & Learning Facilities</a></li>
+                                    <li><a class="dropdown-item {$sports_arts_activity_facilities_item}" href="sports-arts-activity-facilities.php">Sports, Arts & Activity Facilities</a></li>
+                                    <li><a class="dropdown-item {$safety_health_student_support_item}" href="safety-health-student-support.php">Safety, Health & Student Support</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle{$student_life_active}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Student Life
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item {$co_curricular_item}" href="co-curricular.php">Co - Curricular Activities</a></li>
+                                    <li><a class="dropdown-item {$student_club_item}" href="student-club.php">Student Clubs</a></li>
+                                    <li><a class="dropdown-item {$house_system_item}" href="house-system.php">House System</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle{$admission_active}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Admission
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item {$admission_proc_item}" href="admission.php">Admission Procedure</a></li>
+                                    <li><a class="dropdown-item {$admission_form_item}" href="admission-form.php">Admission Form</a></li>
+                                    
+                                </ul>
+                            </li>
+                            
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Gallery</a>
+                                <a class="nav-link {$gallery_active}" aria-current="page" href="gallery.php">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Career</a>
+                                <a class="nav-link {$career_active}" aria-current="page" href="career-form.php">Career</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Mandatory Disclosure</a>
+                                <a class="nav-link{$mandatory_disclosure_active}" aria-current="page" href="mandatory-disclosure.php">Mandatory Disclosure</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link{$contact_active  }" aria-current="page" href="contact.php">Contact</a>
+                                <a class="nav-link{$contact_active}" aria-current="page" href="contact.php">Contact</a>
                             </li>
 
                         </ul>
