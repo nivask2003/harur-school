@@ -3304,3 +3304,20 @@ table{
     text-align: left;
   }
 }
+
+section.gallery-1{
+  background-color: #27969c78;
+  padding: 50px 0 50px 0;
+}
+
+.gallery-1 .row img.img-fluid{
+  border-radius: 20px;
+  border: 6px solid #fff;
+  outline: 2px solid var(--heading-color);
+  outline-offset: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery-1 .row img.img-fluid:hover{
+  outline: 2px solid var(--cta-btn);
+}

@@ -245,3 +245,68 @@ document.querySelectorAll('.acc-item').forEach(el => {
 	}
   };
 });
+
+(function () {
+    var images = Array.prototype.slice.call(document.querySelectorAll(".gallery-popup-img"));
+    if (!images.length) return;
+
+    var overlay   = document.getElementById("galleryLightbox");
+    var imgEl     = document.getElementById("galleryLightboxImg");
+    var captionEl = document.getElementById("galleryLightboxCaption");
+    var btnClose  = document.getElementById("galleryLightboxClose");
+    var btnPrev   = document.getElementById("galleryLightboxPrev");
+    var btnNext   = document.getElementById("galleryLightboxNext");
+
+    var currentIndex = 0;
+
+    function openLightbox(index) {
+        currentIndex = index;
+        updateImage();
+        overlay.classList.add("active");
+        document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox() {
+        overlay.classList.remove("active");
+        document.body.style.overflow = "";
+    }
+
+    function updateImage() {
+        var target = images[currentIndex];
+        imgEl.src = target.getAttribute("src");
+        imgEl.alt = target.getAttribute("alt") || "";
+        captionEl.textContent = target.getAttribute("alt") || "";
+    }
+
+    function showPrev() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        updateImage();
+    }
+
+    function showNext() {
+        currentIndex = (currentIndex + 1) % images.length;
+        updateImage();
+    }
+
+    images.forEach(function (img, index) {
+        img.style.cursor = "pointer";
+        img.addEventListener("click", function () {
+            openLightbox(index);
+        });
+    });
+
+    btnClose.addEventListener("click", closeLightbox);
+    btnPrev.addEventListener("click", showPrev);
+    btnNext.addEventListener("click", showNext);
+
+    overlay.addEventListener("click", function (e) {
+        if (e.target === overlay) closeLightbox();
+    });
+
+    document.addEventListener("keydown", function (e) {
+        if (!overlay.classList.contains("active")) return;
+        if (e.key === "Escape") closeLightbox();
+        if (e.key === "ArrowLeft") showPrev();
+        if (e.key === "ArrowRight") showNext();
+    });
+})();
