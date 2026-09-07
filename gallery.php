@@ -67,37 +67,47 @@
 <section class="gallery-3">
     <div class="container">
         <div class="heading-center">
-            <span class="badge">INDUSTRIAL VISIT</span>
-            <h2 class="section-title">Learning Beyond the Classroom</h2>   
+            <span class="badge">ANNUAL DAY</span>
+            <h2 class="section-title">Celebrating Talent and Togetherness</h2>   
         </div>
         <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-iv-1.webp" alt="Students on an industrial visit observing the manufacturing process" class="img-fluid gallery-popup-img" data-index="0">
+                    <img src="assets/images/gal-ann-1.webp" alt="Students on an industrial visit observing the manufacturing process" class="img-fluid gallery-popup-img" data-index="0">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-iv-2.webp" alt="Students interacting with plant engineers during the industrial visit" class="img-fluid gallery-popup-img" data-index="1">
+                    <img src="assets/images/gal-ann-2.webp" alt="Students interacting with plant engineers during the industrial visit" class="img-fluid gallery-popup-img" data-index="1">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-iv-3.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                    <img src="assets/images/gal-ann-3.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-iv-4.webp" alt="Group of students touring the industrial facility" class="img-fluid gallery-popup-img" data-index="3">
+                    <img src="assets/images/gal-ann-4.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-iv-5.webp" alt="Students listening to a briefing during the industrial visit" class="img-fluid gallery-popup-img" data-index="4">
+                    <img src="assets/images/gal-ann-5.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-iv-6.webp" alt="Students inspecting production line equipment on site" class="img-fluid gallery-popup-img" data-index="5">
+                    <img src="assets/images/gal-ann-6.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-iv-7.webp" alt="Students gaining hands-on industrial exposure during the visit" class="img-fluid gallery-popup-img" data-index="6">
+                    <img src="assets/images/gal-ann-7.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-iv-8.webp" alt="Students posing for a group photo during the industrial visit" class="img-fluid gallery-popup-img" data-index="7">
+                    <img src="assets/images/gal-ann-8.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-iv-9.webp" alt="Students reviewing safety procedures at the industrial site" class="img-fluid gallery-popup-img" data-index="8">
+                    <img src="assets/images/gal-ann-9.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
                 </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-ann-10.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-ann-11.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-ann-12.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+               
                 
             </div>
     </div>
