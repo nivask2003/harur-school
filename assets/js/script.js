@@ -252,7 +252,6 @@ document.querySelectorAll('.acc-item').forEach(el => {
 
     var overlay   = document.getElementById("galleryLightbox");
     var imgEl     = document.getElementById("galleryLightboxImg");
-    var captionEl = document.getElementById("galleryLightboxCaption");
     var btnClose  = document.getElementById("galleryLightboxClose");
     var btnPrev   = document.getElementById("galleryLightboxPrev");
     var btnNext   = document.getElementById("galleryLightboxNext");
@@ -275,7 +274,6 @@ document.querySelectorAll('.acc-item').forEach(el => {
         var target = images[currentIndex];
         imgEl.src = target.getAttribute("src");
         imgEl.alt = target.getAttribute("alt") || "";
-        captionEl.textContent = target.getAttribute("alt") || "";
     }
 
     function showPrev() {
