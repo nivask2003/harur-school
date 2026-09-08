@@ -230,30 +230,64 @@
         </div>
         <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-in-1.webp" alt="Students marching in an awareness rally holding placards" class="img-fluid gallery-popup-img" data-index="0">
+                    <img src="assets/images/gal-in-1.webp" alt="Students playing basketball on the school's outdoor court" class="img-fluid gallery-popup-img" data-index="0">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-in-2.webp" alt="Students carrying the national flag during an awareness rally" class="img-fluid gallery-popup-img" data-index="1">
+                    <img src="assets/images/gal-in-2.webp" alt="Front view of the Harur International School main gate and entrance" class="img-fluid gallery-popup-img" data-index="1">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-in-3.webp" alt="Scouts and students marching with a water conservation awareness placard" class="img-fluid gallery-popup-img" data-index="2">
+                    <img src="assets/images/gal-in-3.webp" alt="School building and basketball court viewed from the campus courtyard" class="img-fluid gallery-popup-img" data-index="2">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-in-4.webp" alt="Students and teachers posing together outside the school building" class="img-fluid gallery-popup-img" data-index="3">
+                    <img src="assets/images/gal-in-4.webp" alt="Colorful classroom set up with small tables and chairs for young learners" class="img-fluid gallery-popup-img" data-index="3">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-in-5.webp" alt="Staff distributing awareness kits to students" class="img-fluid gallery-popup-img" data-index="4">
+                    <img src="assets/images/gal-in-5.webp" alt="Row of school buses parked in the campus parking area" class="img-fluid gallery-popup-img" data-index="4">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-in-6.webp" alt="Teacher handing over materials to a student during an awareness program" class="img-fluid gallery-popup-img" data-index="5">
+                    <img src="assets/images/gal-in-6.webp" alt="Bright classroom with tables and chairs arranged for junior students" class="img-fluid gallery-popup-img" data-index="5">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-in-7.webp" alt="Teacher addressing students seated on the floor during an awareness session" class="img-fluid gallery-popup-img" data-index="6">
+                    <img src="assets/images/gal-in-7.webp" alt="School playground with slides, swings, and other play equipment" class="img-fluid gallery-popup-img" data-index="6">
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <img src="assets/images/gal-in-8.webp" alt="Teacher demonstrating a science experiment to a student" class="img-fluid gallery-popup-img" data-index="7">
+                    <img src="assets/images/gal-in-8.webp" alt="Students reading books together at a table in the school library" class="img-fluid gallery-popup-img" data-index="7">
                 </div>
                 
+            </div>
+    </div>
+</section>
+<section class="gallery-4">
+    <div class="container">
+        <div class="heading-center">
+            <span class="badge">SPORTS DAY</span>
+            <h2 class="section-title">Celebrating Sportsmanship and Spirit</h2>   
+        </div>
+        <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-sp-1.webp" alt="Students sprinting on the track during a school sports day race" class="img-fluid gallery-popup-img" data-index="0">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-sp-2.webp" alt="Guests and staff standing during the sports day inaugural ceremony" class="img-fluid gallery-popup-img" data-index="1">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-sp-3.webp" alt="Coach and young students crouched at the starting line of a race" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-sp-4.webp" alt="Boys running a relay race on the track with school buses in the background" class="img-fluid gallery-popup-img" data-index="3">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-sp-5.webp" alt="Students and a coach at the starting blocks of a running race" class="img-fluid gallery-popup-img" data-index="4">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-sp-6.webp" alt="Guests seated on stage during the sports day event" class="img-fluid gallery-popup-img" data-index="5">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-sp-7.webp" alt="Police officer saluting during the flag hoisting at the sports day ceremony" class="img-fluid gallery-popup-img" data-index="6">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-sp-8.webp" alt="Student presenting a bouquet to a police officer during the sports day event" class="img-fluid gallery-popup-img" data-index="7">
+                </div>
             </div>
     </div>
 </section>
