@@ -149,7 +149,7 @@
             </div>
     </div>
 </section>
-<section class="gallery-5">
+<section class="gallery-2">
     <div class="container">
         <div class="heading-center">
             <span class="badge">CULTURAL CELEBRATIONS</span>
@@ -219,6 +219,41 @@
                 <div class="col-12 col-md-4 col-lg-4">
                     <img src="assets/images/gal-cl-21.webp" alt="Guest speaking at the podium during the Bharathiyar birth anniversary celebration" class="img-fluid gallery-popup-img" data-index="20">
                 </div>
+            </div>
+    </div>
+</section>
+<section class="gallery-3">
+    <div class="container">
+        <div class="heading-center">
+            <span class="badge">INFRASTRUCTURE</span>
+            <h2 class="section-title">Modern Infrastructure at School</h2>   
+        </div>
+        <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-in-1.webp" alt="Students marching in an awareness rally holding placards" class="img-fluid gallery-popup-img" data-index="0">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-in-2.webp" alt="Students carrying the national flag during an awareness rally" class="img-fluid gallery-popup-img" data-index="1">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-in-3.webp" alt="Scouts and students marching with a water conservation awareness placard" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-in-4.webp" alt="Students and teachers posing together outside the school building" class="img-fluid gallery-popup-img" data-index="3">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-in-5.webp" alt="Staff distributing awareness kits to students" class="img-fluid gallery-popup-img" data-index="4">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-in-6.webp" alt="Teacher handing over materials to a student during an awareness program" class="img-fluid gallery-popup-img" data-index="5">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-in-7.webp" alt="Teacher addressing students seated on the floor during an awareness session" class="img-fluid gallery-popup-img" data-index="6">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-in-8.webp" alt="Teacher demonstrating a science experiment to a student" class="img-fluid gallery-popup-img" data-index="7">
+                </div>
+                
             </div>
     </div>
 </section>
