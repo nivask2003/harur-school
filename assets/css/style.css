@@ -3404,3 +3404,32 @@ section.gallery-1 {
   background-color: var(--light-bg);
   padding: 50px 0 50px 0;
 }
+
+@media(max-width: 482px){
+  .gallery-1 h2.section-title,
+  .gallery-2 h2.section-title,
+  .gallery-3 h2.section-title,
+  .gallery-4 h2.section-title,
+  .gallery-5 h2.section-title{
+    text-align: center;
+}
+
+.gallery-2::before,
+.gallery-5::before{
+  width: 237%;
+  height: 141px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+.gallery-2, .gallery-5{
+  overflow: visible;
+}
+  .gallery-2::before, .gallery-5::before{
+    top: -1px;
+    width: 188%;
+    height: 141px;
+  }
+
+}
+
