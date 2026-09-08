@@ -3453,3 +3453,9 @@ section.gallery-1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#career{
+  background: url(../images/career-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
