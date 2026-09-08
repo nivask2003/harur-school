@@ -112,6 +112,116 @@
             </div>
     </div>
 </section>
+<section class="gallery-4">
+    <div class="container">
+        <div class="heading-center">
+            <span class="badge">AWARENESS PROGRAM</span>
+            <h2 class="section-title">Awareness for a Brighter Future</h2>   
+        </div>
+        <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-aw-1.webp" alt="Students on an industrial visit observing the manufacturing process" class="img-fluid gallery-popup-img" data-index="0">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-aw-2.webp" alt="Students interacting with plant engineers during the industrial visit" class="img-fluid gallery-popup-img" data-index="1">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-aw-3.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-aw-4.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-aw-5.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-aw-6.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-aw-7.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-aw-8.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-aw-9.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+            </div>
+    </div>
+</section>
+<section class="gallery-5">
+    <div class="container">
+        <div class="heading-center">
+            <span class="badge">AWARENESS PROGRAM</span>
+            <h2 class="section-title">Awareness for a Brighter Future</h2>   
+        </div>
+        <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-1.webp" alt="Students on an industrial visit observing the manufacturing process" class="img-fluid gallery-popup-img" data-index="0">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-2.webp" alt="Students interacting with plant engineers during the industrial visit" class="img-fluid gallery-popup-img" data-index="1">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-3.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-4.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-5.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-6.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-7.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-8.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-9.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-10.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-11.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-12.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-13.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-14.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-15.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-16.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-17.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-18.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-19.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-20.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <img src="assets/images/gal-cl-21.webp" alt="Students observing machinery and equipment on the factory floor" class="img-fluid gallery-popup-img" data-index="2">
+                </div>
+            </div>
+    </div>
+</section>
 
 <!-- Gallery Lightbox Popup -->
 <div class="gallery-lightbox-overlay" id="galleryLightbox">
