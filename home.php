@@ -132,7 +132,7 @@
                 <div class="col-12 col-md-9 col-lg-9">
                     <h4>Kindergarten</h4>
                     <p>We provide a safe, joyful, and nurturing environment where young learners develop early literacy, numeracy, communication, creativity, and motor skills through age-appropriate activities that build confidence, curiosity, cooperation, and positive social habits.</p>
-                    <a href="#" class="btn">Read More</a>
+                    <a href="program-offered.php" class="btn">Read More</a>
                 </div>
             </div>
         </div>
@@ -144,7 +144,7 @@
                 <div class="col-12 col-md-9 col-lg-9">
                     <h4>Primary School - Grades I-V</h4>
                     <p>A strong foundation in language, mathematics, environmental learning, values, creativity, and communication, while nurturing healthy learning habits, curiosity, confidence, and overall development.</p>
-                    <a href="#" class="btn">Read More</a>
+                    <a href="program-offered.php" class="btn">Read More</a>
                 </div>
             </div>
         </div>
@@ -156,7 +156,7 @@
                 <div class="col-12 col-md-9 col-lg-9">
                     <h4>Middle School - Grades VI-VIII</h4>
                     <p>A stage of deeper subject learning that encourages exploration, experimentation, project-based learning, problem-solving, critical thinking, and strong foundation-level academic support.</p>
-                    <a href="#" class="btn">Read More</a>
+                    <a href="program-offered.php" class="btn">Read More</a>
                 </div>
             </div>
         </div>
@@ -168,7 +168,7 @@
                 <div class="col-12 col-md-9 col-lg-9">
                     <h4>Secondary School - Grades IX-X</h4>
                     <p>A focused CBSE learning stage that strengthens conceptual clarity, application skills, assessment readiness, discipline, and career awareness while preparing students for future academic challenges.</p>
-                    <a href="#" class="btn">Read More</a>
+                    <a href="program-offered.php" class="btn">Read More</a>
                 </div>
             </div>
         </div>
@@ -180,7 +180,7 @@
                 <div class="col-12 col-md-9 col-lg-9">
                     <h4>Senior Secondary - Grades XI-XII</h4>
                     <p>A specialised learning stage offering subject combinations, personalised guidance, competitive-examination preparation, and strong academic support to prepare students for higher education and future opportunities.</p>
-                    <a href="#" class="btn">Read More</a>
+                    <a href="program-offered.php" class="btn">Read More</a>
                 </div>
             </div>
         </div>
