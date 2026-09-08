@@ -3459,3 +3459,16 @@ section.gallery-1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#mandatory{
+  background: url(../images/mandatory-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#management{
+  background: url(../images/management-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
