@@ -1,6 +1,6 @@
 <?php include "function.php" ?>
 <?php template_header("Gallery | Harur International School", "Explore the Harur International School Gallery featuring school events, academic activities, celebrations, sports, and memorable moments from campus life.")?>
-<section class="page-banner" id="about">
+<section class="page-banner" id="gallery">
     <h1>Gallery</h1>
 </section>
 <section class="gallery-1">

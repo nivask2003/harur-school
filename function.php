@@ -10,7 +10,7 @@ function template_header($title, $metadesc)
     // Pages that belong to each dropdown group
     $about_pages     = ['about-us.php', 'management_leadership.php', 'chairman-message.php', 'principal-message.php'];
     $academics_pages = ['program-offered.php', 'special_academic_programmes.php', 'steam-jr-association.php', 'activity.php'];
-    $admission_pages = ['admission.php', 'admission-form.php'];
+    $admission_pages = ['admission.php', 'admission-form.php', 'parent-corner.php'];
     $facilities_pages = ['academic-learning-facilities.php', 'sports-arts-activity-facilities.php', 'safety-health-student-support.php'];
     $student_life_pages = ['co-curricular.php', 'student-club.php', 'house-system.php'];
 
@@ -47,6 +47,7 @@ function template_header($title, $metadesc)
 
     $admission_proc_item  = ($current === 'admission.php') ? ' active' : '';
     $admission_form_item  = ($current === 'admission-form.php') ? ' active' : '';
+    $parent_corner_item  = ($current === 'parent-corner.php') ? ' active' : '';
 
     echo <<< EOT
     <!DOCTYPE html>
@@ -169,6 +170,7 @@ function template_header($title, $metadesc)
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item {$admission_proc_item}" href="admission.php">Admission Procedure</a></li>
                                     <li><a class="dropdown-item {$admission_form_item}" href="admission-form.php">Admission Form</a></li>
+                                    <li><a class="dropdown-item {$parent_corner_item}" href="parent-corner.php">Parent's Corner</a></li>
                                     
                                 </ul>
                             </li>
