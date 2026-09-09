@@ -3618,7 +3618,16 @@ section.gallery-1 {
     height: 141px;
   }
 
-  .admission-3{
+  .admission-3 {
     overflow: visible;
   }
 }
+
+.parent-1{
+  padding: 50px 0 50px 0;
+  background-color: #27969c78;
+}
+
+.parent-1 .container .row .col-12.col-md-6.col-lg-6:nth-of-type(2){
+  border-left: 4px solid var(--cta-btn);
+} 
