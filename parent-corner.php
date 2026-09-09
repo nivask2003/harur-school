@@ -14,6 +14,7 @@
                 <p class="section desc">The partnership between parents and the school plays an essential role in every child's progress. Parents and guardians are requested to support regular attendance, discipline, academic responsibility, healthy habits, respectful behaviour, and active participation in school life.</p>
             </div>
         </div>
+        <img src="assets/images/parent-corner.webp" alt="" class="img-fluid">
     </div>
 </section>
 <?php template_footer()?>
