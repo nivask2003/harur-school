@@ -18,13 +18,13 @@
             </div>
         </div>
         <div class="image-container" data-aos="fade-up">
-            <img src="assets/images/about-img.webp" alt="" class="img-fluid">
+            <img src="assets/images/about-img.webp" alt="Students and staff of Harur International School" class="img-fluid">
         </div>
     </div>
 </section>
 <section class="about-2 mt-5" data-aos="fade-right">
     <div class="container">
-        <img src="assets/images/vision-mission.webp" alt="" class="img-fluid">
+        <img src="assets/images/vision-mission.webp" alt="Our vision and mission at Harur International School" class="img-fluid">
     </div>
 </section>
 <section class="about-3">
@@ -37,7 +37,7 @@
                 <p class="section-desc">Technology-enabled, experiential, and STEM-based learning is complemented by value-based education, character development, and a safe, secure, hygienic campus. Students benefit from sports, arts, cultural activities, clubs, leadership opportunities, career guidance, counselling, communication-skill development, active parent partnership, and 21st-century skills.</p>
             </div>
             <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
-                <img src="assets/images/why-choose.webp" alt="" class="img-fluid">
+                <img src="assets/images/why-choose.webp" alt="Students engaged in campus activities showcasing why to choose Harur International School" class="img-fluid">
             </div>
         </div>
     </div>

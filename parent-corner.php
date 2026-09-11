@@ -14,7 +14,7 @@
                 <p class="section desc">The partnership between parents and the school plays an essential role in every child's progress. Parents and guardians are requested to support regular attendance, discipline, academic responsibility, healthy habits, respectful behaviour, and active participation in school life.</p>
             </div>
         </div>
-        <img src="assets/images/parent-corner.webp" alt="" class="img-fluid">
+        <img src="assets/images/parent-corner.webp" alt="Parents and students at Harur International School" class="img-fluid">
     </div>
 </section>
 <section class="parent-2">
@@ -77,8 +77,8 @@
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-6 image">
-                <img src="assets/images/aca-home.webp" alt="" class="img-fluid">
-                <img src="assets/images/aca-home-1.webp" alt="" class="img-fluid">
+                <img src="assets/images/aca-home.webp" alt="Students building learning habits at home" class="img-fluid">
+                <img src="assets/images/aca-home-1.webp" alt="Parent supporting a student's academic routine at home" class="img-fluid">
             </div>
         </div>
     </div>
@@ -132,7 +132,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4">
-                <img src="assets/images/parent-3.webp" alt="" class="img-fluid">
+                <img src="assets/images/parent-3.webp" alt="Attendance, communication, and school visits for parents" class="img-fluid">
             </div>
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
@@ -182,7 +182,7 @@
     <div class="container">
         <div class="row main">
             <div class="col-12 col-md-6 col-lg-6">
-                <img src="assets/images/parent-4.webp" alt="" class="img-fluid">
+                <img src="assets/images/parent-4.webp" alt="Parents and staff collaborating at Harur International School" class="img-fluid">
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/jHlKM7E2wXE?si=PzZKcgbFMI0wRzGc&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>

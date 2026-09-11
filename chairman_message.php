@@ -7,7 +7,7 @@
     <div class="container">
          <div class="row">
         <div class="col-12 col-md-5 col-lg-5" data-aos="fade-right" data-aos-duration="800">
-            <img src="assets/images/chairman.webp" alt="" class="img-fluid">
+            <img src="assets/images/chairman.webp" alt="Mr. Kailasam G, Chairman of Harur International School" class="img-fluid">
         </div>  
         <div class="col-12 col-md-7 col-lg-7" data-aos="fade-left" data-aos-duration="800">
             <span class="badge" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">CHAIRMAN'S MESSAGE</span>

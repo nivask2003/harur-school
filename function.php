@@ -106,7 +106,7 @@ function template_header($title, $metadesc)
             </section>
         </div>
         <div class="middle-header">
-            <img src="assets/images/logo-home.webp" alt="" class="img-fluid">
+            <img src="assets/images/logo-home.webp" alt="Harur International School logo" class="img-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

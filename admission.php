@@ -193,7 +193,7 @@
 
             </div>
             <div class="col-12 col-md-6 col-lg-6 main">
-                <img src="assets/images/required-dooc.webp" alt="" class="img-fluid">
+                <img src="assets/images/required-dooc.webp" alt="Documents required for admission" class="img-fluid">
             </div>
         </div>
     </div>
