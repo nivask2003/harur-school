@@ -58,7 +58,6 @@
                                         <img src="assets/images/disclosure-img.webp">
                                     </li>
                                 </a>
-
                             </ul>
                             <ul class="icon-box">
                                 <a href="admission-form.php">
