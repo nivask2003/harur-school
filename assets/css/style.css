@@ -4003,3 +4003,256 @@ section.gallery-1 {
     gap: 20px;
   }
 }
+
+#rules{
+  background-image: url(../images/rules-banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rule-1{
+  background-color: #27969c78;
+  padding: 50px 0 50px 0;
+}
+
+.rule-1 .image{
+  display: flex;
+  gap: 38px;
+}
+
+.rule-1 .image img.img-fluid{
+  border-radius: 20px;
+}
+
+.rule-1 .image img.img-fluid:nth-of-type(2) {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+/* ============================================
+   Enhanced FAQ / Rules & Policies Accordion
+   (uses existing site variables — no new colors)
+   ============================================ */
+
+.faq-accordion .accordion-item {
+    background-color: #ffffff;
+    border: 1px solid var(--divider-color, #e0e6e8);
+    border-radius: 14px;
+    margin-bottom: 18px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 62, 91, 0.06);
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.faq-accordion .accordion-item:hover {
+    box-shadow: 0 6px 20px rgba(0, 62, 91, 0.12);
+    border-color: var(--cta-btn);
+}
+
+.faq-accordion .accordion-header {
+    margin: 0;
+    line-height: 1.2em;
+}
+
+/* --- Accordion Button (question row) --- */
+.faq-accordion .accordion-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 18px 24px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--heading-color);
+    background-color: #ffffff;
+    border: none;
+    text-align: left;
+    position: relative;
+    gap: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-accordion .accordion-button > span,
+.faq-accordion .accordion-button {
+    flex-wrap: nowrap;
+}
+
+.faq-accordion .accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Number badge before each question, e.g. 01, 02, 03 */
+.faq-accordion .accordion-item {
+    counter-increment: faq-counter;
+}
+
+.faq-accordion {
+    counter-reset: faq-counter;
+}
+
+.faq-accordion .accordion-button::before {
+    content: counter(faq-counter, decimal-leading-zero);
+    flex-shrink: 0;
+    width: 34px;
+    height: 34px;
+    margin-right: 16px;
+    border-radius: 50%;
+    background-color: var(--light-bg);
+    color: var(--heading-color);
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Custom chevron icon instead of Bootstrap's default (positioned right) */
+.faq-accordion .accordion-button::after {
+    content: "\f282" !important; /* bi-chevron-down (verified Bootstrap Icons codepoint) */
+    font-family: "bootstrap-icons" !important;
+    font-style: normal;
+    font-weight: normal;
+    background-image: none !important;
+    margin-left: auto;
+    flex-shrink: 0;
+    font-size: 13px;
+    line-height: 1;
+    color: var(--cta-btn);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    transform: rotate(0deg);
+}
+
+.faq-accordion .accordion-button:not(.collapsed)::after {
+    content: "\f286" !important; /* bi-chevron-up (verified Bootstrap Icons codepoint) */
+    background-color: var(--cta-btn);
+    color: #fff;
+    transform: rotate(0deg); /* icon glyph already changes, no extra rotation needed */
+}
+
+/* --- Active / expanded state --- */
+.faq-accordion .accordion-button:not(.collapsed) {
+    background-color: var(--light-bg);
+    color: var(--heading-color);
+}
+
+.faq-accordion .accordion-button:not(.collapsed)::before {
+    background-color: var(--cta-btn);
+    color: #fff;
+}
+
+.faq-accordion .accordion-item:has(.accordion-button:not(.collapsed)) {
+    border-color: var(--cta-btn);
+    box-shadow: 0 6px 20px rgba(0, 62, 91, 0.14);
+}
+
+/* Left accent bar on the active item */
+.faq-accordion .accordion-item {
+    border-left: 4px solid transparent;
+}
+
+.faq-accordion .accordion-item:has(.accordion-button:not(.collapsed)) {
+    border-left: 4px solid var(--cta-btn);
+}
+
+/* --- Accordion Body (answer content) --- */
+.faq-accordion .accordion-body {
+    padding: 4px 24px 22px 74px; /* left padding aligns text under the question, past the number badge */
+    color: var(--para-text-color);
+    font-size: 15px;
+    line-height: 1.7;
+    background-color: var(--light-bg);
+}
+
+.faq-accordion .accordion-body p {
+    margin-bottom: 12px;
+}
+
+.faq-accordion .accordion-body p strong {
+    color: var(--heading-color);
+}
+
+.faq-accordion .accordion-body ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.faq-accordion .accordion-body ul li {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 10px;
+    color: var(--para-text-color);
+}
+
+.faq-accordion .accordion-body ul li::before {
+    content: "\f26a" !important; /* bi-check-circle-fill (verified Bootstrap Icons codepoint) */
+    font-family: "bootstrap-icons" !important;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: var(--cta-btn);
+    font-size: 14px;
+    line-height: 1;
+}
+
+/* --- Responsive --- */
+@media (max-width: 575.98px) {
+    .faq-accordion .accordion-button {
+        padding: 14px 16px;
+        font-size: 15px;
+    }
+
+    .faq-accordion .accordion-button::before {
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
+        font-size: 11px;
+    }
+
+    .faq-accordion .accordion-body {
+        padding: 4px 16px 18px 54px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:482px){
+  .rule-1 .image img.img-fluid{
+    width: 152px;
+  }
+
+  .rule-1 .image{
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .rule-1 .row{
+    gap: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+  .rule-1 .col-12.col-md-6.col-lg-6{
+    width: 100%;
+  }
+
+  .rule-1 .image{
+    justify-content: center;
+  }
+
+  .rule-1 .row{
+    gap: 20px;
+  }
+}

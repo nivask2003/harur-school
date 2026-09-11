@@ -24,6 +24,7 @@ function template_header($title, $metadesc)
     $gallery_active    = ($current === 'gallery.php') ? ' active' : '';
     $career_active     = ($current === 'career-form.php') ? ' active' : '';
     $mandatory_disclosure_active = ($current === 'mandatory-disclosure.php') ? ' active' : '';
+    $rules_active = ($current === 'rules-policies.php') ? ' active' : '';
     $contact_active    = ($current === 'contact.php') ? ' active' : '';
 
     // Dropdown item-level active states
@@ -183,6 +184,9 @@ function template_header($title, $metadesc)
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link{$mandatory_disclosure_active}" aria-current="page" href="mandatory-disclosure.php">Mandatory Disclosure</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link{$rules_active}" aria-current="page" href="rules-policies.php">Rules & Policies</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link{$contact_active}" aria-current="page" href="contact.php">Contact</a>
