@@ -19,7 +19,7 @@
 </section>
 <section class="parent-2">
     <div class="container">
-        <div class="row">
+        <div class="row main">
             <div class="col-12 col-md-6 col-lg-6">
                 <span class="badge">ACADEMIC SUPPORT</span>
                 <h2 class="section-title">Creating Better Learning Habits</h2>
@@ -89,7 +89,7 @@
             <span class="badge">ATTENDANCE & COMMUNICATION</span>
             <h2 class="section-title">Attendance, Communication, Visits</h2>
         </div>
-        <div class="row">
+        <div class="row main">
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="row">
@@ -113,7 +113,7 @@
                         </div>
                         <div class="col-12 col-md-9 col-lg-9 content">
                             <h4>PTM Attendance Guide</h4>
-                            <span class="box-badge">Parent-Teachers Meeting</span>
+                            <span class="box-badge">Parents Meet Staff</span>
                         </div>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
 </div>
 <section class="parent-4">
     <div class="container">
-        <div class="row">
+        <div class="row main">
             <div class="col-12 col-md-6 col-lg-6">
                 <img src="assets/images/parent-4.webp" alt="" class="img-fluid">
                 <div class="video">

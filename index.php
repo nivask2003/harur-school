@@ -49,26 +49,26 @@
                             <ul class="icon-box">
                                 <a href="home.php">
                                     <li class="box card-main">
-                                        <img src="assets/images/main-web-img.png">
+                                        <img src="assets/images/main-web-img.webp">
                                         
                                     </li>
                                 </a>
-                                <a href="#">
+                                <a href="mandatory-disclosure.php">
                                     <li class="box card-disclosure">
-                                        <img src="assets/images/disclosure-img.png">
+                                        <img src="assets/images/disclosure-img.webp">
                                     </li>
                                 </a>
 
                             </ul>
                             <ul class="icon-box">
-                                <a href="#">
+                                <a href="admission-form.php">
                                     <li class="box card-achievements">
-                                         <img src="assets/images/achievement-img.png">
+                                         <img src="assets/images/achievement-img.webp">
                                     </li>
                                 </a>
-                                <a href="#">
+                                <a href="gallery.php">
                                     <li class="box card-gallery">
-                                         <img src="assets/images/gallery-img.png">
+                                         <img src="assets/images/gallery-img.webp">
                                     </li>
                                 </a>
                             </ul>
