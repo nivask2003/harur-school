@@ -6,10 +6,10 @@
 <section class="admission-1">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                 <img src="assets/images/admission-overview.webp" alt="admission overview" class="img-fluid">
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                 <span class="badge">Admission Overview</span>
                 <h2 class="section-title">Begin Your School Journey Today</h2>
                 <p class="section-desc">Admissions at Harur International School are conducted in accordance with CBSE norms, applicable government regulations, and the school's own admission policy, ensuring every step of the process meets recognised educational standards.</p>
@@ -22,8 +22,8 @@
 <section class="admission-2 academic-1">
     <div class="container">
         <div class="heading-center">
-            <span class="badge">Admission Procedure</span>
-            <h2 class="section-title">Your Guide to School Admissions</h2>
+            <span class="badge" data-aos="fade-up">Admission Procedure</span>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Your Guide to School Admissions</h2>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
@@ -147,7 +147,7 @@
 <section class="admission-3">
     <div class="container">
         <div class="row main">
-            <div class="col-12 col-md-6 col-lg-6 main">
+            <div class="col-12 col-md-6 col-lg-6 main" data-aos="fade-right">
                 <span class="badge">Required Documents</span>
                 <h2 class="section-title">Required Documents & Guidelines</h2>
                 <div class="row">
@@ -192,7 +192,7 @@
 
 
             </div>
-            <div class="col-12 col-md-6 col-lg-6 main">
+            <div class="col-12 col-md-6 col-lg-6 main" data-aos="fade-left">
                 <img src="assets/images/required-dooc.webp" alt="Documents required for admission" class="img-fluid">
             </div>
         </div>
@@ -202,10 +202,10 @@
 <section class="admission-4">
     <div class="container">
         <div class="heading-center">
-            <span class="badge">Eligibility Criteria</span>
-            <h2 class="section-title">Admission Eligibility Criteria!</h2>
+            <span class="badge" data-aos="fade-up">Eligibility Criteria</span>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Admission Eligibility Criteria!</h2>
         </div>
-        <table class="table">
+        <table class="table" data-aos="fade-up">
             <thead>
                 <tr>
                     <th>Grade / Class</th>
