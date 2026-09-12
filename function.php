@@ -328,9 +328,9 @@ function template_footer()
                                 <p class="footer-desc">A premier Senior Secondary CBSE institution committed to academic excellence, character development, innovation, and holistic education in a safe and inspiring learning environment.</p>
                                 <div class="footer-social-links">
                                     <a href="https://wa.me/917558149222" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-                                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-icon instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-icon facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="social-icon youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                                    <a href="https://www.instagram.com/harurinternational?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="social-icon instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                                    <a href="https://www.facebook.com/harurintschool/" target="_blank" rel="noopener noreferrer" class="social-icon facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCiYCFSj5xTuIjZUkFN1gQ6A" target="_blank" rel="noopener noreferrer" class="social-icon youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
                                 </div>
                             </div>
                         </div>
