@@ -4256,3 +4256,23 @@ section.gallery-1 {
     gap: 20px;
   }
 }
+
+@media(max-width: 482px){
+  .home-3::before{
+    width: 237%;
+    height: 141px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .home-3{
+    overflow: visible;
+  }
+    .home-3::before
+ {
+        top: -1px;
+        width: 188%;
+        height: 141px;
+    }
+}
