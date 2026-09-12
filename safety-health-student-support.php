@@ -6,7 +6,7 @@
 <section class="fac-1">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/cctv.webp" alt="Campus monitoring that supports student safety and security." class="img-fluid">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/transport.webp" alt="Organised transport with clear expectations for safety and discipline." class="img-fluid">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/fac-placeholder-2.webp" alt="A clean and well-maintained space for students." class="img-fluid">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/fac-placeholder-2.webp" alt="Basic assistance and first-aid support for student health needs." class="img-fluid">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/fac-placeholder-2.webp" alt="Clean and appropriate facilities maintained for student comfort and hygiene." class="img-fluid">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/green-campus.webp" alt="A pleasant campus environment that promotes cleanliness, responsibility, and respect for nature." class="img-fluid">

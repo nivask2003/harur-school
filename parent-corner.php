@@ -6,21 +6,21 @@
 <section class="parent-1">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                 <span class="badge">Parent's Corner</span>
                 <h2 class="section-title">Supporting Parents and Students</h2>
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                 <p class="section desc">The partnership between parents and the school plays an essential role in every child's progress. Parents and guardians are requested to support regular attendance, discipline, academic responsibility, healthy habits, respectful behaviour, and active participation in school life.</p>
             </div>
         </div>
-        <img src="assets/images/parent-corner.webp" alt="Parents and students at Harur International School" class="img-fluid">
+        <img src="assets/images/parent-corner.webp" alt="Parents and students at Harur International School" class="img-fluid" data-aos="fade-up">
     </div>
 </section>
 <section class="parent-2">
     <div class="container">
         <div class="row main">
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                 <span class="badge">ACADEMIC SUPPORT</span>
                 <h2 class="section-title">Creating Better Learning Habits</h2>
                 <p class="section-desc">Parents can support academic progress at home by staying informed, encouraging good habits, maintaining routines, and communicating regularly with school.</p>
@@ -76,7 +76,7 @@
 
                 </ul>
             </div>
-            <div class="col-12 col-md-6 col-lg-6 image">
+            <div class="col-12 col-md-6 col-lg-6 image" data-aos="fade-left">
                 <img src="assets/images/aca-home.webp" alt="Students building learning habits at home" class="img-fluid">
                 <img src="assets/images/aca-home-1.webp" alt="Parent supporting a student's academic routine at home" class="img-fluid">
             </div>
@@ -86,11 +86,11 @@
 <div class="parent-3">
     <div class="container">
         <div class="heading-center">
-            <span class="badge">ATTENDANCE & COMMUNICATION</span>
-            <h2 class="section-title">Attendance, Communication, Visits</h2>
+            <span class="badge" data-aos="fade-up">ATTENDANCE & COMMUNICATION</span>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Attendance, Communication, Visits</h2>
         </div>
         <div class="row main">
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
                 <div class="box">
                     <div class="row">
                         <div class="col-12 col-md-3 col-lg-3">
@@ -131,10 +131,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up">
                 <img src="assets/images/parent-3.webp" alt="Attendance, communication, and school visits for parents" class="img-fluid">
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left">
                 <div class="box">
                     <div class="row">
                         <div class="col-12 col-md-3 col-lg-3">
@@ -181,13 +181,13 @@
 <section class="parent-4">
     <div class="container">
         <div class="row main">
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                 <img src="assets/images/parent-4.webp" alt="Parents and staff collaborating at Harur International School" class="img-fluid">
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/jHlKM7E2wXE?si=PzZKcgbFMI0wRzGc&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                 <span class="badge">UNIFORM, HEALTH & SAFETY</span>
                 <h2 class="section-title">Student Uniform Health & Safety</h2>
                 <p class="section-desc">Parents are requested to send children to school in a clean, neatly ironed uniform, with shoes polished and kept in good condition at all times. Costly or unnecessary items should not be sent to school under any circumstances.</p>
@@ -221,10 +221,10 @@
 <section class="parent-5">
     <div class="container">
         <div class="heading-center">
-            <span class="badge">PARTICIPATION & FEES</span>
-            <h2 class="section-title">Encouraging Participation and Responsibility</h2>
+            <span class="badge" data-aos="fade-up">PARTICIPATION & FEES</span>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Encouraging Participation and Responsibility</h2>
         </div>
-        <table class="table">
+        <table class="table" data-aos="fade-up">
             <thead>
                 <tr>
                     <th>No.</th>

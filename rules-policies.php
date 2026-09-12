@@ -5,11 +5,11 @@
 </section>
 <section class="rule-1">
     <div class="container">
-        <span class="badge">DISCIPLINE & CONDUCT</span>
-        <h2 class="section-title">Rules & Policies for Students</h2>
-        <p class="section-desc">Students must attend regularly, arrive by 8:55am, wear proper uniform, and maintain 85% attendance. Respect teachers, staff, and property; discipline applies on campus, in class, and during transport. Mobile phones/gadgets, jewellery, and costly items aren't permitted. Complete academic work on time, follow grooming standards, show courtesy, play fair in sports, and behave safely at bus stops and while travelling. Parents must approve leave and keep contact details updated.</p>
+        <span class="badge" data-aos="fade-up">DISCIPLINE & CONDUCT</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Rules & Policies for Students</h2>
+        <p class="section-desc" data-aos="fade-up" data-aos-delay="150">Students must attend regularly, arrive by 8:55am, wear proper uniform, and maintain 85% attendance. Respect teachers, staff, and property; discipline applies on campus, in class, and during transport. Mobile phones/gadgets, jewellery, and costly items aren't permitted. Complete academic work on time, follow grooming standards, show courtesy, play fair in sports, and behave safely at bus stops and while travelling. Parents must approve leave and keep contact details updated.</p>
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                 <div class="faqs-content">
 
 
@@ -215,7 +215,7 @@
                         <!-- FAQ Accordion End -->
                     </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                 <div class="image">
                     <img src="assets/images/rule-1-1.webp" alt="Students standing in a disciplined line during school assembly" class="img-fluid">
                 <img src="assets/images/rule-1-2.webp" alt="Student reading a notice on the school notice board" class="img-fluid">

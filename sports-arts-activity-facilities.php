@@ -6,7 +6,7 @@
 <section class="fac-1">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/sports-ground.webp" alt="Space for sports, athletics, physical education, team activities, and school events." class="img-fluid">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/fac-placeholder.webp" alt="A balanced range of activities that supports fitness, coordination, teamwork, strategy, and sportsmanship." class="img-fluid">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/fac-placeholder.webp" alt="A dedicated environment for performance, rhythm, expression, and cultural learning." class="img-fluid">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                 <div class="box">
                     <div class="box-image">
                         <img src="assets/images/fac-placeholder.webp" alt="A creative space for imagination, hands-on work, design, and artistic expression." class="img-fluid">
