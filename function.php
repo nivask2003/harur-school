@@ -313,7 +313,7 @@ function template_footer()
         <footer class="footer-section">
 
             <div class="footer-widget contact-widget">
-                <a href="tel:+917558146222" class="phone">7558146222 - 7558145222</a>
+                <a href="tel:+917558146222" class="phone">7558146222</a> - <a href="tel:+917558145222" class="phone">7558145222</a>
                 <div class="title">FEEL FREE TO CALL US</div>
             </div>
 

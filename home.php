@@ -281,6 +281,29 @@
         </div>
 </section>
 
+<section class="enquiry-cta" data-aos="fade-up">
+    <div class="container">
+        <div class="enquiry-cta-box">
+            <div class="enquiry-cta-text">
+                <span class="badge">Admissions 2026-2027</span>
+                <h2 class="section-title">Ready to Give Your Child the Best Start?</h2>
+                <p class="section-desc">Book a campus visit or talk to our admissions team to know more about programmes, fees, and the admission process. We're happy to guide you every step of the way.</p>
+            </div>
+            <div class="enquiry-cta-actions">
+                <a href="admission-form.php" class="enquiry-btn enquiry-btn-primary">
+                    <i class="bi bi-pencil-square"></i> Enquire Now
+                </a>
+                <a href="tel:+917558149222" class="enquiry-btn enquiry-btn-outline">
+                    <i class="bi bi-telephone-fill"></i> +91 7558149222
+                </a>
+                <a href="https://wa.me/917558149222" target="_blank" rel="noopener noreferrer" class="enquiry-btn enquiry-btn-whatsapp">
+                    <i class="bi bi-whatsapp"></i> WhatsApp Us
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="instagram-feed-main-wrap">
 	<div class="container-fluid">
 		<div class="heading-center">
