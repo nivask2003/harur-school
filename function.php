@@ -36,7 +36,7 @@ function template_header($title, $metadesc)
     $program_offered_item      = ($current === 'program-offered.php') ? ' active' : '';
     $special_academic_programmes_item = ($current === 'special_academic_programmes.php') ? ' active' : '';
     $steam_jr_association_item = ($current === 'steam-jr-association.php') ? ' active' : '';
-    
+
     $academic_learning_facilities_item = ($current === 'academic-learning-facilities.php') ? 'active' : '';
     $sports_arts_activity_facilities_item = ($current === 'sports-arts-activity-facilities.php') ? 'active' : '';
     $safety_health_student_support_item = ($current === 'safety-health-student-support.php') ? 'active' : '';
@@ -107,8 +107,10 @@ function template_header($title, $metadesc)
         </div>
         <div class="middle-header">
             <img src="assets/images/logo-home.webp" alt="Harur International School logo" class="img-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" id="mobileMenuToggle" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar" aria-controls="mobileSidebar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-bar bar-top"></span>
+                <span class="toggler-bar bar-middle"></span>
+                <span class="toggler-bar bar-bottom"></span>
             </button>
         </div>
         <div class="bottom-header">
@@ -136,7 +138,7 @@ function template_header($title, $metadesc)
                                     Academics
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item{$program_offered_item }" href="program-offered.php">Program Offered</a></li>
+                                    <li><a class="dropdown-item{$program_offered_item}" href="program-offered.php">Program Offered</a></li>
                                     <li><a class="dropdown-item{$special_academic_programmes_item}" href="special_academic_programmes.php">Special Academic Programmes</a></li>
                                     <li><a class="dropdown-item{$steam_jr_association_item}" href="steam-jr-association.php">STEM Jr Association</a></li>
                                     
@@ -198,6 +200,105 @@ function template_header($title, $metadesc)
             </nav>
         </div>
     </header>
+
+    <!-- Mobile / Tablet Side Menu (offcanvas) -->
+    <div class="offcanvas offcanvas-start mobile-sidebar" tabindex="-1" id="mobileSidebar" aria-labelledby="mobileSidebarLabel">
+        <div class="offcanvas-header">
+            <img src="assets/images/logo-home.webp" alt="Harur International School logo" class="mobile-sidebar-logo">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="mobile-nav-list" id="mobileNavAccordion">
+                <li class="mobile-nav-item">
+                    <a class="mobile-nav-link{$home_active}" href="home.php">Home</a>
+                </li>
+
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link submenu-toggle{$about_active}" type="button" data-bs-toggle="collapse" data-bs-target="#mobileAbout" aria-expanded="false" aria-controls="mobileAbout" data-bs-parent="#mobileNavAccordion">
+                        <span>About</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <ul class="collapse mobile-submenu" id="mobileAbout">
+                        <li><a class="mobile-submenu-link{$about_us_item}" href="about-us.php">About Us</a></li>
+                        <li><a class="mobile-submenu-link{$management_item}" href="management_leadership.php">Management Leadership</a></li>
+                        <li><a class="mobile-submenu-link{$chairman_message_item}" href="chairman_message.php">Chairman's Message</a></li>
+                        <li><a class="mobile-submenu-link{$principal_message_item}" href="principal_message.php">Principal's Message</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link submenu-toggle{$academics_active}" type="button" data-bs-toggle="collapse" data-bs-target="#mobileAcademics" aria-expanded="false" aria-controls="mobileAcademics" data-bs-parent="#mobileNavAccordion">
+                        <span>Academics</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <ul class="collapse mobile-submenu" id="mobileAcademics">
+                        <li><a class="mobile-submenu-link{$program_offered_item}" href="program-offered.php">Program Offered</a></li>
+                        <li><a class="mobile-submenu-link{$special_academic_programmes_item}" href="special_academic_programmes.php">Special Academic Programmes</a></li>
+                        <li><a class="mobile-submenu-link{$steam_jr_association_item}" href="steam-jr-association.php">STEM Jr Association</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link submenu-toggle{$facilities_active}" type="button" data-bs-toggle="collapse" data-bs-target="#mobileFacilities" aria-expanded="false" aria-controls="mobileFacilities" data-bs-parent="#mobileNavAccordion">
+                        <span>Facilities</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <ul class="collapse mobile-submenu" id="mobileFacilities">
+                        <li><a class="mobile-submenu-link {$academic_learning_facilities_item}" href="academic-learning-facilities.php">Academic & Learning Facilities</a></li>
+                        <li><a class="mobile-submenu-link {$sports_arts_activity_facilities_item}" href="sports-arts-activity-facilities.php">Sports, Arts & Activity Facilities</a></li>
+                        <li><a class="mobile-submenu-link {$safety_health_student_support_item}" href="safety-health-student-support.php">Safety, Health & Student Support</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link submenu-toggle{$student_life_active}" type="button" data-bs-toggle="collapse" data-bs-target="#mobileStudentLife" aria-expanded="false" aria-controls="mobileStudentLife" data-bs-parent="#mobileNavAccordion">
+                        <span>Student Life</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <ul class="collapse mobile-submenu" id="mobileStudentLife">
+                        <li><a class="mobile-submenu-link {$co_curricular_item}" href="co-curricular.php">Co - Curricular Activities</a></li>
+                        <li><a class="mobile-submenu-link {$student_club_item}" href="student-club.php">Student Clubs</a></li>
+                        <li><a class="mobile-submenu-link {$house_system_item}" href="house-system.php">House System</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item has-submenu">
+                    <button class="mobile-nav-link submenu-toggle{$admission_active}" type="button" data-bs-toggle="collapse" data-bs-target="#mobileAdmission" aria-expanded="false" aria-controls="mobileAdmission" data-bs-parent="#mobileNavAccordion">
+                        <span>Admission</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <ul class="collapse mobile-submenu" id="mobileAdmission">
+                        <li><a class="mobile-submenu-link {$admission_proc_item}" href="admission.php">Admission Procedure</a></li>
+                        <li><a class="mobile-submenu-link {$admission_form_item}" href="admission-form.php">Admission Form</a></li>
+                        <li><a class="mobile-submenu-link {$parent_corner_item}" href="parent-corner.php">Parent's Corner</a></li>
+                    </ul>
+                </li>
+
+                <li class="mobile-nav-item">
+                    <a class="mobile-nav-link{$gallery_active}" href="gallery.php">Gallery</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a class="mobile-nav-link{$career_active}" href="career-form.php">Career</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a class="mobile-nav-link{$mandatory_disclosure_active}" href="mandatory-disclosure.php">Mandatory Disclosure</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a class="mobile-nav-link{$rules_active}" href="rules-policies.php">Rules & Policies</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a class="mobile-nav-link{$contact_active}" href="contact.php">Contact</a>
+                </li>
+            </ul>
+
+            <div class="mobile-sidebar-footer">
+                <a href="tel:+917558146222" class="mobile-sidebar-call">
+                    <i class="bi bi-telephone-fill"></i> +91 7558146222
+                </a>
+            </div>
+        </div>
+    </div>
+
         <main>
     EOT;
 }

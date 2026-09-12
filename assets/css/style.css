@@ -1837,16 +1837,58 @@ header .middle-header img.img-fluid {
    nav below is always visible. */
 header .middle-header .navbar-toggler {
   display: none;
-  border-color: var(--heading-color);
-  padding: 6px 10px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: 30px;
+  height: 22px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1050;
 }
 
 header .middle-header .navbar-toggler:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 62, 91, 0.25);
+  box-shadow: none;
+  outline: none;
 }
 
-header .middle-header .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 62, 91, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+/* Custom 3-bar hamburger that morphs into an X while the side menu is open */
+header .middle-header .navbar-toggler .toggler-bar {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+  background-color: var(--heading-color);
+  transition: transform 0.3s ease, opacity 0.2s ease, top 0.3s ease;
+}
+
+header .middle-header .navbar-toggler .bar-top {
+  top: 0;
+}
+
+header .middle-header .navbar-toggler .bar-middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header .middle-header .navbar-toggler .bar-bottom {
+  bottom: 0;
+}
+
+header .middle-header .navbar-toggler.active .bar-top {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+header .middle-header .navbar-toggler.active .bar-middle {
+  opacity: 0;
+}
+
+header .middle-header .navbar-toggler.active .bar-bottom {
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%) rotate(-45deg);
 }
 
 header .bottom-header {
@@ -1890,9 +1932,7 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link.active {
   }
 
   header .middle-header .navbar-toggler {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     flex-shrink: 0;
   }
 
@@ -1961,6 +2001,155 @@ header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link.active {
     padding: 0 !important;
   }
 }
+
+/* ============================
+   Mobile / Tablet Side Menu (offcanvas)
+   Slides in from the left on screens < 992px.
+   ============================ */
+.mobile-sidebar {
+  width: 320px;
+  max-width: 85vw;
+  background-color: var(--nav-bg) !important;
+  color: var(--nav-text);
+  z-index: 1045;
+}
+
+.mobile-sidebar .offcanvas-header {
+  padding: 18px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mobile-sidebar-logo {
+  width: 150px;
+  height: auto;
+  background: #fff;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.mobile-sidebar .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+  opacity: 0.85;
+}
+
+.mobile-sidebar .btn-close:hover {
+  opacity: 1;
+}
+
+.mobile-sidebar .offcanvas-body {
+  padding: 10px 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-nav-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  color: var(--nav-text) !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link:focus {
+  background-color: var(--cta-btn);
+  color: #fff !important;
+}
+
+.mobile-nav-link.active {
+  background-color: var(--cta-btn);
+  color: #fff !important;
+}
+
+.mobile-nav-item.has-submenu .submenu-toggle i.bi-chevron-down {
+  transition: transform 0.25s ease;
+  font-size: 14px;
+}
+
+.mobile-nav-item.has-submenu .submenu-toggle[aria-expanded="true"] i.bi-chevron-down {
+  transform: rotate(180deg);
+}
+
+.mobile-nav-item.has-submenu .submenu-toggle[aria-expanded="true"] {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #fff !important;
+}
+
+.mobile-submenu {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0 10px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.mobile-submenu-link {
+  display: block;
+  color: var(--nav-text) !important;
+  font-size: 14.5px;
+  padding: 10px 20px 10px 36px;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: background-color 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+}
+
+.mobile-submenu-link:hover,
+.mobile-submenu-link:focus {
+  background-color: var(--cta-btn);
+  color: #fff !important;
+  opacity: 1;
+}
+
+.mobile-submenu-link.active {
+  background-color: var(--cta-btn);
+  color: #fff !important;
+  opacity: 1;
+}
+
+.mobile-sidebar-footer {
+  margin-top: auto;
+  padding: 20px;
+}
+
+.mobile-sidebar-call {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--cta-btn);
+  color: #fff !important;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.mobile-sidebar-call:hover {
+  background-color: var(--cta-btn-hover);
+}
+
+/* The offcanvas is only ever opened via the hamburger, which itself
+   is hidden at lg and above, so no extra display rule is required
+   to keep it off desktop screens. */
 
 @keyframes headerSlideDown {
   0% {
@@ -3453,7 +3642,7 @@ section.gallery-1 {
   background-size: cover;
 }
 #gallery {
-  background: url(../images/gallery-banner.png);
+  background: url(../images/gallery-banner.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

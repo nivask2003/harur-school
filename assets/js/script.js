@@ -308,3 +308,19 @@ document.querySelectorAll('.acc-item').forEach(el => {
         if (e.key === "ArrowRight") showNext();
     });
 })();
+
+document.addEventListener("DOMContentLoaded", function () {
+  var toggleBtn = document.getElementById("mobileMenuToggle");
+  var sidebar = document.getElementById("mobileSidebar");
+  if (!toggleBtn || !sidebar) return;
+
+  sidebar.addEventListener("show.bs.offcanvas", function () {
+    toggleBtn.classList.add("active");
+    toggleBtn.setAttribute("aria-expanded", "true");
+  });
+
+  sidebar.addEventListener("hide.bs.offcanvas", function () {
+    toggleBtn.classList.remove("active");
+    toggleBtn.setAttribute("aria-expanded", "false");
+  });
+});
