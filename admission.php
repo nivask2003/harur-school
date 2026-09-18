@@ -32,7 +32,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="icon">
-                                    <i class="bi bi-mortarboard"></i>
+                                    <i class="bi bi-file-earmark-text"></i>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="icon">
-                                    <i class="bi bi-mortarboard"></i>
+                                    <i class="bi bi-folder-check"></i>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="icon">
-                                    <i class="bi bi-mortarboard"></i>
+                                    <i class="bi bi-person-check"></i>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="icon">
-                                    <i class="bi bi-mortarboard"></i>
+                                    <i class="bi bi-clipboard-check"></i>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="icon">
-                                    <i class="bi bi-mortarboard"></i>
+                                    <i class="bi bi-patch-check"></i>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="icon">
-                                    <i class="bi bi-mortarboard"></i>
+                                    <i class="bi bi-credit-card-2-front"></i>
                                 </div>
                             </div>
                         </div>
