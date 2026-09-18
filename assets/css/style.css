@@ -1053,7 +1053,7 @@ h4.feature-box-title {
   background: var(--dark-bg);
   border: 1px solid var(--cta-btn);
   color: #fff;
-  font-size: 17px;
+  font-size: 17px; 
 }
 a.phone {
   font-size: 24px;
