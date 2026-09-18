@@ -1822,14 +1822,14 @@ header .top-header .icon {
 
 header .middle-header {
   background-color: var(--light-bg);
-  padding: 0px 0 30px;
+  padding: 0px 0 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 header .middle-header img.img-fluid {
-  width: 474px;
+  width: 416px;
 }
 
 /* Hamburger toggle lives in middle-header now (next to the logo on
@@ -4607,4 +4607,23 @@ section.gallery-1 {
     width: 188%;
     height: 141px;
   }
+}
+
+@media (max-width: 1536px) {
+
+  header .middle-header {
+    padding: 0px 0 6px;
+}
+    header .middle-header img.img-fluid {
+        width: 316px;
+        height: auto;
+    }
+
+    header .top-header .admission-announcement{
+      padding: 8px 0;
+    }
+
+    header .bottom-header nav ul.navbar-nav li.nav-item a.nav-link{
+      padding: 10px;
+    }
 }
