@@ -10,7 +10,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/placeholder.webp" alt="Sports & Athletics co-curricular activity" class="img-fluid">
+                        <img src="assets/images/sports.webp" alt="Sports & Athletics co-curricular activity" class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -40,7 +40,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/placeholder.webp" alt="Music & Dance co-curricular activity" class="img-fluid">
+                        <img src="assets/images/music.webp" alt="Music & Dance co-curricular activity" class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -83,7 +83,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/placeholder.webp" alt="Senior Secondary School " class="img-fluid">
+                        <img src="assets/images/culture.webp" alt="Senior Secondary School " class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -125,4 +125,4 @@
         </div>
     </div>
 </section>
-<?php template_footer()?>
+<?php template_footer()?>

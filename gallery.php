@@ -107,6 +107,15 @@
                 <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                     <img src="assets/images/gal-ann-12.webp" alt="Chief guest lighting the ceremonial lamp during the Annual Day celebration" class="img-fluid gallery-popup-img" data-index="11">
                 </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                    <img src="assets/images/gal-ann-13.webp" alt="Chief guest lighting the ceremonial lamp during the Annual Day celebration" class="img-fluid gallery-popup-img" data-index="11">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                    <img src="assets/images/gal-ann-14.webp" alt="Chief guest lighting the ceremonial lamp during the Annual Day celebration" class="img-fluid gallery-popup-img" data-index="11">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                    <img src="assets/images/gal-ann-15.webp" alt="Chief guest lighting the ceremonial lamp during the Annual Day celebration" class="img-fluid gallery-popup-img" data-index="11">
+                </div>
                
                 
             </div>

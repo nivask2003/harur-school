@@ -29,7 +29,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/kindergarten.webp" alt="Kindergarten students engaged in classroom activities" class="img-fluid">
+                        <img src="assets/images/kg-class.webp" alt="Kindergarten students engaged in classroom activities" class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -88,7 +88,7 @@
             <div class="col-12 col-md-8 col-lg-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/senior-sec-class.webp" alt="Senior Secondary School " class="img-fluid">
+                        <img src="assets/images/senior-sec-class-1.webp" alt="Senior Secondary School " class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">
