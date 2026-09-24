@@ -3169,6 +3169,7 @@ table {
   object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  object-position: top;
 }
 
 .program-2 .box:hover .icon {

@@ -25,7 +25,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/placeholder.webp" alt="Yoga & Meditation co-curricular activity" class="img-fluid">
+                        <img src="assets/images/yoga.webp" alt="Yoga & Meditation co-curricular activity" class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -55,7 +55,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/placeholder.webp" alt="Secondary School " class="img-fluid">
+                        <img src="assets/images/art-craft.webp" alt="Secondary School " class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -69,7 +69,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/placeholder.webp" alt="Senior Secondary School " class="img-fluid">
+                        <img src="assets/images/public.webp" alt="Senior Secondary School " class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -97,7 +97,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/placeholder.webp" alt="Senior Secondary School " class="img-fluid">
+                        <img src="assets/images/social.webp" alt="Senior Secondary School " class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">
@@ -111,7 +111,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                 <div class="box">
                     <div class="image">
-                        <img src="assets/images/placeholder.webp" alt="Senior Secondary School " class="img-fluid">
+                        <img src="assets/images/leadership.webp" alt="Senior Secondary School " class="img-fluid">
                     </div>
                     <div class="content">
                         <div class="icon">

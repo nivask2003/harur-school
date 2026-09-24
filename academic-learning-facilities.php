@@ -39,7 +39,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/fac-placeholder-2.webp" alt="Comfortable classroom environments that support focused learning." class="img-fluid">
+                        <img src="assets/images/air-conditioner.webp" alt="Comfortable classroom environments that support focused learning." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Air-Conditioned <br>Classrooms</h4>
@@ -49,7 +49,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/fac-placeholder-2.webp" alt="Activity-based resources that make mathematical concepts easier to explore and understand." class="img-fluid">
+                        <img src="assets/images/math-lab.webp" alt="Activity-based resources that make mathematical concepts easier to explore and understand." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Mathematics <br>Laboratory</h4>
@@ -59,7 +59,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/fac-placeholder-2.webp" alt="Support for pronunciation, listening, vocabulary, fluency, and communication." class="img-fluid">
+                        <img src="assets/images/lang.webp" alt="Support for pronunciation, listening, vocabulary, fluency, and communication." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Language Learning <br>Facilities</h4>
@@ -69,7 +69,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/fac-placeholder-2.webp" alt="Opportunities to develop creativity, design thinking, logical reasoning, and problem-solving." class="img-fluid">
+                        <img src="assets/images/robotics.webp" alt="Opportunities to develop creativity, design thinking, logical reasoning, and problem-solving." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Robotics <br>Innovation Skills</h4>

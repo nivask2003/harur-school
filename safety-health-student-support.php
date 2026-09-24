@@ -29,7 +29,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/fac-placeholder-2.webp" alt="A clean and well-maintained space for students." class="img-fluid">
+                        <img src="assets/images/cafe.webp" alt="A clean and well-maintained space for students." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Hygienic Cafeteria</h4>
@@ -39,7 +39,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/fac-placeholder-2.webp" alt="Basic assistance and first-aid support for student health needs." class="img-fluid">
+                        <img src="assets/images/medical.webp" alt="Basic assistance and first-aid support for student health needs." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Medical Care & First Aid</h4>
@@ -49,7 +49,7 @@
             <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                 <div class="box">
                     <div class="box-image">
-                        <img src="assets/images/fac-placeholder-2.webp" alt="Clean and appropriate facilities maintained for student comfort and hygiene." class="img-fluid">
+                        <img src="assets/images/sanitary.webp" alt="Clean and appropriate facilities maintained for student comfort and hygiene." class="img-fluid">
                     </div>
                     <div class="box-header">
                         <h4>Separate Sanitary Facilities</h4>
